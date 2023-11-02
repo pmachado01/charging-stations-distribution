@@ -1,30 +1,48 @@
 import mesa
 import solara
-from model import MoneyModel
+from model import ChargingStationModel, CarAgent, ChargingStationAgent
 from matplotlib.figure import Figure
 
+
 def agent_portrayal(agent):
-    portrayal = {"Shape": "circle", "Filled": "true", "r": 0.5}
-    if agent.wealth > 0:
-        portrayal["Color"] = "red"
-        portrayal["Layer"] = 0
+    if isinstance(agent, CarAgent):
+        portrayal = {"Shape": "circle",
+                     "Filled": "true",
+                     "Layer": 0,
+                     "Color": "red",
+                     "r": 0.5}
+        
+        if agent.current_battery_level > agent.alert_battery_level:
+            portrayal["Color"] = "green"
+        else:
+            portrayal["Color"] = "red"
+
+    elif isinstance(agent, ChargingStationAgent):
+        portrayal = {"Shape": "rect",
+                     "Filled": "true",
+                     "Layer": 0,
+                     "Color": "green",
+                     "w": 1,
+                     "h": 1}
+        
+        if len(agent.waiting_cars) > 0:
+            portrayal["Color"] = "red"
+        elif len(agent.charging_cars) > 0:
+            portrayal["Color"] = "yellow"
+        else:
+            portrayal["Color"] = "blue"
     else:
-        portrayal["Color"] = "grey"
-        portrayal["Layer"] = 1
-        portrayal["r"] = 0.2
+        portrayal = None
+
     return portrayal
 
 
-
 grid = mesa.visualization.CanvasGrid(agent_portrayal, 10, 10, 500, 500)
-chart = mesa.visualization.ChartModule(
-[{"Label": "Gini", "Color": "Black"}], data_collector_name="datacollector"
-)
 
 
-server = mesa.visualization.ModularServer(MoneyModel,
-                                          [grid, chart],
+server = mesa.visualization.ModularServer(ChargingStationModel,
+                                          [grid],
                                           "Charging Station Model",
-                                          {'N': 100, 'width': 10, 'height': 10})
+                                          {'N_cars': 15, 'N_charging_stations' : 3 ,'width': 10, 'height': 10})
 server.port = 8521  # The default
-#server.launch()
+# server.launch()
