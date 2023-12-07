@@ -5,7 +5,7 @@ from shapely.wkt import loads
 
 
 # Read the CSV file
-csv_file_path = 'dados_ine_2021_bom_polygons.csv'  # Update with your CSV file path
+csv_file_path = 'ine_2021_bom_wgs.csv'  # Update with your CSV file path
 output_file_path = 'centroids.csv'
 
 # Assuming the column containing WKT geometries is named 'wkt_geom'
