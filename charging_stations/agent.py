@@ -9,7 +9,10 @@ class CarAgent(mesa.Agent):
         self.target_battery_level = target_battery_level  # In percentage [0, 1]
         self.alert_battery_level = alert_battery_level  # in percentage [0, 1]
         self.current_battery_level = initial_battery_level  # In percentage [0, 1]
-        self.full_battery_range = full_battery_range  # In kilometers        
+        self.full_battery_range = full_battery_range  # In kilometers
+
+        self.can_travel = True
+        self.is_on_charging_station = False
         
     def calculate_current_range(self):
         """Calculate the current range of the car."""
@@ -64,21 +67,21 @@ class CarAgent(mesa.Agent):
 
         charging_station.new_car_arrived(self)
 
+    def can_travel(self):
+        """Check if the car can travel."""
+        return not self.is_on_charging_station and self.current_battery_level > 0
+
     def step(self):
         """Advance the agent by one step."""
+        if not self.can_travel():
+            return
+        
         self.move()
 
         if self.current_battery_level < self.alert_battery_level:
             print("Car {} needs to be charged.".format(self.unique_id))
             print("Current battery level: {}".format(self.current_battery_level))
-            self.find_charging_station()
-
-        #TODO: Stop car when in waiting queue or charging port
-
-        #TODO: Start again when done charging
-
-        #TODO: Stop car when battery level is 0
-    
+            self.find_charging_station()    
 
 
 class ChargeRecord:
@@ -86,7 +89,7 @@ class ChargeRecord:
 
     def __init__(self, car, charging_station, arrival_time):
         self.car = car
-        self.charging_station = charging_station
+        self.charging_station = charging_station  #TODO: Check if is necessary
         self.arrival_time = arrival_time
         self.start_time = None
         self.end_time = None
@@ -113,6 +116,8 @@ class ChargingStationAgent(mesa.Agent):
 
     def new_car_arrived(self, car):
         """A new car has arrived at the charging station."""
+        car.is_on_charging_station = True
+
         if self.number_of_charging_ports > len(self.charging_cars): # There is a free charging port
             self.add_car_to_charging(car, self.model.schedule.time)
 
@@ -132,28 +137,39 @@ class ChargingStationAgent(mesa.Agent):
         
         self.waiting_cars.append(chargeRecord)
 
-    def move_waiting_to_charging(self):
-        car_to_charge = self.waiting_cars.pop(0)
-        car_to_charge.start_charging(self.model.schedule.time)
-        self.charging_cars.append(car_to_charge)
+    def move_waiting_to_charging(self, number_of_free_charging_ports):
+        """Move the n waiting cars to a charging port."""
+
+        while number_of_free_charging_ports > 0 and len(self.waiting_cars) > 0:
+            car_to_charge = self.waiting_cars.pop(0)
+            print("Car {} is now charging.".format(car_to_charge.unique_id))
+            
+            car_to_charge.start_charging(self.model.schedule.time)
+            self.charging_cars.append(car_to_charge)
+
+            number_of_free_charging_ports -= 1
         
+    def remove_from_station(car, list):
+        car.is_on_charging_station = False
+        list.remove(car)
 
     def step(self):
         """Advance the agent by one step."""
         # Assuming each step is 1 minute
 
-        for chargeRecord in self.charging_cars:
+        number_of_free_charging_ports = self.number_of_charging_ports - len(self.charging_cars)
 
+        for chargeRecord in self.charging_cars:
             # Check if the car is done charging    
             if chargeRecord.car.current_battery_level >= chargeRecord.car.target_battery_level:
-                chargeRecord.end_charging(self.model.schedule.time)
-                self.charging_cars.remove(chargeRecord)
                 print("Car {} is done charging.".format(chargeRecord.car.unique_id))
+
+                chargeRecord.end_charging(self.model.schedule.time)
+                self.remove_from_station(chargeRecord.car, self.charging_cars)
+
+                number_of_free_charging_ports += 1
                 
             else : # Charge the car
                 chargeRecord.car.charge(self.charging_power / 60) # In minutes
         
-        # Check if there are waiting cars and free charging ports
-        while len(self.waiting_cars) > 0 and len(self.charging_cars) < self.number_of_charging_ports:
-            print("Car {} is now charging.".format(self.waiting_cars[0].car.unique_id))
-            self.move_waiting_to_charging()
+        self.move_waiting_to_charging(number_of_free_charging_ports)

@@ -1,0 +1,2835 @@
+{
+  "stations": [
+    {
+      "name": "MOBI.E - PRT-00085",
+      "typeId": "1",
+      "address": "184A Alameda Capitães de Abril 4000",
+      "latitude": 41.156488,
+      "longitude": -8.61385,
+      "nameAndStreetSlug": "mobie-prt-00085-alameda-capitaes-de-abril",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 4
+        }
+      ]
+    },
+    {
+      "name": "PRT-00180",
+      "typeId": "1",
+      "address": "320 Rua de Júlio Dinis 4050-318",
+      "latitude": 41.151803,
+      "longitude": -8.625482,
+      "nameAndStreetSlug": "prt-00180-rua-de-julio-dinis",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00173",
+      "typeId": "1",
+      "address": "10783 Estrada da Circunvalação 4250-152",
+      "latitude": 41.180186,
+      "longitude": -8.634868,
+      "nameAndStreetSlug": "prt-00173-estrada-da-circunvalacao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00155",
+      "typeId": "1",
+      "address": "869 Avenida do Marechal Gomes da Costa 4150-345",
+      "latitude": 41.157865,
+      "longitude": -8.664276,
+      "nameAndStreetSlug": "prt-00155-avenida-do-marechal-gomes-da-costa",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00156",
+      "typeId": "1",
+      "address": "111a Rua do Lidador 4100-307",
+      "latitude": 41.170999,
+      "longitude": -8.658587,
+      "nameAndStreetSlug": "prt-00156-rua-do-lidador",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00153",
+      "typeId": "1",
+      "address": "345 Rua Académico Futebol Club 4200",
+      "latitude": 41.185065,
+      "longitude": -8.608203,
+      "nameAndStreetSlug": "prt-00153-rua-academico-futebol-club",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00154",
+      "typeId": "1",
+      "address": "746 Rua Central de Francos 4250",
+      "latitude": 41.17265,
+      "longitude": -8.638926,
+      "nameAndStreetSlug": "prt-00154-rua-central-de-francos",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00020",
+      "typeId": "1",
+      "address": "10853 Estrada da Circunvalação 4250-152",
+      "latitude": 41.1804,
+      "longitude": -8.635251,
+      "nameAndStreetSlug": "prt-00020-estrada-da-circunvalacao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00127",
+      "typeId": "1",
+      "address": "Parque de Estacionamento do Campo Alegre 4150-755",
+      "latitude": 41.1513,
+      "longitude": -8.6341,
+      "nameAndStreetSlug": "prt-00127-parque-de-estacionamento-do-campo-alegre",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00128",
+      "typeId": "1",
+      "address": "108 N108 4300-210",
+      "latitude": 41.14559,
+      "longitude": -8.57806,
+      "nameAndStreetSlug": "prt-00128-n108",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00097",
+      "typeId": "1",
+      "address": "571 Rua Engenheiro Ezequiel de Campos 4100-004",
+      "latitude": 41.173581,
+      "longitude": -8.654389,
+      "nameAndStreetSlug": "prt-00097-rua-engenheiro-ezequiel-de-campos",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00132",
+      "typeId": "1",
+      "address": "2 Colónia Antero de Quental 4350-158",
+      "latitude": 41.1632,
+      "longitude": -8.58994,
+      "nameAndStreetSlug": "prt-00132-colonia-antero-de-quental",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00001",
+      "typeId": "1",
+      "address": "323 Avenida da França 4050-300",
+      "latitude": 41.161727,
+      "longitude": -8.628194,
+      "nameAndStreetSlug": "prt-00001-avenida-da-franca",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00129",
+      "typeId": "1",
+      "address": "120 Via Particular 4050-324",
+      "latitude": 41.150898,
+      "longitude": -8.626431,
+      "nameAndStreetSlug": "prt-00129-via-particular",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "name": "PRT-00050",
+      "typeId": "1",
+      "address": "440 Rua de Diogo Botelho 4150-586",
+      "latitude": 41.152281,
+      "longitude": -8.652734,
+      "nameAndStreetSlug": "prt-00050-rua-de-diogo-botelho",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00091",
+      "typeId": "1",
+      "address": "2774 Rua de Costa Cabral 4350",
+      "latitude": 41.180086,
+      "longitude": -8.581465,
+      "nameAndStreetSlug": "prt-00091-rua-de-costa-cabral",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00096",
+      "typeId": "1",
+      "address": "133 Rua Professor Joaquim Bastos 4200-604",
+      "latitude": 41.169405,
+      "longitude": -8.610542,
+      "nameAndStreetSlug": "prt-00096-rua-professor-joaquim-bastos",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00051",
+      "typeId": "1",
+      "address": "10783 Estrada da Circunvalação 4250-152",
+      "latitude": 41.180207,
+      "longitude": -8.634821,
+      "nameAndStreetSlug": "prt-00051-estrada-da-circunvalacao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00052",
+      "typeId": "1",
+      "address": "65 Rua de António Aroso 4100-062",
+      "latitude": 41.16547,
+      "longitude": -8.671437,
+      "nameAndStreetSlug": "prt-00052-rua-de-antonio-aroso",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00068",
+      "typeId": "1",
+      "address": "162 Rua Leonardo Coimbra 4200-009",
+      "latitude": 41.174573,
+      "longitude": -8.60994,
+      "nameAndStreetSlug": "prt-00068-rua-leonardo-coimbra",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "FEUP-00002",
+      "typeId": "1",
+      "address": "Faculdade de Engenharia da Universidade do Porto 4200-465",
+      "latitude": 41.178538,
+      "longitude": -8.594961,
+      "nameAndStreetSlug": "feup-00002-faculdade-de-engenharia-da-universidade-do-porto",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00019",
+      "typeId": "1",
+      "address": "45 Avenida do Bessa 4100-122",
+      "latitude": 41.16409,
+      "longitude": -8.639392,
+      "nameAndStreetSlug": "prt-00019-avenida-do-bessa",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "MTS-00031",
+      "typeId": "1",
+      "address": "15400 N12 4100",
+      "latitude": 41.171886,
+      "longitude": -8.678417,
+      "nameAndStreetSlug": "mts-00031-n12",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "MTS-00046",
+      "typeId": "1",
+      "address": "905 Rua Heróis de França 4450-156",
+      "latitude": 41.179234,
+      "longitude": -8.690939,
+      "nameAndStreetSlug": "mts-00046-rua-herois-de-franca",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00060",
+      "typeId": "1",
+      "address": "293 Avenida da Boavista 4050-113",
+      "latitude": 41.157315,
+      "longitude": -8.627193,
+      "nameAndStreetSlug": "prt-00060-avenida-da-boavista",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "name": "PRT-00049",
+      "typeId": "1",
+      "address": "33 Rua de Agramonte 4100-128",
+      "latitude": 41.157669,
+      "longitude": -8.633533,
+      "nameAndStreetSlug": "prt-00049-rua-de-agramonte",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00073",
+      "typeId": "1",
+      "address": "422 Rua do Monte dos Burgos 4250-231",
+      "latitude": 41.173491,
+      "longitude": -8.626458,
+      "nameAndStreetSlug": "prt-00073-rua-do-monte-dos-burgos",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00134",
+      "typeId": "1",
+      "address": "269 Rua José Gomes Ferreira 4150-598",
+      "latitude": 41.162879,
+      "longitude": -8.667807,
+      "nameAndStreetSlug": "prt-00134-rua-jose-gomes-ferreira",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00147",
+      "typeId": "1",
+      "address": "13941 Estrada da Circunvalação 4100-178",
+      "latitude": 41.1771,
+      "longitude": -8.655239,
+      "nameAndStreetSlug": "prt-00147-estrada-da-circunvalacao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "FEUP-00001",
+      "typeId": "1",
+      "address": "Faculdade de Engenharia da Universidade do Porto 4200-465",
+      "latitude": 41.177954,
+      "longitude": -8.598625,
+      "nameAndStreetSlug": "feup-00001-faculdade-de-engenharia-da-universidade-do-porto",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00076",
+      "typeId": "1",
+      "address": "83 Rua Doutor José António Marques 4300",
+      "latitude": 41.162667,
+      "longitude": -8.569944,
+      "nameAndStreetSlug": "prt-00076-rua-doutor-jose-antonio-marques",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00096 - PCR - Porto (LIDL J. Bastos)",
+      "typeId": "12",
+      "address": "128 Rua Professor Joaquim Bastos 4200-504",
+      "latitude": 41.169187372475,
+      "longitude": -8.610435406361,
+      "nameAndStreetSlug": "prt-00096-pcr-porto-lidl-j-bastos-rua-professor-joaquim-bastos",
+      "typeName": "Shopping center",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00091 - PCR - Areosa (LIDL)",
+      "typeId": "12",
+      "address": "346 Rua Diamantina 4350-163",
+      "latitude": 41.17991130444,
+      "longitude": -8.581190398029,
+      "nameAndStreetSlug": "prt-00091-pcr-areosa-lidl-rua-diamantina",
+      "typeName": "Shopping center",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Hotel Vincci Porto",
+      "typeId": "5",
+      "address": "29 Alameda de Basílio Teles 4050-015",
+      "latitude": 41.147032669149,
+      "longitude": -8.63229350447,
+      "nameAndStreetSlug": "hotel-vincci-porto-alameda-de-basilio-teles",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00020 - PCR - Q8 Circunvalação",
+      "typeId": "1",
+      "address": "10853 Estrada da Circunvalação 4250-152",
+      "latitude": 41.1804,
+      "longitude": -8.635251,
+      "nameAndStreetSlug": "prt-00020-pcr-q8-circunvalacao-estrada-da-circunvalacao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00001 - PCR - Porto (Av. França)",
+      "typeId": "1",
+      "address": "315 Avenida da França 4050",
+      "latitude": 41.161727,
+      "longitude": -8.628194,
+      "nameAndStreetSlug": "prt-00001-pcr-porto-av-franca-avenida-da-franca",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "CC Parque Nascente",
+      "typeId": "12",
+      "address": "2050 Estrada da Circunvalação 4435-182",
+      "latitude": 41.174564036071,
+      "longitude": -8.566753237048,
+      "nameAndStreetSlug": "cc-parque-nascente-estrada-da-circunvalacao",
+      "typeName": "Shopping center",
+      "connectors": [
+        {
+          "id": "3",
+          "name": "CEE 2P+E (blue - camping)",
+          "total": 3
+        }
+      ]
+    },
+    {
+      "name": "PRT-00171",
+      "typeId": "1",
+      "address": "Parque de Estacionamento do Campo Alegre 4150-755",
+      "latitude": 41.151309,
+      "longitude": -8.634359,
+      "nameAndStreetSlug": "prt-00171-parque-de-estacionamento-do-campo-alegre",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00170",
+      "typeId": "1",
+      "address": "83 Rua de Ricardo Severo 4050-460",
+      "latitude": 41.156154,
+      "longitude": -8.626015,
+      "nameAndStreetSlug": "prt-00170-rua-de-ricardo-severo",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "I-CHARGING TEST",
+      "typeId": "1",
+      "address": "364 Rua de Serralves 4150-707",
+      "latitude": 41.15581,
+      "longitude": -8.65118,
+      "nameAndStreetSlug": "i-charging-test-rua-de-serralves",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "NISSAN CAETANO POWER, S.A. (Porto)",
+      "typeId": "1",
+      "address": "173 Avenida Fontes Pereira de Melo 4100-262",
+      "latitude": 41.17807,
+      "longitude": -8.652524,
+      "nameAndStreetSlug": "nissan-caetano-power-sa-porto-avenida-fontes-pereira-de-melo",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00160",
+      "typeId": "1",
+      "address": "826 Rua Engenheiro Ferreira Dias 4250",
+      "latitude": 41.17552,
+      "longitude": -8.64641,
+      "nameAndStreetSlug": "prt-00160-rua-engenheiro-ferreira-dias",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00159",
+      "typeId": "1",
+      "address": "122 Praça do Bom Sucesso 4050",
+      "latitude": 41.15594,
+      "longitude": -8.629741,
+      "nameAndStreetSlug": "prt-00159-praca-do-bom-sucesso",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Bessa Hotel Baixa",
+      "typeId": "5",
+      "address": "155 155 4000-072",
+      "latitude": 41.149933980323,
+      "longitude": -8.603554626984,
+      "nameAndStreetSlug": "bessa-hotel-baixa-155",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "GDM-00007",
+      "typeId": "1",
+      "address": "20 Avenida Escritor Costa Barreto 4300-210",
+      "latitude": 41.141879,
+      "longitude": -8.573547,
+      "nameAndStreetSlug": "gdm-00007-avenida-escritor-costa-barreto",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "comum",
+      "typeId": "1",
+      "address": "985 Rua do Freixo 4300-383",
+      "latitude": 41.145345531547,
+      "longitude": -8.579664118588,
+      "nameAndStreetSlug": "comum-rua-do-freixo",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00037",
+      "typeId": "1",
+      "address": "209 Rua de 9 de Julho 4050-433",
+      "latitude": 41.163088,
+      "longitude": -8.623606,
+      "nameAndStreetSlug": "prt-00037-rua-de-9-de-julho",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00101",
+      "typeId": "1",
+      "address": "1150 Rua Engenheiro Ferreira Dias 4250",
+      "latitude": 41.17786,
+      "longitude": -8.64865,
+      "nameAndStreetSlug": "prt-00101-rua-engenheiro-ferreira-dias",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00013",
+      "typeId": "1",
+      "address": "323 Avenida da França 4050-300",
+      "latitude": 41.16173,
+      "longitude": -8.628177,
+      "nameAndStreetSlug": "prt-00013-avenida-da-franca",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00062",
+      "typeId": "1",
+      "address": "189 Avenida da Boavista 4050-113",
+      "latitude": 41.157225,
+      "longitude": -8.625865,
+      "nameAndStreetSlug": "prt-00062-avenida-da-boavista",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00071",
+      "typeId": "1",
+      "address": "108 Travessa Chaves de Oliveira 4350-106",
+      "latitude": 41.162725,
+      "longitude": -8.576799,
+      "nameAndStreetSlug": "prt-00071-travessa-chaves-de-oliveira",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00145",
+      "typeId": "1",
+      "address": "308 Travessa de Antero de Quental 4000-081",
+      "latitude": 41.160958,
+      "longitude": -8.610623,
+      "nameAndStreetSlug": "prt-00145-travessa-de-antero-de-quental",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00022",
+      "typeId": "1",
+      "address": "28a Rua dos Campeões Europeus 4435-414",
+      "latitude": 41.164061,
+      "longitude": -8.584285,
+      "nameAndStreetSlug": "prt-00022-rua-dos-campeoes-europeus",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00030",
+      "typeId": "1",
+      "address": "124 Campo 24 de Agosto 4300-100",
+      "latitude": 41.149861,
+      "longitude": -8.599278,
+      "nameAndStreetSlug": "prt-00030-campo-24-de-agosto",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00094",
+      "typeId": "1",
+      "address": "218 Rua do Almada 4000-407",
+      "latitude": 41.1482,
+      "longitude": -8.61206,
+      "nameAndStreetSlug": "prt-00094-rua-do-almada",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00046",
+      "typeId": "1",
+      "address": "81 Rua do Infante Dom Henrique 4050-561",
+      "latitude": 41.14095,
+      "longitude": -8.615195,
+      "nameAndStreetSlug": "prt-00046-rua-do-infante-dom-henrique",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00028",
+      "typeId": "1",
+      "address": "206 N108 4300-316",
+      "latitude": 41.143765,
+      "longitude": -8.575556,
+      "nameAndStreetSlug": "prt-00028-n108",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00031",
+      "typeId": "1",
+      "address": "252B Rua de Santos Pousada 4300",
+      "latitude": 41.150867,
+      "longitude": -8.599111,
+      "nameAndStreetSlug": "prt-00031-rua-de-santos-pousada",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00034",
+      "typeId": "1",
+      "address": "18 Cais das Pedras 4050-015",
+      "latitude": 41.145662,
+      "longitude": -8.629866,
+      "nameAndStreetSlug": "prt-00034-cais-das-pedras",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00105",
+      "typeId": "1",
+      "address": "1128 Rua Engenheiro Ferreira Dias 4250",
+      "latitude": 41.177674,
+      "longitude": -8.648548,
+      "nameAndStreetSlug": "prt-00105-rua-engenheiro-ferreira-dias",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00146",
+      "typeId": "1",
+      "address": "551 Rua de Paulo da Gama 4150-713",
+      "latitude": 41.147913,
+      "longitude": -8.65898,
+      "nameAndStreetSlug": "prt-00146-rua-de-paulo-da-gama",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00015",
+      "typeId": "1",
+      "address": "55 Praça do Doutor Francisco Sá Carneiro 4350-042",
+      "latitude": 41.161868,
+      "longitude": -8.592612,
+      "nameAndStreetSlug": "prt-00015-praca-do-doutor-francisco-sa-carneiro",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00036",
+      "typeId": "1",
+      "address": "10 Rua Chaimite 4050-433",
+      "latitude": 41.163057,
+      "longitude": -8.623553,
+      "nameAndStreetSlug": "prt-00036-rua-chaimite",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00014",
+      "typeId": "1",
+      "address": "1 Praça do Doutor Francisco Sá Carneiro 4350-042",
+      "latitude": 41.161704,
+      "longitude": -8.592312,
+      "nameAndStreetSlug": "prt-00014-praca-do-doutor-francisco-sa-carneiro",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Charge point GreenFlux",
+      "typeId": "1",
+      "address": "333 Rua de Serralves 4150-707",
+      "latitude": 41.15581,
+      "longitude": -8.65118,
+      "nameAndStreetSlug": "charge-point-greenflux-rua-de-serralves",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "I-CHARGING TEST",
+      "typeId": "1",
+      "address": "333 Rua de Serralves 4150-707",
+      "latitude": 41.15581,
+      "longitude": -8.65118,
+      "nameAndStreetSlug": "i-charging-test-rua-de-serralves",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "GDM-00007/8 - Pestana Palácio do Freixo",
+      "typeId": "5",
+      "address": "421 Avenida Clube Caçadores 4300-316",
+      "latitude": 41.1425685,
+      "longitude": -8.574825584656,
+      "nameAndStreetSlug": "gdm-000078-pestana-palacio-do-freixo-avenida-clube-cacadores",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "MOBI-MTS-00001 -Ceiia",
+      "typeId": "2",
+      "address": "15322 Estrada da Circunvalação 4450",
+      "latitude": 41.172650799385,
+      "longitude": -8.679865374082,
+      "nameAndStreetSlug": "mobi-mts-00001-ceiia-estrada-da-circunvalacao",
+      "typeName": "Parking",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00017/18",
+      "typeId": "1",
+      "address": "568 Rua de Salazares 4100-520",
+      "latitude": 41.176326235993,
+      "longitude": -8.660647122268,
+      "nameAndStreetSlug": "prt-0001718-rua-de-salazares",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00022",
+      "typeId": "12",
+      "address": "28 Rua dos Campeões Europeus 4350-149",
+      "latitude": 41.16439687198,
+      "longitude": -8.583354294191,
+      "nameAndStreetSlug": "prt-00022-rua-dos-campeoes-europeus",
+      "typeName": "Shopping center",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Centro Porsche Porto",
+      "typeId": "11",
+      "address": "432 Rua Manuel Pinto de Azevedo 4100-247",
+      "latitude": 41.173607576097,
+      "longitude": -8.647529341249,
+      "nameAndStreetSlug": "centro-porsche-porto-rua-manuel-pinto-de-azevedo",
+      "typeName": "Dealership",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00028/29 - Pestana Palácio do Freixo",
+      "typeId": "5",
+      "address": "421 Avenida Clube Caçadores 4300-316",
+      "latitude": 41.142536078523,
+      "longitude": -8.574841283016,
+      "nameAndStreetSlug": "prt-0002829-pestana-palacio-do-freixo-avenida-clube-cacadores",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00033/34 - Vila Galé Porto Ribeira",
+      "typeId": "5",
+      "address": "21 Cais das Pedras 4050-015",
+      "latitude": 41.145717962083,
+      "longitude": -8.629898554532,
+      "nameAndStreetSlug": "prt-0003334-vila-gale-porto-ribeira-cais-das-pedras",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Vila Foz Hotel Spa",
+      "typeId": "5",
+      "address": "236 Avenida de Montevideu 4150-379",
+      "latitude": 41.16140063964,
+      "longitude": -8.684451080913,
+      "nameAndStreetSlug": "vila-foz-hotel-spa-avenida-de-montevideu",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "IPP-00001/2 - Hospital de São João",
+      "typeId": "2",
+      "address": "Hospital de São João 4200",
+      "latitude": 41.182011541633,
+      "longitude": -8.600378453812,
+      "nameAndStreetSlug": "ipp-000012-hospital-de-sao-joao-hospital-de-sao-joao",
+      "typeName": "Parking",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Maison Albar Hotels Le Monumental Palace",
+      "typeId": "5",
+      "address": "151 Avenida dos Aliados 4000-067",
+      "latitude": 41.148403165251,
+      "longitude": -8.611395257645,
+      "nameAndStreetSlug": "maison-albar-hotels-le-monumental-palace-avenida-dos-aliados",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00016",
+      "typeId": "1",
+      "address": "666 Rua da Constituição 4200-194",
+      "latitude": 41.162128,
+      "longitude": -8.606011,
+      "nameAndStreetSlug": "prt-00016-rua-da-constituicao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Porto Deluxe - GuestHouse",
+      "typeId": "5",
+      "address": "272 Rua de Agramonte 4100-111",
+      "latitude": 41.157925918687,
+      "longitude": -8.632586137148,
+      "nameAndStreetSlug": "porto-deluxe-guesthouse-rua-de-agramonte",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "8",
+          "name": "Schuko (EU Plug)",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Hotel da Música",
+      "typeId": "5",
+      "address": "160 Praça do Bom Sucesso 4050",
+      "latitude": 41.156320169046,
+      "longitude": -8.629159685499,
+      "nameAndStreetSlug": "hotel-da-musica-praca-do-bom-sucesso",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Kinda Home - Porto",
+      "typeId": "8",
+      "address": "71 Avenida Fontes Pereira de Melo 4100-178",
+      "latitude": 41.177788149452,
+      "longitude": -8.653986426984,
+      "nameAndStreetSlug": "kinda-home-porto-avenida-fontes-pereira-de-melo",
+      "typeName": "Shop",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00170",
+      "typeId": "1",
+      "address": "83 Rua de Ricardo Severo 4050-460",
+      "latitude": 41.156154,
+      "longitude": -8.626015,
+      "nameAndStreetSlug": "prt-00170-rua-de-ricardo-severo",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "I-CHARGING TEST",
+      "typeId": "1",
+      "address": "364 Rua de Serralves 4150-707",
+      "latitude": 41.15581,
+      "longitude": -8.65118,
+      "nameAndStreetSlug": "i-charging-test-rua-de-serralves",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "NISSAN CAETANO POWER, S.A. (Porto)",
+      "typeId": "1",
+      "address": "173 Avenida Fontes Pereira de Melo 4100-262",
+      "latitude": 41.17807,
+      "longitude": -8.652524,
+      "nameAndStreetSlug": "nissan-caetano-power-sa-porto-avenida-fontes-pereira-de-melo",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00160",
+      "typeId": "1",
+      "address": "826 Rua Engenheiro Ferreira Dias 4250",
+      "latitude": 41.17552,
+      "longitude": -8.64641,
+      "nameAndStreetSlug": "prt-00160-rua-engenheiro-ferreira-dias",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00159",
+      "typeId": "1",
+      "address": "122 Praça do Bom Sucesso 4050",
+      "latitude": 41.15594,
+      "longitude": -8.629741,
+      "nameAndStreetSlug": "prt-00159-praca-do-bom-sucesso",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Bessa Hotel Baixa",
+      "typeId": "5",
+      "address": "155 155 4000-072",
+      "latitude": 41.149933980323,
+      "longitude": -8.603554626984,
+      "nameAndStreetSlug": "bessa-hotel-baixa-155",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "GDM-00007",
+      "typeId": "1",
+      "address": "20 Avenida Escritor Costa Barreto 4300-210",
+      "latitude": 41.141879,
+      "longitude": -8.573547,
+      "nameAndStreetSlug": "gdm-00007-avenida-escritor-costa-barreto",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "comum",
+      "typeId": "1",
+      "address": "985 Rua do Freixo 4300-383",
+      "latitude": 41.145345531547,
+      "longitude": -8.579664118588,
+      "nameAndStreetSlug": "comum-rua-do-freixo",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00037",
+      "typeId": "1",
+      "address": "209 Rua de 9 de Julho 4050-433",
+      "latitude": 41.163088,
+      "longitude": -8.623606,
+      "nameAndStreetSlug": "prt-00037-rua-de-9-de-julho",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00101",
+      "typeId": "1",
+      "address": "1150 Rua Engenheiro Ferreira Dias 4250",
+      "latitude": 41.17786,
+      "longitude": -8.64865,
+      "nameAndStreetSlug": "prt-00101-rua-engenheiro-ferreira-dias",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00013",
+      "typeId": "1",
+      "address": "323 Avenida da França 4050-300",
+      "latitude": 41.16173,
+      "longitude": -8.628177,
+      "nameAndStreetSlug": "prt-00013-avenida-da-franca",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00062",
+      "typeId": "1",
+      "address": "189 Avenida da Boavista 4050-113",
+      "latitude": 41.157225,
+      "longitude": -8.625865,
+      "nameAndStreetSlug": "prt-00062-avenida-da-boavista",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00071",
+      "typeId": "1",
+      "address": "108 Travessa Chaves de Oliveira 4350-106",
+      "latitude": 41.162725,
+      "longitude": -8.576799,
+      "nameAndStreetSlug": "prt-00071-travessa-chaves-de-oliveira",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00145",
+      "typeId": "1",
+      "address": "308 Travessa de Antero de Quental 4000-081",
+      "latitude": 41.160958,
+      "longitude": -8.610623,
+      "nameAndStreetSlug": "prt-00145-travessa-de-antero-de-quental",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00022",
+      "typeId": "1",
+      "address": "28a Rua dos Campeões Europeus 4435-414",
+      "latitude": 41.164061,
+      "longitude": -8.584285,
+      "nameAndStreetSlug": "prt-00022-rua-dos-campeoes-europeus",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00030",
+      "typeId": "1",
+      "address": "124 Campo 24 de Agosto 4300-100",
+      "latitude": 41.149861,
+      "longitude": -8.599278,
+      "nameAndStreetSlug": "prt-00030-campo-24-de-agosto",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00094",
+      "typeId": "1",
+      "address": "218 Rua do Almada 4000-407",
+      "latitude": 41.1482,
+      "longitude": -8.61206,
+      "nameAndStreetSlug": "prt-00094-rua-do-almada",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00046",
+      "typeId": "1",
+      "address": "81 Rua do Infante Dom Henrique 4050-561",
+      "latitude": 41.14095,
+      "longitude": -8.615195,
+      "nameAndStreetSlug": "prt-00046-rua-do-infante-dom-henrique",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00028",
+      "typeId": "1",
+      "address": "206 N108 4300-316",
+      "latitude": 41.143765,
+      "longitude": -8.575556,
+      "nameAndStreetSlug": "prt-00028-n108",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00031",
+      "typeId": "1",
+      "address": "252B Rua de Santos Pousada 4300",
+      "latitude": 41.150867,
+      "longitude": -8.599111,
+      "nameAndStreetSlug": "prt-00031-rua-de-santos-pousada",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00034",
+      "typeId": "1",
+      "address": "18 Cais das Pedras 4050-015",
+      "latitude": 41.145662,
+      "longitude": -8.629866,
+      "nameAndStreetSlug": "prt-00034-cais-das-pedras",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00105",
+      "typeId": "1",
+      "address": "1128 Rua Engenheiro Ferreira Dias 4250",
+      "latitude": 41.177674,
+      "longitude": -8.648548,
+      "nameAndStreetSlug": "prt-00105-rua-engenheiro-ferreira-dias",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00146",
+      "typeId": "1",
+      "address": "551 Rua de Paulo da Gama 4150-713",
+      "latitude": 41.147913,
+      "longitude": -8.65898,
+      "nameAndStreetSlug": "prt-00146-rua-de-paulo-da-gama",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00036",
+      "typeId": "1",
+      "address": "10 Rua Chaimite 4050-433",
+      "latitude": 41.163057,
+      "longitude": -8.623553,
+      "nameAndStreetSlug": "prt-00036-rua-chaimite",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "GDM-00007/8 - Pestana Palácio do Freixo",
+      "typeId": "5",
+      "address": "421 Avenida Clube Caçadores 4300-316",
+      "latitude": 41.1425685,
+      "longitude": -8.574825584656,
+      "nameAndStreetSlug": "gdm-000078-pestana-palacio-do-freixo-avenida-clube-cacadores",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "MOBI-MTS-00001 -Ceiia",
+      "typeId": "2",
+      "address": "15322 Estrada da Circunvalação 4450",
+      "latitude": 41.172650799385,
+      "longitude": -8.679865374082,
+      "nameAndStreetSlug": "mobi-mts-00001-ceiia-estrada-da-circunvalacao",
+      "typeName": "Parking",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00017/18",
+      "typeId": "1",
+      "address": "568 Rua de Salazares 4100-520",
+      "latitude": 41.176326235993,
+      "longitude": -8.660647122268,
+      "nameAndStreetSlug": "prt-0001718-rua-de-salazares",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00022",
+      "typeId": "12",
+      "address": "28 Rua dos Campeões Europeus 4350-149",
+      "latitude": 41.16439687198,
+      "longitude": -8.583354294191,
+      "nameAndStreetSlug": "prt-00022-rua-dos-campeoes-europeus",
+      "typeName": "Shopping center",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Centro Porsche Porto",
+      "typeId": "11",
+      "address": "432 Rua Manuel Pinto de Azevedo 4100-247",
+      "latitude": 41.173607576097,
+      "longitude": -8.647529341249,
+      "nameAndStreetSlug": "centro-porsche-porto-rua-manuel-pinto-de-azevedo",
+      "typeName": "Dealership",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00028/29 - Pestana Palácio do Freixo",
+      "typeId": "5",
+      "address": "421 Avenida Clube Caçadores 4300-316",
+      "latitude": 41.142536078523,
+      "longitude": -8.574841283016,
+      "nameAndStreetSlug": "prt-0002829-pestana-palacio-do-freixo-avenida-clube-cacadores",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00033/34 - Vila Galé Porto Ribeira",
+      "typeId": "5",
+      "address": "21 Cais das Pedras 4050-015",
+      "latitude": 41.145717962083,
+      "longitude": -8.629898554532,
+      "nameAndStreetSlug": "prt-0003334-vila-gale-porto-ribeira-cais-das-pedras",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Vila Foz Hotel Spa",
+      "typeId": "5",
+      "address": "236 Avenida de Montevideu 4150-379",
+      "latitude": 41.16140063964,
+      "longitude": -8.684451080913,
+      "nameAndStreetSlug": "vila-foz-hotel-spa-avenida-de-montevideu",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "IPP-00001/2 - Hospital de São João",
+      "typeId": "2",
+      "address": "Hospital de São João 4200",
+      "latitude": 41.182011541633,
+      "longitude": -8.600378453812,
+      "nameAndStreetSlug": "ipp-000012-hospital-de-sao-joao-hospital-de-sao-joao",
+      "typeName": "Parking",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Maison Albar Hotels Le Monumental Palace",
+      "typeId": "5",
+      "address": "151 Avenida dos Aliados 4000-067",
+      "latitude": 41.148403165251,
+      "longitude": -8.611395257645,
+      "nameAndStreetSlug": "maison-albar-hotels-le-monumental-palace-avenida-dos-aliados",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00016",
+      "typeId": "1",
+      "address": "666 Rua da Constituição 4200-194",
+      "latitude": 41.162128,
+      "longitude": -8.606011,
+      "nameAndStreetSlug": "prt-00016-rua-da-constituicao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Porto Deluxe - GuestHouse",
+      "typeId": "5",
+      "address": "272 Rua de Agramonte 4100-111",
+      "latitude": 41.157925918687,
+      "longitude": -8.632586137148,
+      "nameAndStreetSlug": "porto-deluxe-guesthouse-rua-de-agramonte",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "8",
+          "name": "Schuko (EU Plug)",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Hotel da Música",
+      "typeId": "5",
+      "address": "160 Praça do Bom Sucesso 4050",
+      "latitude": 41.156320169046,
+      "longitude": -8.629159685499,
+      "nameAndStreetSlug": "hotel-da-musica-praca-do-bom-sucesso",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Kinda Home - Porto",
+      "typeId": "8",
+      "address": "71 Avenida Fontes Pereira de Melo 4100-178",
+      "latitude": 41.177788149452,
+      "longitude": -8.653986426984,
+      "nameAndStreetSlug": "kinda-home-porto-avenida-fontes-pereira-de-melo",
+      "typeName": "Shop",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00013 - PCR - Porto (Av. da França)",
+      "typeId": "1",
+      "address": "315 Avenida da França 4050",
+      "latitude": 41.16173,
+      "longitude": -8.628177,
+      "nameAndStreetSlug": "prt-00013-pcr-porto-av-da-franca-avenida-da-franca",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Hotel Teatro - Tesla Destination Charger",
+      "typeId": "5",
+      "address": "82 Rua de Sá da Bandeira 4000-433",
+      "latitude": 41.146783,
+      "longitude": -8.609327513492,
+      "nameAndStreetSlug": "hotel-teatro-tesla-destination-charger-rua-de-sa-da-bandeira",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Bessa Hotel Boavista",
+      "typeId": "5",
+      "address": "111 Rua Doutor Marques de Carvalho 4100-325",
+      "latitude": 41.162266144097,
+      "longitude": -8.645056709647,
+      "nameAndStreetSlug": "bessa-hotel-boavista-rua-doutor-marques-de-carvalho",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 1
+        },
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Hotel Crowne Plaza Porto",
+      "typeId": "5",
+      "address": "1466 Avenida da Boavista 4100-114",
+      "latitude": 41.160132469508,
+      "longitude": -8.640758469701,
+      "nameAndStreetSlug": "hotel-crowne-plaza-porto-avenida-da-boavista",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "11",
+          "name": "Tesla Dest.Charger",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00032/33 - Hotel Vile Gale",
+      "typeId": "5",
+      "address": "7B Avenida de Fernão de Magalhães 4300",
+      "latitude": 41.15054,
+      "longitude": -8.5985834,
+      "nameAndStreetSlug": "prt-0003233-hotel-vile-gale-avenida-de-fernao-de-magalhaes",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "PRT-00101 - PCR - Porto",
+      "typeId": "1",
+      "address": "1150 Rua Engenheiro Ferreira Dias 4250",
+      "latitude": 41.17786,
+      "longitude": -8.64865,
+      "nameAndStreetSlug": "prt-00101-pcr-porto-rua-engenheiro-ferreira-dias",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        },
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "MOBI.E - PRT-00103",
+      "typeId": "1",
+      "address": "288 Rua de Contumil 4350-149",
+      "latitude": 41.16381,
+      "longitude": -8.584317,
+      "nameAndStreetSlug": "mobie-prt-00103-rua-de-contumil",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        },
+        {
+          "id": "3",
+          "name": "CEE 2P+E (blue - camping)",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "MOBI.E - PRT-00086",
+      "typeId": "1",
+      "address": "25 Rua Ofélia Diogo da Costa 4100-111",
+      "latitude": 41.158733342,
+      "longitude": -8.631721895,
+      "nameAndStreetSlug": "mobie-prt-00086-rua-ofelia-diogo-da-costa",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "TESTE WDAO- PRODDD",
+      "typeId": "1",
+      "address": "76 Rua do Carvalhido 4250-324",
+      "latitude": 41.167752,
+      "longitude": -8.625241,
+      "nameAndStreetSlug": "teste-wdao-proddd-rua-do-carvalhido",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Garagem Porto D'ouro",
+      "typeId": "1",
+      "address": "190 Rua do Bolhão 4000-121",
+      "latitude": 41.15189,
+      "longitude": -8.606603,
+      "nameAndStreetSlug": "garagem-porto-douro-rua-do-bolhao",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Garagem Porto D'ouro 2 ",
+      "typeId": "1",
+      "address": "121 Rua Guedes de Azevedo 4000-111",
+      "latitude": 41.151918,
+      "longitude": -8.606596,
+      "nameAndStreetSlug": "garagem-porto-douro-2-rua-guedes-de-azevedo",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00187",
+      "typeId": "1",
+      "address": "33 Rua de Dom Manuel II 4050-345",
+      "latitude": 41.147353,
+      "longitude": -8.620892,
+      "nameAndStreetSlug": "prt-00187-rua-de-dom-manuel-ii",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00143",
+      "typeId": "1",
+      "address": "282 Praça de 9 de Abril 4200-256",
+      "latitude": 41.17216,
+      "longitude": -8.6099,
+      "nameAndStreetSlug": "prt-00143-praca-de-9-de-abril",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00141",
+      "typeId": "1",
+      "address": "282 Praça de 9 de Abril 4200-256",
+      "latitude": 41.1721,
+      "longitude": -8.60987,
+      "nameAndStreetSlug": "prt-00141-praca-de-9-de-abril",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00142",
+      "typeId": "1",
+      "address": "282 Praça de 9 de Abril 4200-256",
+      "latitude": 41.17214,
+      "longitude": -8.60989,
+      "nameAndStreetSlug": "prt-00142-praca-de-9-de-abril",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00021",
+      "typeId": "1",
+      "address": "31 Rua de Dom Manuel II 4050-522",
+      "latitude": 41.147295,
+      "longitude": -8.620757,
+      "nameAndStreetSlug": "prt-00021-rua-de-dom-manuel-ii",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00069",
+      "typeId": "1",
+      "address": "103 Rua Vieira Portuense 4050-232",
+      "latitude": 41.162752,
+      "longitude": -8.629396,
+      "nameAndStreetSlug": "prt-00069-rua-vieira-portuense",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00070",
+      "typeId": "1",
+      "address": "79 Rua Vieira Portuense 4050-300",
+      "latitude": 41.162602,
+      "longitude": -8.629396,
+      "nameAndStreetSlug": "prt-00070-rua-vieira-portuense",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00139",
+      "typeId": "1",
+      "address": "24 Rua Fonte de Massarelos 4050-015",
+      "latitude": 41.147129,
+      "longitude": -8.631778,
+      "nameAndStreetSlug": "prt-00139-rua-fonte-de-massarelos",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "31",
+          "name": "CCS2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "PRT-00144",
+      "typeId": "1",
+      "address": "282 Praça de 9 de Abril 4200-256",
+      "latitude": 41.17217,
+      "longitude": -8.60991,
+      "nameAndStreetSlug": "prt-00144-praca-de-9-de-abril",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "GARAGEM CAMOES",
+      "typeId": "2",
+      "address": "136 Rua de Santos Pousada 4300",
+      "latitude": 41.149967685191,
+      "longitude": -8.599957084656,
+      "nameAndStreetSlug": "garagem-camoes-rua-de-santos-pousada",
+      "typeName": "Parking",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "MOBI.E - PRT-00021 (C.C. Cristal Park)",
+      "typeId": "1",
+      "address": "31 Rua de Dom Manuel II 4050-522",
+      "latitude": 41.147295,
+      "longitude": -8.620757,
+      "nameAndStreetSlug": "mobie-prt-00021-cc-cristal-park-rua-de-dom-manuel-ii",
+      "typeName": "Street level",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Renault Boavista",
+      "typeId": "11",
+      "address": "127 Rua de Grijó 4150-415",
+      "latitude": 41.155961111469,
+      "longitude": -8.648796688639,
+      "nameAndStreetSlug": "renault-boavista-rua-de-grijo",
+      "typeName": "Dealership",
+      "connectors": [
+        {
+          "id": "5",
+          "name": "TYPE 2",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Via Catarina Porto",
+      "typeId": "2",
+      "address": "312 Rua de Santa Catarina 4000-433",
+      "latitude": 41.148900063162,
+      "longitude": -8.605959489942,
+      "nameAndStreetSlug": "via-catarina-porto-rua-de-santa-catarina",
+      "typeName": "Parking",
+      "connectors": [
+        {
+          "id": "8",
+          "name": "Schuko (EU Plug)",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "LoftAbroad Apartments",
+      "typeId": "5",
+      "address": "203 Rua da Venezuela 4150-743",
+      "latitude": 41.157446456073,
+      "longitude": -8.64390334581,
+      "nameAndStreetSlug": "loftabroad-apartments-rua-da-venezuela",
+      "typeName": "Hotel",
+      "connectors": [
+        {
+          "id": "8",
+          "name": "Schuko (EU Plug)",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "VORTEX Gingabike - Motocidade.",
+      "typeId": "9",
+      "address": "295 Rua de Faria Guimarães 4000-203",
+      "latitude": 41.1599707,
+      "longitude": -8.6080707,
+      "nameAndStreetSlug": "vortex-gingabike-motocidade-rua-de-faria-guimaraes",
+      "typeName": "Garage",
+      "connectors": [
+        {
+          "id": "8",
+          "name": "Schuko (EU Plug)",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Nissan Porto ZI",
+      "typeId": "11",
+      "address": "173 Avenida Fontes Pereira de Melo 4100-262",
+      "latitude": 41.177855874604,
+      "longitude": -8.652850342017,
+      "nameAndStreetSlug": "nissan-porto-zi-avenida-fontes-pereira-de-melo",
+      "typeName": "Dealership",
+      "connectors": [
+        {
+          "id": "4",
+          "name": "CHAdeMO",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "Riera Alta",
+      "typeId": "99",
+      "address": "100 Rua da Maternidade 4050-370",
+      "latitude": 41.151291,
+      "longitude": -8.621628,
+      "nameAndStreetSlug": "riera-alta-rua-da-maternidade",
+      "typeName": "Unknown",
+      "connectors": [
+        {
+          "id": "8",
+          "name": "Schuko (EU Plug)",
+          "total": 1
+        }
+      ]
+    },
+    {
+      "name": "I-CHARGING TEST",
+      "typeId": "1",
+      "address": "333 Rua de Serralves 4150-707",
+      "latitude": 41.15581,
+      "longitude": -8.65118,
+      "nameAndStreetSlug": "i-charging-test-rua-de-serralves",
+      "typeName": "Street level",
+      "connectors": []
+    }
+  ]
+}
