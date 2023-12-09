@@ -1,7 +1,5 @@
 import mesa
-import solara
 from model import ChargingStationModel, CarAgent, ChargingStationAgent
-from matplotlib.figure import Figure
 
 
 def agent_portrayal(agent):
@@ -11,7 +9,6 @@ def agent_portrayal(agent):
                      "Layer": 0,
                      "Color": "red",
                      "r": 0.5}
-        
         if agent.current_battery_level > agent.alert_battery_level:
             portrayal["Color"] = "green"
         else:
@@ -24,7 +21,6 @@ def agent_portrayal(agent):
                      "Color": "green",
                      "w": 1,
                      "h": 1}
-        
         if len(agent.waiting_cars) > 0:
             portrayal["Color"] = "red"
         elif len(agent.charging_cars) > 0:
@@ -39,10 +35,15 @@ def agent_portrayal(agent):
 
 grid = mesa.visualization.CanvasGrid(agent_portrayal, 10, 10, 500, 500)
 
+model_params = {
+    "N_cars": 15,
+    "N_charging_stations": 3,
+    "width": 10,
+    "height": 10
+}
 
 server = mesa.visualization.ModularServer(ChargingStationModel,
                                           [grid],
                                           "Charging Station Model",
-                                          {'N_cars': 15, 'N_charging_stations' : 3 ,'width': 10, 'height': 10})
+                                          model_params)
 server.port = 8521  # The default
-# server.launch()

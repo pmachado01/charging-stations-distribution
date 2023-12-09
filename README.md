@@ -37,9 +37,9 @@ pip install -r requirements.txt
 ## Usage
 To start the MESA server, run the following command:
 ```bash
-mesa runserver charging_stations
+mesa runserver simulation
 ```
-Then, open your browser and go to `http://`
+Then, open your browser and go to `http://localhost:8521/`.
 
 ## Project Structure
 ```

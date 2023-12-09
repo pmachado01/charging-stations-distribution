@@ -1,5 +1,7 @@
 import mesa
-from agent import CarAgent, ChargingStationAgent
+from simulation.agents.charging_station import ChargingStationAgent
+from simulation.agents.car import CarAgent
+
 
 class ChargingStationModel(mesa.Model):
     """A model with some number of agents."""
@@ -10,7 +12,6 @@ class ChargingStationModel(mesa.Model):
         self.grid = mesa.space.MultiGrid(width, height, True)
         self.schedule = mesa.time.RandomActivationByType(self)
         self.running = True
-        
         # Create car agents
         for i in range(self.num_car_agents):
 
@@ -21,7 +22,6 @@ class ChargingStationModel(mesa.Model):
 
             a = CarAgent(i, self, initial_battery_level, full_battery_range, target_battery_level, alert_battery_level)
             self.schedule.add(a)
-            
             # Add the agent to a random grid cell
             x = self.random.randrange(self.grid.width)
             y = self.random.randrange(self.grid.height)
@@ -33,7 +33,6 @@ class ChargingStationModel(mesa.Model):
 
             a = ChargingStationAgent(i+N_cars, self, number_of_charging_ports)
             self.schedule.add(a)
-            
             # Add the agent to a random grid cell
             x = self.random.randrange(self.grid.width)
             y = self.random.randrange(self.grid.height)
