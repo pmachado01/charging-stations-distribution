@@ -3,6 +3,7 @@ from geopy import distance
 import sys
 import pandas as pd
 
+
 def read_stations_file_location():
     """
     Read the stations file location from the command line

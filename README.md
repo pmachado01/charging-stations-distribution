@@ -27,7 +27,7 @@
 ### Setup
 1. Clone the repository
 ```bash
-git clone git@github.com:pmachado01/MS.git
+git clone git@github.com:pmachado01/charging-stations-distribution.git
 ```
 2. Install the dependencies
 ```bash
@@ -42,7 +42,18 @@ mesa runserver simulation
 Then, open your browser and go to `http://localhost:8521/`.
 
 ## Project Structure
-```
+```python
+charging-stations-distribution/
+├── data/  # Data used in the project
+│   ├── electromaps/  # Data from electromaps
+│   ├── ine/  # Data from INE
+├── docs/  # Documentation
+├── simulation/  # Simulation folder
+│   ├── agents/  # Agents used in the simulation
+│   ├── model.py  # Model used in the simulation
+│   ├── server.py  # Server configurations
+│   ├── run.py  # File to run the simulation
+└── requirements.txt  # Project dependencies
 ```
 
 ## Documentation
@@ -52,7 +63,7 @@ Then, open your browser and go to `http://localhost:8521/`.
 [Future Work]
 
 ## License
-[License]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 [Acknowledgments]
