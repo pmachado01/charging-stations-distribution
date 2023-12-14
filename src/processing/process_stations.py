@@ -27,7 +27,7 @@ def find_nearest_centroid(lat, lon, centroids):
     # Iterate through each centroid
     for centroid in centroids.values():
         # Calculate the distance between the station and the centroid
-        distance = calculate_distance(lat, lon, centroid["lat"], centroid["lon"])  #TODO: Verify in csv file the header names
+        distance = calculate_distance(lat, lon, centroid["lat"], centroid["lon"])  # TODO: Verify in csv file the header names
 
         # Check if the distance is less than the minimum distance
         if distance < min_distance:
@@ -98,6 +98,7 @@ def main():
 
     # Read centroids file
     centroids_data = Files.read_csv_file(centroids_file_path)
+    centroids_data = centroids_data.to_dict(orient="index")
 
     # Filter stations data
     filter_stations_data(stations_data)

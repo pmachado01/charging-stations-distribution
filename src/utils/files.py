@@ -25,7 +25,6 @@ def read_csv_file(file_path):
     """
     try:
         data = pd.read_csv(file_path)
-        data = data.to_dict(orient="index")
     except FileNotFoundError:
         data = None
 

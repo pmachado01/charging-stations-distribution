@@ -3,6 +3,9 @@ import src.utils.files as Files
 from shapely.ops import cascaded_union
 from shapely.wkt import loads
 import argparse
+import os
+
+WKT_GEOM_COLUMN_NAME = 'WKT'
 
 
 def extract_geometric_center(wkt_str):
@@ -20,21 +23,26 @@ def main():
     args = arg_parser.parse_args()
 
     # Get the centroids file path
-    centroids_file_path = Files.get_processed_file_path(args.centroids_file)
+    centroids_file_path = Files.get_raw_file_path(args.centroids_file)
 
     # Read centroids file
     centroids_data = Files.read_csv_file(centroids_file_path)
 
-    # Iterate through each centroid
-    for centroid in centroids_data:
-        # Extract the geometric center
-        center_x, center_y = extract_geometric_center(centroid["WKT"])
+    # Iterate through each centroid of the DataFrame
+    for index, row in centroids_data.iterrows():
+        # Extract the geometric center of the Multipolygon
+        x, y = extract_geometric_center(row[WKT_GEOM_COLUMN_NAME])
 
-        # Add the geometric center to the centroid
-        centroid["lon"] = center_x
-        centroid["lat"] = center_y
+        # Add the new columns to the DataFrame
+        centroids_data.at[index, "lon"] = x
+        centroids_data.at[index, "lat"] = y
 
     # Write centroids file
-    Files.write_csv_file(centroids_file_path, centroids_data)
+    save_location = Constants.Data.PROCESSED_DATA_PATH
+    save_filename = Constants.Data.PROCESSED_CENTROIDS_FILE_NAME
+    save_path = os.path.join(save_location, save_filename)
+    Files.write_csv_file(save_path, centroids_data)
 
-    print(f"Geometric centers have been added to {centroids_file_path}.")
+
+if __name__ == "__main__":
+    main()
