@@ -27,3 +27,7 @@ def main():
     # Save the merged DataFrame to a new CSV file
     output_file_path = centroids_file_path
     Files.write_csv_file(output_file_path, merged)
+
+
+if __name__ == "__main__":
+    main()
