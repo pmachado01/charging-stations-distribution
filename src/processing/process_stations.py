@@ -84,14 +84,14 @@ def filter_stations_data(data):
 def main():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument("stations_file", help="Stations file name")
-    arg_parser.add_argument("centroids_file", help="Centroids file name")
     args = arg_parser.parse_args()
 
     # Read the stations file location from the command line
     stations_file_path = Files.get_raw_file_path(args.stations_file)
 
     # Read the centroids file location from the command line
-    centroids_file_path = Files.get_processed_file_path(args.centroids_file)
+    centroids_filename = Constants.Data.PROCESSED_CENTROIDS_FILE_NAME
+    centroids_file_path = Files.get_processed_file_path(centroids_filename)
 
     # Read stations file
     stations_data = Files.read_json_file(stations_file_path)
