@@ -1,3 +1,4 @@
+from src.utils.constants import Constants
 import csv
 from shapely.ops import cascaded_union
 from shapely.wkt import loads
@@ -5,7 +6,7 @@ from shapely.wkt import loads
 
 # Read the CSV file
 csv_file_path = './ine/ine_2021_bom_wgs.csv'  # Update with your CSV file path
-output_file_path = 'centroids.csv'
+output_file_path = Constants.Data.PROCESSED_CENTROIDS_FILE_NAME
 
 # Assuming the column containing WKT geometries is named 'wkt_geom'
 wkt_geom_column_name = '\ufeffWKT'
