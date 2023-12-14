@@ -3,7 +3,6 @@ from geopy import distance
 import sys
 import pandas as pd
 
-
 def read_stations_file_location():
     """
     Read the stations file location from the command line
@@ -89,12 +88,15 @@ def process_data(data):
         station["chargers"] = total_connectors
 
 
-def save_data(data):
+def save_data_into_csv(data):
     """
-    Save the modified data back to the file
+    Save the modified data into a csv file
     """
-    with open('modified_stations.json', 'w') as file:
-        json.dump(data, file, indent=2)
+    # Create a dataframe
+    df = pd.DataFrame(data["stations"])
+
+    # Save the dataframe into a csv file
+    df.to_csv("stations.csv", index=False)
 
 
 def calculate_distance(lat1, lon1, lat2, lon2):
@@ -182,7 +184,7 @@ def main():
     associate_stations_with_centroids(stations_data, centroids_data)
 
     # Save the modified data
-    save_data(stations_data)
+    save_data_into_csv(stations_data)
 
 
 if __name__ == "__main__":
