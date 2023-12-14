@@ -1,18 +1,9 @@
 from src.utils.constants import Constants
 import src.utils.files as Files
 import pandas as pd
-import os
 import sys
 from geopy import distance
 import argparse
-
-
-def get_raw_file_path(filename):
-    return os.path.join(Constants.Data.RAW_DATA_PATH, filename)
-
-
-def get_processed_file_path(filename):
-    return os.path.join(Constants.Data.PROCESSED_DATA_PATH, filename)
 
 
 def calculate_distance(lat1, lon1, lat2, lon2):
@@ -100,10 +91,10 @@ def main():
     args = arg_parser.parse_args()
 
     # Read the stations file location from the command line
-    stations_file_path = get_raw_file_path(args.stations_file)
+    stations_file_path = Files.get_raw_file_path(args.stations_file)
 
     # Read the centroids file location from the command line
-    centroids_file_path = get_processed_file_path(args.centroids_file)
+    centroids_file_path = Files.get_processed_file_path(args.centroids_file)
 
     # Read stations file
     stations_data = Files.read_json_file(stations_file_path)

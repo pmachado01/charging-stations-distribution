@@ -1,5 +1,7 @@
+from .constants import Constants
 import pandas as pd
 import json
+import os
 
 
 def read_file(file_path):
@@ -58,3 +60,11 @@ def write_json_file(file_path, data):
     """
     with open(file_path, 'w') as file:
         json.dump(data, file)
+
+
+def get_raw_file_path(filename):
+    return os.path.join(Constants.Data.RAW_DATA_PATH, filename)
+
+
+def get_processed_file_path(filename):
+    return os.path.join(Constants.Data.PROCESSED_DATA_PATH, filename)
