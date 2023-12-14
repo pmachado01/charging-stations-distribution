@@ -1,38 +1,20 @@
-import csv
+import pandas as pd
 
-
-# Read the CSV file
-csv_file_path = './processed/centroids.csv'
-sqm_file_path = './raw/sqm_price_per_place.csv'
+# File paths
+csv_file_path = '../../data/processed/centroids.csv'
+sqm_file_path = '../../data/raw/sqm_price_per_place.csv'
 output_file_path = 'evs.csv'
 
-sqm_per_place_dict = {}
-# Read the prices per place CSV file
-with open(sqm_file_path, 'r', newline='', encoding='utf-8') as sqm_csvfile:
-    sqm_reader = csv.DictReader(sqm_csvfile)
-    sqm_per_place_dict = {}
-    for row in sqm_reader:
-        sqm_per_place_dict[row['DTMNFR21']] = row['sqm_price']
+# Read the prices per place CSV file into a pandas DataFrame
+sqm_df = pd.read_csv(sqm_file_path, encoding='utf-8')
 
-# Open the CSV file for reading
-with open(csv_file_path, 'r', newline='', encoding='utf-8') as csvfile:
-    # Create a CSV reader
-    reader = csv.DictReader(csvfile)
+# Read the centroids CSV file into a pandas DataFrame
+centroids_df = pd.read_csv(csv_file_path, encoding='utf-8')
 
-    # Create a new CSV file for writing the results
-    with open(output_file_path, 'w', newline='', encoding='utf-8') as output_csvfile:
-        # Define the fieldnames for the output CSV file
-        fieldnames = reader.fieldnames + ['sqm_price']
-        
-        # Create a CSV writer
-        writer = csv.DictWriter(output_csvfile, fieldnames=fieldnames)
-        
-        # Write the header to the output CSV file
-        writer.writeheader()
-        # Iterate over rows in the input CSV file
-        for row in reader:
-            row['sqm_price'] = sqm_per_place_dict[row['DTMNFR21']]            
-            # Write the updated row to the output CSV file
-            writer.writerow(row)
+# Merge the two DataFrames on the common column 'DTMNFR21'
+merged_df = pd.merge(centroids_df, sqm_df, on='DTMNFR21')
+
+# Save the merged DataFrame to a new CSV file
+merged_df.to_csv(output_file_path, index=False, encoding='utf-8')
 
 print(f"The price per sqm has been added to {output_file_path}.")
