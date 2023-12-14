@@ -3,7 +3,7 @@ import pandas as pd
 
 # File paths
 csv_file_path = '../../data/processed/centroids.csv'
-sqm_file_path = '../../data/raw/sqm_price_per_place.csv'
+sqm_file_path = '../../data/raw/sqm_price.csv'
 output_file_path = 'evs.csv'
 
 def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_population_for_region):

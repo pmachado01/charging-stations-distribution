@@ -1,9 +1,10 @@
-from src.utils.constants import Constants
+from ..utils.constants import Constants
 import src.utils.files as Files
 import pandas as pd
 import sys
 from geopy import distance
 import argparse
+import os
 
 
 def calculate_distance(lat1, lon1, lat2, lon2):
@@ -26,7 +27,7 @@ def find_nearest_centroid(lat, lon, centroids):
     # Iterate through each centroid
     for centroid in centroids.values():
         # Calculate the distance between the station and the centroid
-        distance = calculate_distance(lat, lon, centroid["lat"], centroid["lon"]) #TODO: Verify in csv file the header names
+        distance = calculate_distance(lat, lon, centroid["lat"], centroid["lon"])  # TODO: Verify in csv file the header names
 
         # Check if the distance is less than the minimum distance
         if distance < min_distance:
@@ -45,15 +46,11 @@ def associate_stations_with_centroids(data, centroids):
     """
     # Iterate through each station
     for station in data["stations"]:
-        print("Starting station: " + station["name"])
         # Find the nearest centroid
         nearest_centroid = find_nearest_centroid(station["latitude"], station["longitude"], centroids)
 
         # Add the nearest centroid to the station
         station["nearest_centroid"] = nearest_centroid
-
-        print("Nearest centroid: " + str(nearest_centroid))
-        print("Ending station: " + station["name"])
 
 
 def filter_stations_data(data):
@@ -87,20 +84,21 @@ def filter_stations_data(data):
 def main():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument("stations_file", help="Stations file name")
-    arg_parser.add_argument("centroids_file", help="Centroids file name")
     args = arg_parser.parse_args()
 
     # Read the stations file location from the command line
     stations_file_path = Files.get_raw_file_path(args.stations_file)
 
     # Read the centroids file location from the command line
-    centroids_file_path = Files.get_processed_file_path(args.centroids_file)
+    centroids_filename = Constants.Data.PROCESSED_CENTROIDS_FILE_NAME
+    centroids_file_path = Files.get_processed_file_path(centroids_filename)
 
     # Read stations file
     stations_data = Files.read_json_file(stations_file_path)
 
     # Read centroids file
     centroids_data = Files.read_csv_file(centroids_file_path)
+    centroids_data = centroids_data.to_dict(orient="index")
 
     # Filter stations data
     filter_stations_data(stations_data)
@@ -111,7 +109,8 @@ def main():
     # Save the modified data
     save_location = Constants.Data.PROCESSED_DATA_PATH
     save_filename = Constants.Data.PROCESSED_STATIONS_FILE_NAME
-    Files.write_csv_file(save_location, save_filename, stations_data)
+    save_path = os.path.join(save_location, save_filename)
+    Files.write_csv_file(save_path, stations_data["stations"])
 
 
 if __name__ == "__main__":
