@@ -1,10 +1,8 @@
+from src.utils.constants import Constants
+import src.utils.files as Files
 from math import ceil
-import pandas as pd
+import os
 
-# File paths
-csv_file_path = '../../data/processed/centroids.csv'
-sqm_file_path = '../../data/raw/sqm_price.csv'
-output_file_path = 'evs.csv'
 
 def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_population_for_region):
     """Estimate the number of EVs in a given place based on the price per sqm, the population over 15 years old, the average EV price and the total population for the region.
@@ -67,7 +65,7 @@ def add_ev_number_column(centroids_df):
         total_population_for_region = sum_of_population_for_region[row['DTMNFR21']]
 
         # Retrieve the price per sqm for the given place
-        sqm_price = sqm_df.loc[sqm_df['DTMNFR21'] == row['DTMNFR21'], 'sqm_price'].iloc[0]
+        sqm_price = row['sqm_price']
 
         # Add a new column with the estimated number of EVs in the given place.
         centroids_df.loc[index, 'number_of_ev_cars'] = estimate_number_of_evs(sqm_price, row['N_INDIVIDUOS']-row['N_INDIVIDUOS_0_14'], average_ev_price, total_population_for_region)
@@ -78,17 +76,19 @@ def add_ev_number_column(centroids_df):
     return centroids_df
 
 
-# Read the prices per place CSV file into a pandas DataFrame
-sqm_df = pd.read_csv(sqm_file_path, encoding='utf-8')
+def main():
+    # Get the centroids file path
+    centroids_file_path = Files.get_processed_file_path(Constants.Data.PROCESSED_CENTROIDS_FILE_NAME)
 
-# Read the centroids CSV file into a pandas DataFrame
-centroids_df = pd.read_csv(csv_file_path, encoding='utf-8')
+    # Read centroids file
+    centroids_data = Files.read_csv_file(centroids_file_path)
 
-# Merge the two DataFrames on the common column 'DTMNFR21'
-merged_df = pd.merge(centroids_df, sqm_df, on='DTMNFR21')
+    # Add a new column with the estimated number of EVs in the given place.
+    centroids_data = add_ev_number_column(centroids_data)
 
-# Add a new column with the estimated number of EVs in the given place.
-merged_df = add_ev_number_column(merged_df)
+    # Save the DataFrame to a CSV file
+    Files.write_csv_file(centroids_file_path, centroids_data)
 
-# Save the merged DataFrame to a new CSV file
-merged_df.to_csv(output_file_path, index=False, encoding='utf-8')
+
+if __name__ == "__main__":
+    main()

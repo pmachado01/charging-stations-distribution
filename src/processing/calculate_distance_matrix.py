@@ -4,9 +4,9 @@ import pandas as pd
 import geopy.distance
 import os
 
-id_column_name = 'BGRI2021'
-lon_column_name = 'lon'
-lat_column_name = 'lat'
+ID_COLUMN_NAME = 'BGRI2021'
+LON_COLUMN_NAME = 'lon'
+LAT_COLUMN_NAME = 'lat'
 
 
 def main():
@@ -17,18 +17,18 @@ def main():
     centroids_data = Files.read_csv_file(centroids_file_path)
 
     # Get the coordinates
-    coordinates = centroids_data[[lon_column_name, lat_column_name]]
+    coordinates = centroids_data[[LON_COLUMN_NAME, LAT_COLUMN_NAME]]
 
     # Calculate the Haversine distance matrix
     num_points = len(coordinates)
-    distance_matrix = [[geopy.distance.geodesic((coordinates.iloc[i][lat_column_name],
-                                                 coordinates.iloc[i][lon_column_name]),
-                                                (coordinates.iloc[j][lat_column_name],
-                                                 coordinates.iloc[j][lon_column_name])).km
+    distance_matrix = [[geopy.distance.geodesic((coordinates.iloc[i][LAT_COLUMN_NAME],
+                                                 coordinates.iloc[i][LON_COLUMN_NAME]),
+                                                (coordinates.iloc[j][LAT_COLUMN_NAME],
+                                                 coordinates.iloc[j][LON_COLUMN_NAME])).km
                         for j in range(num_points)] for i in range(num_points)]
     
     # Create a list of IDs
-    index = list(centroids_data[id_column_name])[:num_points]
+    index = list(centroids_data[ID_COLUMN_NAME])[:num_points]
     
     # Create a DataFrame from the distance matrix
     distance_df = pd.DataFrame(distance_matrix, index=index, columns=index)
