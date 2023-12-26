@@ -1,17 +1,16 @@
 from src.utils.constants import Constants
 import src.utils.files as Files
 from math import ceil
-import os
 
 
-def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_population_for_region):
+def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_population_for_place):
     """Estimate the number of EVs in a given place based on the price per sqm, the population over 15 years old, the average EV price and the total population for the region.
 
     Args:
         price_per_sqm (float): The price per sqm in the given place.
         population (int): The population over 15 years old in the given place.
         average_ev_price (float): The average EV price in the given place.
-        total_population_for_region (int): The total population for the region.
+        total_population_for_place (int): The total population for the gven place.
 
     Returns:
         int: The estimated number of EVs in the given place.
@@ -20,24 +19,27 @@ def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_po
     print('Price per sqm: ', price_per_sqm)
     print('Population: ', population)
     print('Average EV price: ', average_ev_price)
-    print('Total population for region: ', total_population_for_region)
+    print('Total population for place: ', total_population_for_place)
 
-    # The number of EVs per 1000 people. This is like saying that the percentage of EVs in a given place is 0.005%.
-    number_of_evs_cars_per_1000 = 4
+    
+    total_evs_in_portugal = 50000
 
-    # Ratio between the population over 15 years old and the total population for the region.
-    population_ratio = population / total_population_for_region
+    average_ev_price_portugal = 35000
+    number_of_evs_in_portugal = total_evs_in_portugal * (average_ev_price_portugal / average_ev_price)
 
-    # The number of EVs based on the population and the number of EVs per 10000 people.
-    number_of_evs_based_on_population = ceil(population_ratio * 1000 * number_of_evs_cars_per_1000)
+    population_in_porto = 234438 # (https://www.pordata.pt/Municipios/Popula%C3%A7%C3%A3o+residente+segundo+os+Censos+total+e+por+grandes+grupos+et%C3%A1rios-390)
+    population_in_portugal = 10407707 # (https://www.pordata.pt/Municipios/Popula%C3%A7%C3%A3o+residente+segundo+os+Censos+total+e+por+grandes+grupos+et%C3%A1rios-390)
+    population_ratio_porto_portugal = population_in_porto / population_in_portugal
+    
+    evs_per_capita_porto = (number_of_evs_in_portugal * population_ratio_porto_portugal) / population_in_porto
 
-    # The number of EVs based on the price per sqm and the average EV price.
-    number_of_evs_based_on_price = ceil(population_ratio * 35000 * (price_per_sqm / average_ev_price))
+    price_per_sqm_porto = 2981 # https://www.idealista.pt/media/relatorios-preco-habitacao/venda/porto/porto/historico/
+    ratio_sqm_place  = price_per_sqm / price_per_sqm_porto
+    number_of_evs_place = evs_per_capita_porto * ratio_sqm_place * total_population_for_place
 
-    print('Number of EVs based on population: ', number_of_evs_based_on_population)
-    print('Number of EVs based on price: ', number_of_evs_based_on_price)
+    print('Number of EVs: ', number_of_evs_place)
 
-    return min(number_of_evs_based_on_population, number_of_evs_based_on_price)
+    return number_of_evs_place
 
 
 def add_ev_number_column(centroids_df):
@@ -50,7 +52,7 @@ def add_ev_number_column(centroids_df):
         DataFrame: The DataFrame with the estimated number of EVs in the given place.
     """
 
-    average_ev_price = 45000
+    average_ev_price = 35000
 
     # Retrieve the sum of 'row['N_INDIVIDUOS']-row['N_INDIVIDUOS_0_14']' for each region based on the column 'DTMNFR21'.
     sum_of_population_for_region = {} # {DTMNFR21: sum_of_population_for_region}
@@ -64,14 +66,17 @@ def add_ev_number_column(centroids_df):
         # Retrieve the total population for the region
         total_population_for_region = sum_of_population_for_region[row['DTMNFR21']]
 
+        # Retrieve the place's population
+        total_population_for_place = row['N_INDIVIDUOS']-row['N_INDIVIDUOS_0_14']
+
         # Retrieve the price per sqm for the given place
         sqm_price = row['sqm_price']
 
         # Add a new column with the estimated number of EVs in the given place.
-        centroids_df.loc[index, 'number_of_ev_cars'] = estimate_number_of_evs(sqm_price, row['N_INDIVIDUOS']-row['N_INDIVIDUOS_0_14'], average_ev_price, total_population_for_region)
+        centroids_df.loc[index, 'number_of_ev_cars'] = estimate_number_of_evs(sqm_price, row['N_INDIVIDUOS']-row['N_INDIVIDUOS_0_14'], average_ev_price, total_population_for_place)
 
     # Print the sum of the estimated number of EVs in the given place.
-    print('Estimated number of EVs in Portugal: ', centroids_df['number_of_ev_cars'].sum())
+    print('Estimated number of EVs in Porto: ', centroids_df['number_of_ev_cars'].sum())
 
     return centroids_df
 
