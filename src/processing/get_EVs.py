@@ -22,16 +22,18 @@ def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_po
     print('Total population for place: ', total_population_for_place)
 
     
-    total_evs_in_portugal = 50000
+    total_evs_in_portugal = 51774 # (https://www.ine.pt)
 
     average_ev_price_portugal = 35000
     number_of_evs_in_portugal = total_evs_in_portugal * (average_ev_price_portugal / average_ev_price)
 
     population_in_porto = 234438 # (https://www.pordata.pt/Municipios/Popula%C3%A7%C3%A3o+residente+segundo+os+Censos+total+e+por+grandes+grupos+et%C3%A1rios-390)
-    population_in_portugal = 10407707 # (https://www.pordata.pt/Municipios/Popula%C3%A7%C3%A3o+residente+segundo+os+Censos+total+e+por+grandes+grupos+et%C3%A1rios-390)
-    population_ratio_porto_portugal = population_in_porto / population_in_portugal
+    #population_in_portugal = 10407707 # (https://www.pordata.pt/Municipios/Popula%C3%A7%C3%A3o+residente+segundo+os+Censos+total+e+por+grandes+grupos+et%C3%A1rios-390)
+    #population_ratio_porto_portugal = population_in_porto / population_in_portugal
     
-    evs_per_capita_porto = (number_of_evs_in_portugal * population_ratio_porto_portugal) / population_in_porto
+    purchasing_power_porto = 0.03343 # (https://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_indicadores&indOcorrCod=0008615&contexto=bd)
+
+    evs_per_capita_porto = (number_of_evs_in_portugal * purchasing_power_porto) / population_in_porto
 
     price_per_sqm_porto = 2981 # https://www.idealista.pt/media/relatorios-preco-habitacao/venda/porto/porto/historico/
     ratio_sqm_place  = price_per_sqm / price_per_sqm_porto
