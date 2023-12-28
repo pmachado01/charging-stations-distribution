@@ -80,6 +80,9 @@ def filter_stations_data(data):
         # Add new attribute 'chargers'
         station["chargers"] = total_connectors
 
+        # Remove commas from the 'name' attribute
+        station["name"] = station["name"].replace(",", "")
+
 
 def main():
     arg_parser = argparse.ArgumentParser()

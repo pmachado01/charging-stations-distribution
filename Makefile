@@ -34,6 +34,11 @@ endif
 simulation: data/processed/centroids.csv data/processed/stations.csv
 	mesa runserver src/simulation
 
+# Process output data
+output_processing: data/processed/centroids.csv data/processed/stations.csv
+	python3 -m src.processing.output.stations
+	python3 -m src.processing.output.cars
+
 # Clean generated files
 clean:
 	rm data/processed/*
