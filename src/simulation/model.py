@@ -16,7 +16,7 @@ class ChargingStationModel(mesa.Model):
         # Create a temporary dictionary to hold the number of cars per centroid
         centroids_dict = {}
         for index, row in centroids_data.iterrows():
-            centroids_dict[row["SECSSNUM21"]] = row["number_of_ev_cars"]
+            centroids_dict[row["OBJECTID"]] = row["number_of_ev_cars"]
         
         # Create car agents based on the centroids data
         for i in range(self.num_car_agents):

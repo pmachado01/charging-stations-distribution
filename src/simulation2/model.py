@@ -17,20 +17,24 @@ class ChargingStationModel(mesa.Model):
         self.running = True
 
         ac = mg.AgentCreator(CentroidAgent, self, crs="epsg:4326")
-        ac_station = mg.AgentCreator(ChargingStationAgent, self, crs="epsg:4326")
+
+        centroid_agents = {}
 
         # Create centroid agents based on the centroids data
         for index, row in centroids_data.iterrows():
             geometry = wkt.loads(row["WKT"])
-            centroid = ac.create_agent(geometry=geometry, unique_id=index)
+            centroid = ac.create_agent(geometry=geometry, unique_id=row["OBJECTID"])
             self.space.add_agents(centroid)
             self.schedule.add(centroid)
+            centroid_agents[row["OBJECTID"]] = centroid
         
         # Create charging station agents based on the stations data
         for index, row in stations_data.iterrows():
             # Create geometry circle with small radius
-            geometry = shapely.geometry.Point(row["longitude"], row["latitude"]).buffer(0.0005)
-            charging_station = ac_station.create_agent(geometry=geometry, unique_id=-index-1)
+            geometry = shapely.geometry.Point(row["longitude"], row["latitude"]).buffer(0.0003)
+            number_of_charging_ports = row["chargers"]
+            charging_station = ChargingStationAgent(row["name"], self, geometry, "epsg:4326", number_of_charging_ports)
+            centroid_agents[row["nearest_centroid"]].add_station(charging_station)
             self.space.add_agents(charging_station)
             self.schedule.add(charging_station)
 

@@ -46,8 +46,10 @@ class ChargeRecord:
 class ChargingStationAgent(mg.GeoAgent):
     """A charging station agent."""
 
-    def __init__(self, unique_id, model, geometry, crs):
+    def __init__(self, unique_id, model, geometry, crs, number_of_charging_ports):
         super().__init__(unique_id, model, geometry, crs)
+        self.charging_power = 750  # In km/h
+        self.number_of_charging_ports = number_of_charging_ports
         
         self.charging_cars = []  # [ChargeRecord]
         self.waiting_cars = []  # [ChargeRecord]
@@ -119,4 +121,4 @@ class ChargingStationAgent(mg.GeoAgent):
     def log_usage_history(self, usage, timestamp):
         """Log the usage history of the charging station."""
         with open(Constants.Logs.OUPUT_STATIONS_FILE_PATH, "a") as file:
-            file.write("{},{},{}\n".format(self.name, timestamp, usage))
+            file.write("{},{},{}\n".format(self.unique_id, timestamp, usage))
