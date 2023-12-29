@@ -16,10 +16,10 @@ def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_po
         int: The estimated number of EVs in the given place.
     """
 
-    print('Price per sqm: ', price_per_sqm)
-    print('Population: ', population)
-    print('Average EV price: ', average_ev_price)
-    print('Total population for place: ', total_population_for_place)
+    # print('Price per sqm: ', price_per_sqm)
+    # print('Population: ', population)
+    # print('Average EV price: ', average_ev_price)
+    # print('Total population for place: ', total_population_for_place)
 
     
     total_evs_in_portugal = 51774 # (https://www.ine.pt)
@@ -39,7 +39,7 @@ def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_po
     ratio_sqm_place  = price_per_sqm / price_per_sqm_porto
     number_of_evs_place = ceil(evs_per_capita_porto * ratio_sqm_place * total_population_for_place)
 
-    print('Number of EVs: ', number_of_evs_place)
+    # print('Number of EVs: ', number_of_evs_place)
 
     return number_of_evs_place
 
@@ -78,7 +78,7 @@ def add_ev_number_column(centroids_df):
         centroids_df.loc[index, 'number_of_ev_cars'] = estimate_number_of_evs(sqm_price, row['N_INDIVIDUOS']-row['N_INDIVIDUOS_0_14'], average_ev_price, total_population_for_place)
 
     # Print the sum of the estimated number of EVs in the given place.
-    print('Estimated number of EVs in Porto: ', centroids_df['number_of_ev_cars'].sum())
+    # print('Estimated number of EVs in Porto: ', centroids_df['number_of_ev_cars'].sum())
 
     return centroids_df
 

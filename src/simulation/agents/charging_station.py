@@ -28,7 +28,7 @@ class ChargeRecord:
 
     def log_charging_record(self):
         """Log the charging record."""
-        with open(Constants.Data.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH, "a", encoding="utf-8") as file:
+        with open(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH, "a", encoding="utf-8") as file:
             file.write("{},{},{},{},{},{},{},{},{},{},{}\n".format(self.car.unique_id,
                                                              self.car.centroid,
                                                              self.charging_station.name,
@@ -123,5 +123,5 @@ class ChargingStationAgent(mesa.Agent):
 
     def log_usage_history(self, usage, timestamp):
         """Log the usage history of the charging station."""
-        with open(Constants.Data.RAW_OUPUT_STATIONS_FILE_PATH, "a") as file:
+        with open(Constants.Logs.OUPUT_STATIONS_FILE_PATH, "a") as file:
             file.write("{},{},{}\n".format(self.name, timestamp, usage))

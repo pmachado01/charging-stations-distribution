@@ -127,5 +127,5 @@ class CarAgent(mesa.Agent):
 
     def log_dead(self):
         """Log the car as dead."""
-        with open(Constants.Data.RAW_OUPUT_DEAD_CARS_FILE_PATH, "a") as file:
+        with open(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH, "a") as file:
             file.write("{},{},{}\n".format(self.unique_id, self.model.schedule.time, self.current_battery_level))
