@@ -38,6 +38,8 @@ class ChargingStationModel(mesa.Model):
             self.space.add_agents(charging_station)
             self.schedule.add(charging_station)
 
+        # TODO: Create car agents based on the centroids data
+
 
     def step(self):
         """Advance the model by one step."""

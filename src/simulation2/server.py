@@ -8,6 +8,7 @@ from .agents.centroid import CentroidAgent
 from .model import ChargingStationModel
 import os
 
+#TODO: Improve agent colors
 def agent_portrayal(agent):
     if isinstance(agent, ChargingStationAgent):
         portrayal = {"color": "Red"}
