@@ -71,6 +71,8 @@ class ChargingStationModel(mesa.Model):
         # Remove distances greater than max_distance
         distances = distances[distances < max_distance]
 
+        # Sort distances
+
         # Get nearest station that is free
         for centroid_id in distances.columns:
             # ... 
