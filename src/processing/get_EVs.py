@@ -37,7 +37,7 @@ def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_po
 
     price_per_sqm_porto = 2981 # https://www.idealista.pt/media/relatorios-preco-habitacao/venda/porto/porto/historico/
     ratio_sqm_place  = price_per_sqm / price_per_sqm_porto
-    number_of_evs_place = ceil(evs_per_capita_porto * ratio_sqm_place * total_population_for_place)
+    number_of_evs_place = round(evs_per_capita_porto * ratio_sqm_place * total_population_for_place)
 
     # print('Number of EVs: ', number_of_evs_place)
 
