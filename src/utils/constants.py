@@ -1,12 +1,15 @@
+import os
+
 class Constants:
     class Data:  # Data constants
-        RAW_DATA_PATH = "data/raw"
-        PROCESSED_DATA_PATH = "data/processed"
+        RAW_DATA_PATH = os.path.join("data", "raw")
+        PROCESSED_DATA_PATH = os.path.join("data", "processed")
         PROCESSED_CENTROIDS_FILE_NAME = "centroids.csv"
         PROCESSED_STATIONS_FILE_NAME = "stations.csv"
         DISTANCE_MATRIX_FILE_NAME = "distance_matrix.csv"
-        PROCESSED_STATIONS_FILE_PATH = "data/processed/stations.csv"
-        PROCESSED_CENTROIDS_FILE_PATH = "data/processed/centroids.csv"
+        PROCESSED_CENTROIDS_FILE_PATH = os.path.join(PROCESSED_DATA_PATH, PROCESSED_CENTROIDS_FILE_NAME)
+        PROCESSED_STATIONS_FILE_PATH = os.path.join(PROCESSED_DATA_PATH, PROCESSED_STATIONS_FILE_NAME)
+        DISTANCE_MATRIX_FILE_PATH = os.path.join(PROCESSED_DATA_PATH, DISTANCE_MATRIX_FILE_NAME)
 
     class Logs:
         OUPUT_STATIONS_FILE_PATH = "logs/stations.csv"

@@ -52,17 +52,17 @@ stations_data = Files.read_csv_file(stations_file_path)
 centroids_file_path = Constants.Data.PROCESSED_CENTROIDS_FILE_PATH
 centroids_data = Files.read_csv_file(centroids_file_path)
 
-total_ev_cars = 0
-for index, row in centroids_data.iterrows():
-        total_ev_cars += int(row["number_of_ev_cars"])
+#TODO: Add non retilinea path factor
+distance_matrix_file_path = Constants.Data.DISTANCE_MATRIX_FILE_PATH
+distance_matrix_data = Files.read_csv_file(distance_matrix_file_path)
 
 map_element = mg.visualization.MapModule(agent_portrayal, [41.17, -8.61], 12, 800, 500)
 
 model_params = {
     "stations_data": stations_data,
     "centroids_data": centroids_data,
-    "N_cars": total_ev_cars,
-    "N_charging_stations": len(stations_data)
+    "N_charging_stations": len(stations_data),
+    "distance_matrix_data" : distance_matrix_data
 }
 
 server = mesa.visualization.ModularServer(ChargingStationModel,

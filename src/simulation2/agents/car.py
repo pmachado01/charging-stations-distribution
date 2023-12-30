@@ -2,13 +2,15 @@ import mesa
 from src.utils.constants import Constants
 from .charging_station import ChargingStationAgent
 import os
+import random
 
 class CarAgent(mesa.Agent):
     """A car agent."""
 
     def __init__(self, unique_id, model, centroid, initial_battery_level, full_battery_range, target_battery_level, alert_battery_level):
         super().__init__(unique_id, model)
-        self.centroid = centroid
+        self.initial_centroid = centroid
+        self.current_centroid = self.initial_centroid
         
         self.target_battery_level = target_battery_level  # In percentage [0, 1]
         self.alert_battery_level = alert_battery_level  # in percentage [0, 1]
@@ -48,31 +50,38 @@ class CarAgent(mesa.Agent):
             self.current_battery_level = 0
 
     def move(self):
-        """Move the car to a random adjacent cell or to the charging station."""
-        self.travel(5)  # Travel 5 km
+        """Move the car."""
+        # Since each tick represents a minute, assuming a travel speed between 30km/h and 120km/h
+        # each car should move between 0.5 and 2 km
+        
+        travel_distance = random.randrange(0.5, 2)
+        self.travel(travel_distance)
 
     def find_charging_station(self):
         """Find a charging station."""
+        self.model.ask_for
+
+
+
+
+
+
         #TODO: New way to find the charging station
-        
-        charging_stations = self.model.schedule.agents_by_type[ChargingStationAgent]
-        charging_stations = list(charging_stations.values())
-        
-        # Find random charging station TODO: Find the nearest charging station
-        charging_station = self.random.choice(charging_stations)
 
-        # TODO: Set the distance to the charging station
-        distance_to_charging_station = 0.3
-        if distance_to_charging_station > self.calculate_current_range():
-            #print("Car {} cannot reach the charging station.".format(self.unique_id))
-            self.kill()
-            return
         
-        self.destination_charging_station = charging_station
-        self.start_time_searching_charging_station = self.model.schedule.time
+
+        # # TODO: Set the distance to the charging station
+        # distance_to_charging_station = 0.3
+        # if distance_to_charging_station > self.calculate_current_range():
+        #     #print("Car {} cannot reach the charging station.".format(self.unique_id))
+        #     self.kill()
+        #     return
+        
+        # self.destination_charging_station = charging_station
+        # self.start_time_searching_charging_station = self.model.schedule.time
 
 
-    def kill(self): 
+    def kill(self):
         self.dead = True
         self.log_dead()
 
@@ -87,9 +96,11 @@ class CarAgent(mesa.Agent):
         if not self.can_travel():
             return
         
-        #TODO: Find some way to avoid the car from being always on travel
-        self.move()
+        # Since cars are not always moving
+        if random.random() < 0.5:  # TODO: CONST
+            self.move()
 
+        # Needs to find a charging station to charge
         if self.current_battery_level < self.alert_battery_level and self.destination_charging_station is None:
             #print("Car {} needs to be charged.".format(self.unique_id))
             #print("Current battery level: {}".format(self.current_battery_level))
