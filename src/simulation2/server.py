@@ -11,9 +11,7 @@ import os
 #TODO: Improve agent colors
 def agent_portrayal(agent):
     if isinstance(agent, ChargingStationAgent):
-        portrayal = {"Filled": "true",
-                     "Layer": 0,
-                     "r": 0.5}
+        portrayal = {"filled": "true"}
         usage = agent.get_usage()
         if usage > 0.8:
             portrayal["color"] = "red"
@@ -25,7 +23,7 @@ def agent_portrayal(agent):
             portrayal["color"] = "green"
     elif isinstance(agent, CentroidAgent):
         portrayal = {"color": "Blue",
-                     "Filled": "false"}
+                     "filled": "false"}
     else:
         portrayal = {"color": "gray"}
 
