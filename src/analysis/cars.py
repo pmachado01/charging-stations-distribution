@@ -7,13 +7,12 @@ import os
 class ChargeRecord:
     """A charging record."""
 
-    def __init__(self, car_id, car_centroid, charging_station_name, charging_station_centroid, travelled_distance, time_spent_travelling, arrival_time, initial_battery_level, final_battery_level, start_time, end_time):
+    def __init__(self, car_id, car_centroid, charging_station_name, charging_station_centroid, travelled_distance, arrival_time, initial_battery_level, final_battery_level, start_time, end_time):
         self.car_id = car_id
         self.car_centroid = car_centroid
         self.charging_station_name = charging_station_name
         self.charging_station_centroid = charging_station_centroid
         self.travelled_distance = travelled_distance
-        self.time_spent_travelling = time_spent_travelling
         self.arrival_time = arrival_time
         self.initial_battery_level = initial_battery_level
         self.final_battery_level = final_battery_level
@@ -57,7 +56,6 @@ def calculate_single_metrics(charging_records_dict):
 
         for charging_record in charging_records:
             total_travelled_distance += charging_record.travelled_distance
-            total_time_spent_travelling += charging_record.time_spent_travelling
             total_time_spent_waiting += charging_record.start_time - charging_record.arrival_time
 
         average_travelled_distance[car_id] = total_travelled_distance / len(charging_records)
