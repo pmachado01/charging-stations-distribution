@@ -31,4 +31,18 @@ class Constants:
         AVERAGE_BATTERY_LEVEL_GRAPH_FILE_PATH = "logs/graphs/average_battery_level_graph.png"
         AVERAGE_TIMESTAMP_TO_DIE_GRAPH_FILE_PATH = "logs/graphs/average_timestamp_to_die_graph.png"
 
-        
+    class Simulation:
+        INITIAL_BATTERY_LEVEL_MIN   = 0.1  # In percentage
+        INITIAL_BATTERY_LEVEL_MAX   = 0.3  # In percentage
+        FULL_BATTERY_RANGE_MIN      = 100  # In km
+        FULL_BATTERY_RANGE_MAX      = 200  # In km
+        TARGET_BATTERY_LEVEL_MIN    = 0.8  # In percentage
+        TARGET_BATTERY_LEVEL_MAX    = 1    # In percentage
+        ALERT_BATTERY_LEVEL_MIN     = 0.15 # In percentage
+        ALERT_BATTERY_LEVEL_MAX     = 0.3  # In percentage
+        STATION_CHARGING_POWER      = 950  # In km/h
+        CAR_MOVING_PROBABILITY      = 1.0 # Probability of the car moving in each step of the simulation
+        CAR_MOVING_SPEED_MIN        = 50   # In km/h
+        CAR_MOVING_SPEED_MAX        = 200  # In km/h
+        DISIREABLE_DISTANCE_MIN     = 2    # In km
+        DISIREABLE_DISTANCE_MAX     = 5    # In km

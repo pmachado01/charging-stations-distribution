@@ -11,19 +11,20 @@ import os
 #TODO: Improve agent colors
 def agent_portrayal(agent):
     if isinstance(agent, ChargingStationAgent):
-        portrayal = {"color": "Red"}
+        portrayal = {"Filled": "true",
+                     "Layer": 0,
+                     "r": 0.5}
+        usage = agent.get_usage()
+        if usage > 0.8:
+            portrayal["color"] = "red"
+        elif usage > 0.5:
+            portrayal["color"] = "orange"
+        elif usage > 0.2:
+            portrayal["color"] = "yellow"
+        else:
+            portrayal["color"] = "green"
     elif isinstance(agent, CentroidAgent):
         portrayal = {"color": "Blue"}
-    elif isinstance(agent, CarAgent):
-        portrayal = {"Shape": "circle",
-                     "Filled": "true",
-                     "Layer": 0,
-                     "color": "red",
-                     "r": 0.5}
-        if agent.current_battery_level > agent.alert_battery_level:
-            portrayal["color"] = "green"
-        else:
-            portrayal["color"] = "red"
     else:
         portrayal = {"color": "gray"}
 

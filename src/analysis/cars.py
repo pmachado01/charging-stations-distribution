@@ -30,14 +30,13 @@ def extract_data_charging_records(charging_records_data):
         charging_station_name = row["charging_station_name"]
         charging_station_centroid = row["charging_station_centroid"]
         travelled_distance = row["travelled_distance"]
-        time_spent_travelling = row["time_spent_travelling"]
         arrival_time = row["arrival_time"]
         initial_battery_level = row["initial_battery_level"]
         final_battery_level = row["final_battery_level"]
         start_time = row["start_time"]
         end_time = row["end_time"]
 
-        charging_record = ChargeRecord(car_id, car_centroid, charging_station_name, charging_station_centroid, travelled_distance, time_spent_travelling, arrival_time, initial_battery_level, final_battery_level, start_time, end_time)
+        charging_record = ChargeRecord(car_id, car_centroid, charging_station_name, charging_station_centroid, travelled_distance, arrival_time, initial_battery_level, final_battery_level, start_time, end_time)
 
         if car_id not in charging_records_dict:
             charging_records_dict[car_id] = []
@@ -49,7 +48,6 @@ def extract_data_charging_records(charging_records_data):
 def calculate_single_metrics(charging_records_dict):
     # Calculate travel distance to charging station, time spent travelling to charging station and time spent waiting for a charging port
     average_travelled_distance = {} # {car_id: average_travelled_distance}
-    average_time_spent_travelling = {} # {car_id: average_time_spent_travelling}
     average_time_spent_waiting = {} # {car_id: average_time_spent_waiting}
     
     for car_id, charging_records in charging_records_dict.items():
@@ -63,29 +61,25 @@ def calculate_single_metrics(charging_records_dict):
             total_time_spent_waiting += charging_record.start_time - charging_record.arrival_time
 
         average_travelled_distance[car_id] = total_travelled_distance / len(charging_records)
-        average_time_spent_travelling[car_id] = total_time_spent_travelling / len(charging_records)
         average_time_spent_waiting[car_id] = total_time_spent_waiting / len(charging_records)
 
-    return average_travelled_distance, average_time_spent_travelling, average_time_spent_waiting
+    return average_travelled_distance, average_time_spent_waiting
 
 
 def calculate_global_metrics(charging_records_dict):
-    # Calculate total average travel distance to charging station, time spent travelling to charging station and time spent waiting for a charging port for all cars
+    # Calculate total average travel distance to charging station and time spent waiting for a charging port for all cars
     total_average_travelled_distance = 0
-    total_average_time_spent_travelling = 0
     total_average_time_spent_waiting = 0
 
     for car_id, charging_records in charging_records_dict.items():
         for charging_record in charging_records:
             total_average_travelled_distance += charging_record.travelled_distance
-            total_average_time_spent_travelling += charging_record.time_spent_travelling
             total_average_time_spent_waiting += charging_record.start_time - charging_record.arrival_time
 
     total_average_travelled_distance /= len(charging_records_dict)
-    total_average_time_spent_travelling /= len(charging_records_dict)
     total_average_time_spent_waiting /= len(charging_records_dict)
     
-    return total_average_travelled_distance, total_average_time_spent_travelling, total_average_time_spent_waiting
+    return total_average_travelled_distance, total_average_time_spent_waiting
 
 
 def plot_average_travelled_distance(average_travelled_distance):
@@ -114,33 +108,6 @@ def plot_average_travelled_distance(average_travelled_distance):
     
     plt.tight_layout()
     plt.savefig(Constants.Graphs.AVERAGE_TRAVELLED_DISTANCE_GRAPH_FILE_PATH)
-    
-
-def plot_average_time_spent_travelling(average_time_spent_travelling):
-    # Plotting
-    plt.figure(figsize=(10, 6))
-
-    temp_average_time_spent_travelling = {}
-    for car_id, time_spent in average_time_spent_travelling.items():
-        if time_spent > 0:
-            temp_average_time_spent_travelling[car_id] = time_spent
-    
-    # Extract car IDs and time spent
-    car_ids = list(temp_average_time_spent_travelling.keys())
-    time_spent = list(temp_average_time_spent_travelling.values())
-    
-    # Use bar plot with car IDs on x-axis
-    plt.bar(range(len(car_ids)), time_spent)
-    
-    plt.xlabel('Car ID')
-    plt.ylabel('Average Time Spent Travelling (minutes)')
-    plt.title('Average Time Spent Travelling to Charging Station')
-    
-    # Set x-axis ticks to be car IDs
-    plt.xticks(range(len(car_ids)), car_ids, rotation=45)
-    
-    plt.tight_layout()
-    plt.savefig(Constants.Graphs.AVERAGE_TIME_SPENT_TRAVELLING_GRAPH_FILE_PATH)
 
 
 def plot_average_time_spent_waiting(average_time_spent_waiting):
@@ -170,17 +137,17 @@ def plot_average_time_spent_waiting(average_time_spent_waiting):
     plt.savefig(Constants.Graphs.AVERAGE_TIME_SPENT_WAITING_GRAPH_FILE_PATH)
 
 
-def save_charging_records(charging_records_dict, average_travelled_distance, average_time_spent_travelling, average_time_spent_waiting, total_average_travelled_distance, total_average_time_spent_travelling, total_average_time_spent_waiting):
+def save_charging_records(charging_records_dict, average_travelled_distance, average_time_spent_waiting, total_average_travelled_distance, total_average_time_spent_waiting):
     # Delete the file if it already exists
     if os.path.exists(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH):
         os.remove(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH)
 
     # Save results to file
     with open(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH, "w") as file:
-        file.write("car_id,average_travelled_distance,average_time_spent_travelling,average_time_spent_waiting\n")
+        file.write("car_id,average_travelled_distance,average_time_spent_waiting\n")
         for car_id, charging_records in charging_records_dict.items():
-            file.write("{},{},{},{}\n".format(car_id, average_travelled_distance[car_id], average_time_spent_travelling[car_id], average_time_spent_waiting[car_id]))
-        file.write("total,{},{},{}\n".format(total_average_travelled_distance, total_average_time_spent_travelling, total_average_time_spent_waiting))
+            file.write("{},{},{},{}\n".format(car_id, average_travelled_distance[car_id], average_time_spent_waiting[car_id]))
+        file.write("total,{},{},{}\n".format(total_average_travelled_distance, total_average_time_spent_waiting))
 
 
 def extract_data_dead_cars(dead_cars_data):
@@ -280,19 +247,18 @@ def main():
     charging_records_dict = extract_data_charging_records(charging_records_data)
 
     # Calculate single metrics for each car
-    average_travelled_distance, average_time_spent_travelling, average_time_spent_waiting = calculate_single_metrics(charging_records_dict)
+    average_travelled_distance, average_time_spent_waiting = calculate_single_metrics(charging_records_dict)
 
     # Calculate global metrics for all cars
-    total_average_travelled_distance, total_average_time_spent_travelling, total_average_time_spent_waiting = calculate_global_metrics(charging_records_dict)
+    total_average_travelled_distance, total_average_time_spent_waiting = calculate_global_metrics(charging_records_dict)
 
     # Draw a line chart of the average travel distance to charging station, time spent travelling to charging station and time spent waiting for a charging port for each car
     # Draw a bar chart of the total average travel distance to charging station, time spent travelling to charging station and time spent waiting for a charging port for all cars
     plot_average_travelled_distance(average_travelled_distance)
-    plot_average_time_spent_travelling(average_time_spent_travelling)
     plot_average_time_spent_waiting(average_time_spent_waiting)
 
     # Save results to file
-    save_charging_records(charging_records_dict, average_travelled_distance, average_time_spent_travelling, average_time_spent_waiting, total_average_travelled_distance, total_average_time_spent_travelling, total_average_time_spent_waiting)
+    save_charging_records(charging_records_dict, average_travelled_distance, average_time_spent_waiting, total_average_travelled_distance, total_average_time_spent_waiting)
 
     ##########################################################
     # Analyse the data on dead cars

@@ -6,13 +6,12 @@ import os
 class ChargeRecord:
     """A charging record."""
 
-    def __init__(self, car, charging_station, travelled_distance, time_spent_travelling, arrival_time):
+    def __init__(self, car, charging_station, travelled_distance, arrival_time):
         self.car = car
         self.initial_battery_level = car.current_battery_level
         self.final_battery_level = None
         self.charging_station = charging_station  # TODO: Check if is necessary
         self.travelled_distance = travelled_distance
-        self.time_spent_travelling = time_spent_travelling
         self.arrival_time = arrival_time
         self.start_time = None
         self.end_time = None
@@ -35,7 +34,6 @@ class ChargeRecord:
                                                              self.charging_station.name,
                                                              self.charging_station.centroid,
                                                              self.travelled_distance,
-                                                             self.time_spent_travelling,
                                                              self.arrival_time,
                                                              self.initial_battery_level,
                                                              self.final_battery_level,
@@ -46,9 +44,10 @@ class ChargeRecord:
 class ChargingStationAgent(mg.GeoAgent):
     """A charging station agent."""
 
-    def __init__(self, unique_id, model, geometry, crs, number_of_charging_ports):
+    def __init__(self, unique_id, model, geometry, crs, centroid, number_of_charging_ports):
         super().__init__(unique_id, model, geometry, crs)
-        self.charging_power = 750  # In km/h
+        self.charging_power = Constants.Simulation.STATION_CHARGING_POWER  # In km/h
+        self.centroid = centroid
         self.number_of_charging_ports = number_of_charging_ports
         
         self.charging_cars = []  # [ChargeRecord]
@@ -56,10 +55,10 @@ class ChargingStationAgent(mg.GeoAgent):
 
         self.usage_history = []
 
-    def new_car_arrived(self, car, travelled_distance, time_spent_travelling):
+    def new_car_arrived(self, car, travelled_distance):
         """A new car has arrived at the charging station."""
         car.is_on_charging_station = True
-        chargeRecord = ChargeRecord(car, self, travelled_distance, time_spent_travelling, self.model.schedule.time)
+        chargeRecord = ChargeRecord(car, self, travelled_distance, self.model.schedule.time)
 
         if self.number_of_charging_ports > len(self.charging_cars):  # There is a free charging port
             self.add_car_to_charging(chargeRecord, self.model.schedule.time)
@@ -92,6 +91,14 @@ class ChargingStationAgent(mg.GeoAgent):
     def remove_from_charging(self, chargeRecord):
         self.charging_cars.remove(chargeRecord)
         chargeRecord.car.is_on_charging_station = False
+    
+    def is_free(self):
+        """Check if the charging station is free."""
+        return len(self.charging_cars) < self.number_of_charging_ports
+    
+    def get_usage(self):
+        """Get the usage of the charging station."""
+        return len(self.charging_cars)/self.number_of_charging_ports
         
     def step(self):
         """Advance the agent by one step."""

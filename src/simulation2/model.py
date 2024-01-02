@@ -5,6 +5,8 @@ import shapely.wkt as wkt
 from .agents.centroid import CentroidAgent
 from .agents.charging_station import ChargingStationAgent
 from .agents.car import CarAgent
+from ..utils.constants import Constants
+
 
 
 class ChargingStationModel(mesa.Model):
@@ -19,7 +21,7 @@ class ChargingStationModel(mesa.Model):
 
         ac = mg.AgentCreator(CentroidAgent, self, crs="epsg:4326")
 
-        centroid_agents = {}
+        self.centroid_agents = {}
 
         # Create centroid agents based on the centroids data
         for index, row in centroids_data.iterrows():
@@ -27,15 +29,17 @@ class ChargingStationModel(mesa.Model):
             centroid = ac.create_agent(geometry=geometry, unique_id=row["OBJECTID"])
             self.space.add_agents(centroid)
             self.schedule.add(centroid)
-            centroid_agents[row["OBJECTID"]] = centroid
+            self.centroid_agents[row["OBJECTID"]] = centroid
         
         # Create charging station agents based on the stations data
         for index, row in stations_data.iterrows():
             # Create geometry circle with small radius
             geometry = shapely.geometry.Point(row["longitude"], row["latitude"]).buffer(0.0003)
+            centroid = self.centroid_agents[row["nearest_centroid"]]
             number_of_charging_ports = row["chargers"]
-            charging_station = ChargingStationAgent(row["name"], self, geometry, "epsg:4326", number_of_charging_ports)
-            centroid_agents[row["nearest_centroid"]].add_station(charging_station)
+            charging_station = ChargingStationAgent(row["name"], self, geometry, "epsg:4326", centroid, number_of_charging_ports)
+            
+            centroid.add_station(charging_station)
             self.space.add_agents(charging_station)
             self.schedule.add(charging_station)
 
@@ -43,15 +47,16 @@ class ChargingStationModel(mesa.Model):
         
         # Create car agents based on the centroids data
         for index, row in centroids_data.iterrows():
-            for i in range(row["number_of_ev_cars"]):
-                centroid = centroid_agents[row["OBJECTID"]]
+            for i in range(int(row["number_of_ev_cars"])):
+                centroid = self.centroid_agents[row["OBJECTID"]]
 
-                initial_battery_level = self.random.uniform(0.5, 1)
-                full_battery_range = self.random.uniform(300, 600)
-                target_battery_level = self.random.uniform(0.8, 1)
-                alert_battery_level = self.random.uniform(0.15, 0.3)
+                initial_battery_level = self.random.uniform(Constants.Simulation.INITIAL_BATTERY_LEVEL_MIN, Constants.Simulation.INITIAL_BATTERY_LEVEL_MAX)
+                full_battery_range = self.random.uniform(Constants.Simulation.FULL_BATTERY_RANGE_MIN, Constants.Simulation.FULL_BATTERY_RANGE_MAX)
+                target_battery_level = self.random.uniform(Constants.Simulation.TARGET_BATTERY_LEVEL_MIN, Constants.Simulation.TARGET_BATTERY_LEVEL_MAX)
+                alert_battery_level = self.random.uniform(Constants.Simulation.ALERT_BATTERY_LEVEL_MIN, Constants.Simulation.ALERT_BATTERY_LEVEL_MAX)
+                desireable_distance = self.random.uniform(Constants.Simulation.DISIREABLE_DISTANCE_MIN, Constants.Simulation.DISIREABLE_DISTANCE_MAX)
 
-                car = CarAgent(i, self, centroid, initial_battery_level, full_battery_range, target_battery_level, alert_battery_level)
+                car = CarAgent(f'car_{row["OBJECTID"]}_{i}', self, centroid, initial_battery_level, full_battery_range, target_battery_level, alert_battery_level, desireable_distance)
                 self.schedule.add(car)
 
 
@@ -61,20 +66,40 @@ class ChargingStationModel(mesa.Model):
 
 
     def find_optimal_charging_station(self, current_centroid_unique_id, max_distance, desireable_distance):
-        # Since its a matrix we need to store the header
-        header = self.distance_matrix_data.columns
+        # Get the head of the distance matrix into a list
+        distance_matrix_head = self.distance_matrix_data.columns.tolist()
 
-        index = header.index(current_centroid_unique_id)
-        
-        distances = self.distance_matrix_data.iloc[index]
+        print(distance_matrix_head)
+
+        # Get the index of the current centroid in the distance matrix
+        current_centroid_index = distance_matrix_head.index(current_centroid_unique_id)
+
+        # Get the distances from the current centroid to all the other centroids
+        distances = self.distance_matrix_data[current_centroid_index]        
 
         # Remove distances greater than max_distance
         distances = distances[distances < max_distance]
+        if len(distances) == 0:
+            return None
 
         # Sort distances
+        distances.sort_values(inplace=True)
 
         # Get nearest station that is free
-        for centroid_id in distances.columns:
-            # ... 
+        for index, distance in distances.items():
+            # If the distance is greater than the desireable distance, break and return the nearest station
+            if distance > desireable_distance:
+                break
 
+            centroid_agent = self.centroid_agents[index]
+            charging_station = centroid_agent.get_charging_station()
+
+            # If it found a free charging station with a distance less than the desireable distance, return it
+            if charging_station is not None:
+                return charging_station, distance
+        
+        centroid = distance_matrix_head[0]
+        centroid_agent = self.centroid_agents[centroid]
+        charging_station = centroid_agent.get_charging_station()
+        return charging_station, distances[0]
         
