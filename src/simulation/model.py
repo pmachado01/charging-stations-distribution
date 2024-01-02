@@ -27,7 +27,7 @@ class ChargingStationModel(mesa.Model):
         for index, row in centroids_data.iterrows():
             geometry = wkt.loads(row["WKT"])
             centroid = ac.create_agent(geometry=geometry, unique_id=row["OBJECTID"])
-            #self.space.add_agents(centroid)
+            self.space.add_agents(centroid)
             self.schedule.add(centroid)
             self.centroid_agents[row["OBJECTID"]] = centroid
         
@@ -40,7 +40,7 @@ class ChargingStationModel(mesa.Model):
             charging_station = ChargingStationAgent(row["name"], self, geometry, "epsg:4326", centroid, number_of_charging_ports)
             
             centroid.add_station(charging_station)
-            #self.space.add_agents(charging_station)
+            self.space.add_agents(charging_station)
             self.schedule.add(charging_station)
         
         # Create car agents based on the centroids data
