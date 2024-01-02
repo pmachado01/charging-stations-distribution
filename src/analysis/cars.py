@@ -139,11 +139,11 @@ def plot_average_time_spent_waiting(average_time_spent_waiting):
 
 def save_charging_records(charging_records_dict, average_travelled_distance, average_time_spent_waiting, total_average_travelled_distance, total_average_time_spent_waiting):
     # Delete the file if it already exists
-    if os.path.exists(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH):
-        os.remove(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH)
+    if os.path.exists(Constants.Logs.PROCESSED_OUPUT_CHARGING_RECORDS_FILE_PATH):
+        os.remove(Constants.Logs.PROCESSED_OUPUT_CHARGING_RECORDS_FILE_PATH)
 
     # Save results to file
-    with open(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH, "w") as file:
+    with open(Constants.Logs.PROCESSED_OUPUT_CHARGING_RECORDS_FILE_PATH, "w") as file:
         file.write("car_id,average_travelled_distance,average_time_spent_waiting\n")
         for car_id, charging_records in charging_records_dict.items():
             file.write("{},{},{},{}\n".format(car_id, average_travelled_distance[car_id], average_time_spent_waiting[car_id]))
@@ -225,11 +225,11 @@ def plot_average_timestamp_to_die(dead_cars_dict):
 
 def save_dead_cars(average_battery_level):
     # Delete the file if it already exists
-    if os.path.exists(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH):
-        os.remove(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH)
+    if os.path.exists(Constants.Logs.PROCESSED_OUPUT_DEAD_CARS_FILE_PATH):
+        os.remove(Constants.Logs.PROCESSED_OUPUT_DEAD_CARS_FILE_PATH)
 
     # Save results to file
-    with open(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH, "w") as file:
+    with open(Constants.Logs.PROCESSED_OUPUT_DEAD_CARS_FILE_PATH, "w") as file:
         file.write("car_id,average_battery_level\n")
         for car_id, battery_level in average_battery_level.items():
             file.write("{},{}\n".format(car_id, battery_level))
@@ -238,7 +238,7 @@ def save_dead_cars(average_battery_level):
 def main():
     ##########################################################
     # Analyse the data on charging records
-    charging_records_file_path = Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH
+    charging_records_file_path = Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH
     
     # Read charging records file
     charging_records_data = Files.read_csv_file(charging_records_file_path)
@@ -262,7 +262,7 @@ def main():
 
     ##########################################################
     # Analyse the data on dead cars
-    dead_cars_file_path = Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH
+    dead_cars_file_path = Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH
 
     # Read dead cars file
     dead_cars_data = Files.read_csv_file(dead_cars_file_path)

@@ -104,6 +104,8 @@ class CarAgent(mesa.Agent):
                 self.destination_charging_station.new_car_arrived(self, self.total_distance_to_charging_station)
                 self.destination_charging_station = None
                 self.total_distance_to_charging_station = 0
+
+            return
                 
         
         # Since cars are not always moving
@@ -118,5 +120,5 @@ class CarAgent(mesa.Agent):
 
     def log_dead(self):
         """Log the car as dead."""
-        with open(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH, "a") as file:
+        with open(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH, "a") as file:
             file.write("{},{},{}\n".format(self.unique_id, self.model.schedule.time, self.current_battery_level))

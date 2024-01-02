@@ -12,10 +12,13 @@ class Constants:
         DISTANCE_MATRIX_FILE_PATH = os.path.join(PROCESSED_DATA_PATH, DISTANCE_MATRIX_FILE_NAME)
 
     class Logs:
-        OUPUT_STATIONS_FILE_PATH = "logs/stations.csv"
-        OUPUT_CHARGING_RECORDS_FILE_PATH = "logs/charging_records.csv"
-        OUPUT_DEAD_CARS_FILE_PATH = "logs/dead_cars.csv"
-        OUPUT_TOTAL_STATIONS_FILE_PATH = "logs/total_stations.csv"
+        RAW_OUPUT_STATIONS_FILE_PATH = "logs/stations.csv"
+        PROCESSED_OUPUT_STATIONS_FILE_PATH = "logs/processed_stations.csv"
+        PROCESSED_OUPUT_TOTAL_STATIONS_FILE_PATH = "logs/processed_total_stations.csv"
+        RAW_OUPUT_CHARGING_RECORDS_FILE_PATH = "logs/charging_records.csv"
+        PROCESSED_OUPUT_CHARGING_RECORDS_FILE_PATH = "logs/processed_charging_records.csv"
+        RAW_OUPUT_DEAD_CARS_FILE_PATH = "logs/dead_cars.csv"
+        PROCESSED_OUPUT_DEAD_CARS_FILE_PATH = "logs/processed_dead_cars.csv"
 
     class Graphs:
         GRAPHS_FOLDER_PATH = "logs/graphs"
@@ -32,17 +35,17 @@ class Constants:
         AVERAGE_TIMESTAMP_TO_DIE_GRAPH_FILE_PATH = "logs/graphs/average_timestamp_to_die_graph.png"
 
     class Simulation:
-        INITIAL_BATTERY_LEVEL_MIN   = 0.1  # In percentage
-        INITIAL_BATTERY_LEVEL_MAX   = 0.3  # In percentage
-        FULL_BATTERY_RANGE_MIN      = 100  # In km
-        FULL_BATTERY_RANGE_MAX      = 200  # In km
+        INITIAL_BATTERY_LEVEL_MIN   = 0.5  # In percentage
+        INITIAL_BATTERY_LEVEL_MAX   = 1.0  # In percentage
+        FULL_BATTERY_RANGE_MIN      = 300  # In km
+        FULL_BATTERY_RANGE_MAX      = 700  # In km
         TARGET_BATTERY_LEVEL_MIN    = 0.8  # In percentage
         TARGET_BATTERY_LEVEL_MAX    = 1    # In percentage
         ALERT_BATTERY_LEVEL_MIN     = 0.15 # In percentage
         ALERT_BATTERY_LEVEL_MAX     = 0.3  # In percentage
-        STATION_CHARGING_POWER      = 950  # In km/h
-        CAR_MOVING_PROBABILITY      = 1.0 # Probability of the car moving in each step of the simulation
-        CAR_MOVING_SPEED_MIN        = 50   # In km/h
-        CAR_MOVING_SPEED_MAX        = 200  # In km/h
-        DISIREABLE_DISTANCE_MIN     = 2    # In km
-        DISIREABLE_DISTANCE_MAX     = 5    # In km
+        STATION_CHARGING_POWER      = 500  # In km/h
+        CAR_MOVING_PROBABILITY      = 0.82 # Probability of the car moving in each step of the simulation
+        CAR_MOVING_SPEED_MIN        = 30   # In km/h
+        CAR_MOVING_SPEED_MAX        = 120  # In km/h
+        DESIRABLE_DISTANCE_MIN      = 2    # In km
+        DESIRABLE_DISTANCE_MAX      = 5    # In km

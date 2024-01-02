@@ -28,11 +28,11 @@ class ChargeRecord:
 
     def log_charging_record(self):
         """Log the charging record."""
-        with open(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH, "a", encoding="utf-8") as file:
-            file.write("{},{},{},{},{},{},{},{},{},{},{}\n".format(self.car.unique_id,
-                                                             self.car.centroid,
-                                                             self.charging_station.name,
-                                                             self.charging_station.centroid,
+        with open(Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH, "a", encoding="utf-8") as file:
+            file.write("{},{},{},{},{},{},{},{},{},{}\n".format(self.car.unique_id,
+                                                             self.car.current_centroid.unique_id,
+                                                             self.charging_station.unique_id,
+                                                             self.charging_station.centroid.unique_id,
                                                              self.travelled_distance,
                                                              self.arrival_time,
                                                              self.initial_battery_level,
@@ -127,5 +127,5 @@ class ChargingStationAgent(mg.GeoAgent):
 
     def log_usage_history(self, usage, timestamp):
         """Log the usage history of the charging station."""
-        with open(Constants.Logs.OUPUT_STATIONS_FILE_PATH, "a") as file:
+        with open(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH, "a") as file:
             file.write("{},{},{}\n".format(self.unique_id, timestamp, usage))

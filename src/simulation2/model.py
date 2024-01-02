@@ -54,7 +54,7 @@ class ChargingStationModel(mesa.Model):
                 full_battery_range = self.random.uniform(Constants.Simulation.FULL_BATTERY_RANGE_MIN, Constants.Simulation.FULL_BATTERY_RANGE_MAX)
                 target_battery_level = self.random.uniform(Constants.Simulation.TARGET_BATTERY_LEVEL_MIN, Constants.Simulation.TARGET_BATTERY_LEVEL_MAX)
                 alert_battery_level = self.random.uniform(Constants.Simulation.ALERT_BATTERY_LEVEL_MIN, Constants.Simulation.ALERT_BATTERY_LEVEL_MAX)
-                desireable_distance = self.random.uniform(Constants.Simulation.DISIREABLE_DISTANCE_MIN, Constants.Simulation.DISIREABLE_DISTANCE_MAX)
+                desireable_distance = self.random.uniform(Constants.Simulation.DESIRABLE_DISTANCE_MIN, Constants.Simulation.DESIRABLE_DISTANCE_MAX)
 
                 car = CarAgent(f'car_{row["OBJECTID"]}_{i}', self, centroid, initial_battery_level, full_battery_range, target_battery_level, alert_battery_level, desireable_distance)
                 self.schedule.add(car)
@@ -69,13 +69,11 @@ class ChargingStationModel(mesa.Model):
         # Get the head of the distance matrix into a list
         distance_matrix_head = self.distance_matrix_data.columns.tolist()
 
-        print(distance_matrix_head)
-
         # Get the index of the current centroid in the distance matrix
-        current_centroid_index = distance_matrix_head.index(current_centroid_unique_id)
-
+        current_centroid_index = distance_matrix_head.index(str(current_centroid_unique_id))
+        
         # Get the distances from the current centroid to all the other centroids
-        distances = self.distance_matrix_data[current_centroid_index]        
+        distances = self.distance_matrix_data.iloc[current_centroid_index]
 
         # Remove distances greater than max_distance
         distances = distances[distances < max_distance]
@@ -86,20 +84,26 @@ class ChargingStationModel(mesa.Model):
         distances.sort_values(inplace=True)
 
         # Get nearest station that is free
-        for index, distance in distances.items():
+        for centroid, distance in distances.items():
             # If the distance is greater than the desireable distance, break and return the nearest station
             if distance > desireable_distance:
                 break
 
-            centroid_agent = self.centroid_agents[index]
-            charging_station = centroid_agent.get_charging_station()
+            centroid_agent = self.centroid_agents[int(centroid)]
+            charging_station = centroid_agent.get_available_charging_station()
 
             # If it found a free charging station with a distance less than the desireable distance, return it
             if charging_station is not None:
                 return charging_station, distance
         
-        centroid = distance_matrix_head[0]
-        centroid_agent = self.centroid_agents[centroid]
-        charging_station = centroid_agent.get_charging_station()
-        return charging_station, distances[0]
+        
+        # If it didn't find a free charging station with a distance less than the desireable distance, return the nearest station
+        for centroid, distance in distances.items():
+            centroid_agent = self.centroid_agents[int(centroid)]
+            charging_station = centroid_agent.get_available_charging_station()
+
+            if charging_station is not None:
+                return charging_station, distance
+        
+        return None
         

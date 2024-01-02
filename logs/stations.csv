@@ -1,107 +1,4665 @@
 charging_station_name,timestamp,usage
-PRT-00021,0,0.0
-FEUP-00001,0,0.0
-PRT-00071,0,0.0
-PRT-00134,0,0.0
-CC Parque Nascente,0,0.0
-PRT-00052,0,0.0
-Garagem Porto D'ouro,0,0.0
-Porto Deluxe - GuestHouse,0,0.0
-PRT-00050,0,0.0
-PRT-00180,0,0.0
-PRT-00015,0,0.0
-LoftAbroad Apartments,0,0.0
-MOBI.E - PRT-00103,0,0.0
-IPP-00001/2 - Hospital de São João,0,0.0
-PRT-00060,0,0.0
-NISSAN CAETANO POWER S.A. (Porto),0,0.0
-TESTE WDAO- PRODDD,0,0.0
-PRT-00070,0,0.0
-PRT-00105,0,0.0
-Maison Albar Hotels Le Monumental Palace,0,0.0
-PRT-00014,0,0.0
-PRT-00036,0,0.0
-PRT-00153,0,0.0
 PRT-00101 - PCR - Porto,0,0.0
-Hotel da Música,0,0.0
-PRT-00129,0,0.0
-GDM-00007/8 - Pestana Palácio do Freixo,0,0.0
-comum,0,0.0
-MTS-00046,0,0.0
-PRT-00051,0,0.0
-PRT-00028/29 - Pestana Palácio do Freixo,0,0.0
-PRT-00139,0,0.0
-PRT-00032/33 - Hotel Vile Gale,0,0.0
-PRT-00073,0,0.0
-Vila Foz Hotel Spa,0,0.0
-PRT-00147,0,0.0
-PRT-00069,0,0.0
-PRT-00076,0,0.0
+PRT-00070,0,0.0
 PRT-00001 - PCR - Porto (Av. França),0,0.0
-PRT-00020,0,0.0
-Garagem Porto D'ouro 2 ,0,0.0
-PRT-00160,0,0.0
-Bessa Hotel Boavista,0,0.0
-PRT-00101,0,0.0
-PRT-00030,0,0.0
-Kinda Home - Porto,0,0.0
-PRT-00037,0,0.0
-Nissan Porto ZI,0,0.0
-PRT-00146,0,0.0
-Hotel Teatro - Tesla Destination Charger,0,0.0
-PRT-00096,0,0.0
+Centro Porsche Porto,0,0.0
 GDM-00007,0,0.0
-Bessa Hotel Baixa,0,0.0
-PRT-00046,0,0.0
-PRT-00016,0,0.0
-MOBI.E - PRT-00086,0,0.0
-Via Catarina Porto,0,0.0
-Riera Alta,0,0.0
+PRT-00015,0,0.0
+PRT-00143,0,0.0
 PRT-00142,0,0.0
+PRT-00091 - PCR - Areosa (LIDL),0,0.0
+VORTEX Gingabike - Motocidade.,0,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),0,0.0
+PRT-00022,0,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),0,0.0
+PRT-00146,0,0.0
+PRT-00134,0,0.0
+PRT-00068,0,0.0
+PRT-00139,0,0.0
+PRT-00094,0,0.0
+PRT-00159,0,0.0
+Hotel da Música,0,0.0
+Renault Boavista,0,0.0
+PRT-00144,0,0.0
+PRT-00101,0,0.0
+PRT-00160,0,0.0
+PRT-00097,0,0.0
+MTS-00046,0,0.0
+PRT-00155,0,0.0
+Hotel Vincci Porto,0,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,0,0.0
+PRT-00091,0,0.0
+NISSAN CAETANO POWER S.A. (Porto),0,0.0
+PRT-00021,0,0.0
+TESTE WDAO- PRODDD,0,0.0
+MOBI.E - PRT-00085,0,0.0
+Maison Albar Hotels Le Monumental Palace,0,0.0
+PRT-00154,0,0.0
+PRT-00127,0,0.0
+Porto Deluxe - GuestHouse,0,0.0
+PRT-00171,0,0.0
+PRT-00153,0,0.0
 PRT-00173,0,0.0
 PRT-00001,0,0.0
-PRT-00127,0,0.0
-PRT-00091 - PCR - Areosa (LIDL),0,0.0
-PRT-00096 - PCR - Porto (LIDL J. Bastos),0,0.0
-PRT-00132,0,0.0
-PRT-00019,0,0.0
-PRT-00068,0,0.0
-PRT-00144,0,0.0
-PRT-00020 - PCR - Q8 Circunvalação,0,0.0
-PRT-00094,0,0.0
-GARAGEM CAMOES,0,0.0
-PRT-00170,0,0.0
-Hotel Vincci Porto,0,0.0
-PRT-00062,0,0.0
 MOBI-MTS-00001 -Ceiia,0,0.0
-I-CHARGING TEST,0,0.0
-PRT-00145,0,0.0
-PRT-00013 - PCR - Porto (Av. da França),0,0.0
-PRT-00097,0,0.0
-PRT-00171,0,0.0
-PRT-00141,0,0.0
-Centro Porsche Porto,0,0.0
-PRT-00156,0,0.0
-PRT-00143,0,0.0
-Hotel Crowne Plaza Porto,0,0.0
-PRT-00013,0,0.0
-PRT-00091,0,0.0
-Renault Boavista,0,0.0
-FEUP-00002,0,0.0
-VORTEX Gingabike - Motocidade.,0,0.0
-PRT-00128,0,0.0
-PRT-00028,0,0.0
-Charge point GreenFlux,0,0.0
-PRT-00031,0,0.0
-PRT-00033/34 - Vila Galé Porto Ribeira,0,0.0
-PRT-00017/18,0,0.0
-PRT-00034,0,0.0
-MOBI.E - PRT-00085,0,0.0
-PRT-00022,0,0.0
-PRT-00154,0,0.0
+PRT-00073,0,0.0
+comum,0,0.0
+MOBI.E - PRT-00103,0,0.0
+PRT-00037,0,0.0
+MOBI.E - PRT-00086,0,0.0
+PRT-00046,0,0.0
+Via Catarina Porto,0,0.0
 PRT-00049,0,0.0
+Bessa Hotel Boavista,0,0.0
+Bessa Hotel Baixa,0,0.0
+PRT-00034,0,0.0
+FEUP-00001,0,0.0
+PRT-00147,0,0.0
+PRT-00170,0,0.0
 MTS-00031,0,0.0
-PRT-00159,0,0.0
-PRT-00155,0,0.0
-MOBI.E - PRT-00021 (C.C. Cristal Park),0,0.0
+PRT-00020 - PCR - Q8 Circunvalação,0,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,0,0.0
+PRT-00014,0,0.0
+PRT-00013,0,0.0
+IPP-00001/2 - Hospital de São João,0,0.0
+PRT-00141,0,0.0
+PRT-00028,0,0.0
+PRT-00156,0,0.0
+Hotel Crowne Plaza Porto,0,0.0
+PRT-00031,0,0.0
+PRT-00030,0,0.0
+PRT-00180,0,0.0
+PRT-00013 - PCR - Porto (Av. da França),0,0.0
+FEUP-00002,0,0.0
+PRT-00132,0,0.0
+PRT-00032/33 - Hotel Vile Gale,0,0.0
 PRT-00187,0,0.0
+PRT-00145,0,0.0
+PRT-00020,0,0.0
+I-CHARGING TEST,0,0.0
+PRT-00016,0,0.0
+LoftAbroad Apartments,0,0.0
+PRT-00050,0,0.0
+Vila Foz Hotel Spa,0,0.0
+Garagem Porto D'ouro 2 ,0,0.0
+PRT-00019,0,0.0
+PRT-00051,0,0.0
+Hotel Teatro - Tesla Destination Charger,0,0.0
+PRT-00129,0,0.0
+PRT-00076,0,0.0
+PRT-00071,0,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,0,0.0
+Riera Alta,0,0.0
+Kinda Home - Porto,0,0.0
+PRT-00105,0,0.0
+PRT-00060,0,0.0
+PRT-00128,0,0.0
+GARAGEM CAMOES,0,0.0
+PRT-00052,0,0.0
+CC Parque Nascente,0,0.0
+PRT-00062,0,0.0
+PRT-00096,0,0.0
+PRT-00036,0,0.0
+Charge point GreenFlux,0,0.0
+PRT-00069,0,0.0
+Nissan Porto ZI,0,0.0
+Garagem Porto D'ouro,0,0.0
+PRT-00017/18,0,0.0
+PRT-00173,1,0.0
+CC Parque Nascente,1,0.0
+PRT-00096,1,0.0
+GDM-00007,1,0.0
+Centro Porsche Porto,1,0.0
+Riera Alta,1,0.0
+PRT-00015,1,0.0
+PRT-00076,1,0.0
+PRT-00170,1,0.0
+PRT-00013 - PCR - Porto (Av. da França),1,0.0
+PRT-00127,1,0.0
+PRT-00017/18,1,0.0
+MOBI.E - PRT-00085,1,0.0
+FEUP-00002,1,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),1,0.0
+MOBI.E - PRT-00103,1,0.0
+PRT-00070,1,0.0
+PRT-00094,1,0.0
+Hotel Teatro - Tesla Destination Charger,1,0.0
+PRT-00101 - PCR - Porto,1,0.0
+PRT-00143,1,0.0
+Hotel da Música,1,0.0
+PRT-00145,1,0.0
+comum,1,0.0
+PRT-00091 - PCR - Areosa (LIDL),1,0.0
+PRT-00091,1,0.0
+Garagem Porto D'ouro 2 ,1,0.0
+PRT-00046,1,0.0
+MOBI.E - PRT-00086,1,0.0
+PRT-00034,1,0.0
+PRT-00068,1,0.0
+PRT-00146,1,0.0
+PRT-00050,1,0.0
+Garagem Porto D'ouro,1,0.0
+Charge point GreenFlux,1,0.0
+TESTE WDAO- PRODDD,1,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,1,0.0
+Bessa Hotel Boavista,1,0.0
+PRT-00144,1,0.0
+PRT-00037,1,0.0
+PRT-00187,1,0.0
+PRT-00060,1,0.0
+Porto Deluxe - GuestHouse,1,0.0
+IPP-00001/2 - Hospital de São João,1,0.0
+PRT-00020,1,0.0
+PRT-00156,1,0.0
+PRT-00013,1,0.0
+PRT-00062,1,0.0
+Hotel Crowne Plaza Porto,1,0.0
+PRT-00128,1,0.0
+PRT-00021,1,0.0
+PRT-00073,1,0.0
+Via Catarina Porto,1,0.0
+PRT-00129,1,0.0
+PRT-00105,1,0.0
+PRT-00069,1,0.0
+PRT-00052,1,0.0
+PRT-00016,1,0.0
+Nissan Porto ZI,1,0.0
+NISSAN CAETANO POWER S.A. (Porto),1,0.0
+PRT-00014,1,0.0
+PRT-00160,1,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,1,0.0
+PRT-00154,1,0.0
+I-CHARGING TEST,1,0.0
+PRT-00132,1,0.0
+PRT-00180,1,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),1,0.0
+PRT-00031,1,0.0
+Maison Albar Hotels Le Monumental Palace,1,0.0
+VORTEX Gingabike - Motocidade.,1,0.0
+PRT-00155,1,0.0
+Vila Foz Hotel Spa,1,0.0
+Hotel Vincci Porto,1,0.0
+MTS-00046,1,0.0
+PRT-00049,1,0.0
+LoftAbroad Apartments,1,0.0
+MTS-00031,1,0.0
+PRT-00153,1,0.0
+PRT-00030,1,0.0
+Bessa Hotel Baixa,1,0.0
+PRT-00097,1,0.0
+GARAGEM CAMOES,1,0.0
+PRT-00036,1,0.0
+MOBI-MTS-00001 -Ceiia,1,0.0
+PRT-00022,1,0.0
+PRT-00147,1,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,1,0.0
+PRT-00101,1,0.0
+PRT-00001 - PCR - Porto (Av. França),1,0.0
+PRT-00020 - PCR - Q8 Circunvalação,1,0.0
+PRT-00001,1,0.0
+FEUP-00001,1,0.0
+PRT-00134,1,0.0
+PRT-00071,1,0.0
+PRT-00032/33 - Hotel Vile Gale,1,0.0
+Renault Boavista,1,0.0
+PRT-00139,1,0.0
+PRT-00051,1,0.0
+PRT-00159,1,0.0
+Kinda Home - Porto,1,0.0
+PRT-00171,1,0.0
+PRT-00142,1,0.0
+PRT-00028,1,0.0
+PRT-00019,1,0.0
+PRT-00141,1,0.0
+PRT-00020 - PCR - Q8 Circunvalação,2,0.0
+PRT-00101 - PCR - Porto,2,0.0
+PRT-00128,2,0.0
+PRT-00101,2,0.0
+PRT-00017/18,2,0.0
+PRT-00096,2,0.0
+PRT-00073,2,0.0
+PRT-00016,2,0.0
+MOBI.E - PRT-00086,2,0.0
+PRT-00013 - PCR - Porto (Av. da França),2,0.0
+PRT-00141,2,0.0
+MOBI.E - PRT-00085,2,0.0
+Hotel da Música,2,0.0
+PRT-00134,2,0.0
+PRT-00160,2,0.0
+Hotel Crowne Plaza Porto,2,0.0
+MOBI-MTS-00001 -Ceiia,2,0.0
+PRT-00020,2,0.0
+IPP-00001/2 - Hospital de São João,2,0.0
+PRT-00155,2,0.0
+FEUP-00001,2,0.0
+PRT-00127,2,0.0
+MTS-00031,2,0.0
+Hotel Teatro - Tesla Destination Charger,2,0.0
+PRT-00052,2,0.0
+PRT-00143,2,0.0
+PRT-00153,2,0.0
+PRT-00091,2,0.0
+Vila Foz Hotel Spa,2,0.0
+PRT-00147,2,0.0
+PRT-00070,2,0.0
+Kinda Home - Porto,2,0.0
+LoftAbroad Apartments,2,0.0
+GDM-00007,2,0.0
+PRT-00173,2,0.0
+PRT-00171,2,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),2,0.0
+PRT-00091 - PCR - Areosa (LIDL),2,0.0
+Porto Deluxe - GuestHouse,2,0.0
+PRT-00015,2,0.0
+Hotel Vincci Porto,2,0.0
+I-CHARGING TEST,2,0.0
+Via Catarina Porto,2,0.0
+Maison Albar Hotels Le Monumental Palace,2,0.0
+Centro Porsche Porto,2,0.0
+PRT-00094,2,0.0
+PRT-00028,2,0.0
+PRT-00142,2,0.0
+VORTEX Gingabike - Motocidade.,2,0.0
+PRT-00001 - PCR - Porto (Av. França),2,0.0
+PRT-00032/33 - Hotel Vile Gale,2,0.0
+PRT-00159,2,0.0
+Charge point GreenFlux,2,0.0
+PRT-00097,2,0.0
+TESTE WDAO- PRODDD,2,0.0
+PRT-00187,2,0.0
+PRT-00144,2,0.0
+PRT-00030,2,0.0
+PRT-00105,2,0.0
+PRT-00036,2,0.0
+PRT-00068,2,0.0
+PRT-00037,2,0.0
+Bessa Hotel Baixa,2,0.0
+PRT-00013,2,0.0
+PRT-00076,2,0.0
+PRT-00031,2,0.0
+PRT-00046,2,0.0
+PRT-00034,2,0.0
+FEUP-00002,2,0.0
+Garagem Porto D'ouro 2 ,2,0.0
+PRT-00021,2,0.0
+PRT-00051,2,0.0
+NISSAN CAETANO POWER S.A. (Porto),2,0.0
+PRT-00022,2,0.0
+PRT-00129,2,0.0
+PRT-00145,2,0.0
+PRT-00001,2,0.0
+MOBI.E - PRT-00103,2,0.0
+comum,2,0.0
+PRT-00019,2,0.0
+PRT-00049,2,0.0
+PRT-00014,2,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,2,0.0
+PRT-00132,2,0.0
+PRT-00062,2,0.0
+GARAGEM CAMOES,2,0.0
+PRT-00071,2,0.0
+MTS-00046,2,0.0
+PRT-00069,2,0.0
+CC Parque Nascente,2,0.0
+PRT-00139,2,0.0
+PRT-00050,2,0.0
+Nissan Porto ZI,2,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),2,0.0
+PRT-00146,2,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,2,0.0
+Garagem Porto D'ouro,2,0.0
+PRT-00180,2,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,2,0.0
+PRT-00156,2,0.0
+PRT-00170,2,0.0
+PRT-00154,2,0.0
+Riera Alta,2,0.0
+Renault Boavista,2,0.0
+PRT-00060,2,0.0
+Bessa Hotel Boavista,2,0.0
+PRT-00068,3,0.0
+MTS-00046,3,0.0
+Via Catarina Porto,3,0.0
+Vila Foz Hotel Spa,3,0.0
+GARAGEM CAMOES,3,0.0
+PRT-00173,3,0.0
+Renault Boavista,3,0.0
+PRT-00069,3,0.0
+MOBI.E - PRT-00085,3,0.0
+comum,3,0.0
+PRT-00153,3,0.0
+CC Parque Nascente,3,0.0
+Garagem Porto D'ouro 2 ,3,0.0
+Garagem Porto D'ouro,3,0.0
+LoftAbroad Apartments,3,0.0
+PRT-00021,3,0.0
+PRT-00015,3,0.0
+PRT-00159,3,0.0
+PRT-00030,3,0.0
+VORTEX Gingabike - Motocidade.,3,0.0
+PRT-00091,3,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),3,0.0
+MOBI-MTS-00001 -Ceiia,3,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),3,0.0
+PRT-00129,3,0.0
+PRT-00017/18,3,0.0
+PRT-00171,3,0.0
+PRT-00187,3,0.0
+Bessa Hotel Boavista,3,0.0
+Porto Deluxe - GuestHouse,3,0.0
+PRT-00028,3,0.0
+PRT-00170,3,0.0
+PRT-00001,3,0.0
+PRT-00101 - PCR - Porto,3,0.0
+PRT-00154,3,0.0
+PRT-00051,3,0.0
+Kinda Home - Porto,3,0.0
+PRT-00073,3,0.0
+Hotel Vincci Porto,3,0.0
+PRT-00105,3,0.0
+PRT-00013 - PCR - Porto (Av. da França),3,0.0
+PRT-00141,3,0.0
+MOBI.E - PRT-00103,3,0.0
+PRT-00032/33 - Hotel Vile Gale,3,0.0
+Hotel Teatro - Tesla Destination Charger,3,0.0
+PRT-00076,3,0.0
+PRT-00145,3,0.0
+MTS-00031,3,0.0
+PRT-00049,3,0.0
+PRT-00034,3,0.0
+PRT-00160,3,0.0
+PRT-00147,3,0.0
+PRT-00046,3,0.0
+PRT-00139,3,0.0
+PRT-00146,3,0.0
+PRT-00020,3,0.0
+PRT-00070,3,0.0
+Charge point GreenFlux,3,0.0
+PRT-00144,3,0.0
+Nissan Porto ZI,3,0.0
+PRT-00101,3,0.0
+PRT-00155,3,0.0
+PRT-00134,3,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,3,0.0
+FEUP-00001,3,0.0
+GDM-00007,3,0.0
+PRT-00013,3,0.0
+PRT-00036,3,0.0
+PRT-00060,3,0.0
+Hotel da Música,3,0.0
+PRT-00128,3,0.0
+PRT-00050,3,0.0
+PRT-00143,3,0.0
+Riera Alta,3,0.0
+PRT-00062,3,0.0
+PRT-00132,3,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,3,0.0
+Maison Albar Hotels Le Monumental Palace,3,0.0
+PRT-00019,3,0.0
+I-CHARGING TEST,3,0.0
+PRT-00022,3,0.0
+PRT-00014,3,0.0
+PRT-00001 - PCR - Porto (Av. França),3,0.0
+Centro Porsche Porto,3,0.0
+FEUP-00002,3,0.0
+PRT-00156,3,0.0
+PRT-00071,3,0.0
+PRT-00031,3,0.0
+PRT-00094,3,0.0
+PRT-00016,3,0.0
+Hotel Crowne Plaza Porto,3,0.0
+NISSAN CAETANO POWER S.A. (Porto),3,0.0
+PRT-00037,3,0.0
+PRT-00127,3,0.0
+TESTE WDAO- PRODDD,3,0.0
+IPP-00001/2 - Hospital de São João,3,0.0
+PRT-00091 - PCR - Areosa (LIDL),3,0.0
+Bessa Hotel Baixa,3,0.0
+PRT-00096,3,0.0
+PRT-00052,3,0.0
+PRT-00020 - PCR - Q8 Circunvalação,3,0.0
+PRT-00180,3,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,3,0.0
+MOBI.E - PRT-00086,3,0.0
+PRT-00142,3,0.0
+PRT-00097,3,0.0
+MOBI.E - PRT-00103,4,0.0
+PRT-00146,4,0.0
+PRT-00076,4,0.0
+I-CHARGING TEST,4,0.0
+PRT-00030,4,0.0
+PRT-00097,4,0.0
+PRT-00101 - PCR - Porto,4,0.0
+MTS-00031,4,0.0
+PRT-00050,4,0.0
+Hotel Crowne Plaza Porto,4,0.0
+Porto Deluxe - GuestHouse,4,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),4,0.0
+MOBI-MTS-00001 -Ceiia,4,0.0
+Bessa Hotel Boavista,4,0.0
+PRT-00101,4,0.0
+Maison Albar Hotels Le Monumental Palace,4,0.0
+PRT-00013 - PCR - Porto (Av. da França),4,0.0
+PRT-00105,4,0.0
+PRT-00069,4,0.0
+PRT-00016,4,0.0
+PRT-00142,4,0.0
+PRT-00141,4,0.0
+PRT-00071,4,0.0
+Garagem Porto D'ouro 2 ,4,0.0
+Charge point GreenFlux,4,0.0
+PRT-00154,4,0.0
+PRT-00091 - PCR - Areosa (LIDL),4,0.0
+GARAGEM CAMOES,4,0.0
+FEUP-00001,4,0.0
+PRT-00021,4,0.0
+Via Catarina Porto,4,0.0
+IPP-00001/2 - Hospital de São João,4,0.0
+PRT-00094,4,0.0
+Nissan Porto ZI,4,0.0
+Hotel Teatro - Tesla Destination Charger,4,0.0
+PRT-00060,4,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,4,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,4,0.0
+GDM-00007,4,0.0
+PRT-00159,4,0.0
+PRT-00013,4,0.0
+PRT-00160,4,0.0
+PRT-00091,4,0.0
+PRT-00020 - PCR - Q8 Circunvalação,4,0.0
+PRT-00187,4,0.0
+Riera Alta,4,0.0
+PRT-00068,4,0.0
+PRT-00036,4,0.0
+NISSAN CAETANO POWER S.A. (Porto),4,0.0
+PRT-00049,4,0.0
+PRT-00001,4,0.0
+PRT-00153,4,0.0
+PRT-00171,4,0.0
+PRT-00022,4,0.0
+PRT-00096,4,0.0
+comum,4,0.0
+PRT-00034,4,0.0
+LoftAbroad Apartments,4,0.0
+PRT-00051,4,0.0
+PRT-00139,4,0.0
+PRT-00147,4,0.0
+MOBI.E - PRT-00086,4,0.0
+Hotel Vincci Porto,4,0.0
+PRT-00020,4,0.0
+Centro Porsche Porto,4,0.0
+PRT-00052,4,0.0
+Hotel da Música,4,0.0
+PRT-00017/18,4,0.0
+PRT-00156,4,0.0
+PRT-00019,4,0.0
+MTS-00046,4,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,4,0.0
+PRT-00145,4,0.0
+PRT-00143,4,0.0
+PRT-00046,4,0.0
+PRT-00134,4,0.0
+PRT-00037,4,0.0
+FEUP-00002,4,0.0
+PRT-00144,4,0.0
+Kinda Home - Porto,4,0.0
+PRT-00070,4,0.0
+PRT-00001 - PCR - Porto (Av. França),4,0.0
+TESTE WDAO- PRODDD,4,0.0
+Garagem Porto D'ouro,4,0.0
+Renault Boavista,4,0.0
+CC Parque Nascente,4,0.0
+PRT-00129,4,0.0
+PRT-00180,4,0.0
+VORTEX Gingabike - Motocidade.,4,0.0
+PRT-00127,4,0.0
+Vila Foz Hotel Spa,4,0.0
+PRT-00073,4,0.0
+PRT-00155,4,0.0
+MOBI.E - PRT-00085,4,0.0
+PRT-00015,4,0.0
+PRT-00028,4,0.0
+PRT-00031,4,0.0
+PRT-00132,4,0.0
+PRT-00173,4,0.0
+PRT-00014,4,0.0
+PRT-00032/33 - Hotel Vile Gale,4,0.0
+Bessa Hotel Baixa,4,0.0
+PRT-00128,4,0.0
+PRT-00170,4,0.0
+PRT-00062,4,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),4,0.0
+PRT-00032/33 - Hotel Vile Gale,5,0.0
+PRT-00173,5,0.0
+PRT-00013,5,0.0
+PRT-00155,5,0.0
+Hotel da Música,5,0.0
+PRT-00030,5,0.0
+MTS-00046,5,0.0
+PRT-00132,5,0.0
+FEUP-00001,5,0.0
+PRT-00060,5,0.0
+Nissan Porto ZI,5,0.0
+PRT-00046,5,0.0
+PRT-00143,5,0.0
+FEUP-00002,5,0.0
+PRT-00097,5,0.0
+PRT-00129,5,0.0
+PRT-00170,5,0.0
+PRT-00134,5,0.0
+Bessa Hotel Baixa,5,0.0
+Hotel Teatro - Tesla Destination Charger,5,0.0
+Via Catarina Porto,5,0.0
+PRT-00013 - PCR - Porto (Av. da França),5,0.0
+PRT-00036,5,0.0
+PRT-00156,5,0.0
+I-CHARGING TEST,5,0.0
+PRT-00091 - PCR - Areosa (LIDL),5,0.0
+PRT-00049,5,0.0
+PRT-00017/18,5,0.0
+PRT-00159,5,0.0
+PRT-00139,5,0.0
+PRT-00101 - PCR - Porto,5,0.0
+Riera Alta,5,0.0
+MOBI.E - PRT-00103,5,0.0
+PRT-00034,5,0.0
+PRT-00052,5,0.0
+Bessa Hotel Boavista,5,0.0
+comum,5,0.0
+MOBI.E - PRT-00085,5,0.0
+PRT-00020,5,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,5,0.0
+PRT-00096,5,0.0
+PRT-00187,5,0.0
+TESTE WDAO- PRODDD,5,0.0
+Porto Deluxe - GuestHouse,5,0.0
+Maison Albar Hotels Le Monumental Palace,5,0.0
+PRT-00070,5,0.0
+Centro Porsche Porto,5,0.0
+PRT-00071,5,0.0
+PRT-00062,5,0.0
+PRT-00068,5,0.0
+Charge point GreenFlux,5,0.0
+PRT-00154,5,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),5,0.0
+PRT-00144,5,0.0
+VORTEX Gingabike - Motocidade.,5,0.0
+Hotel Vincci Porto,5,0.0
+PRT-00016,5,0.0
+PRT-00127,5,0.0
+PRT-00020 - PCR - Q8 Circunvalação,5,0.0
+PRT-00014,5,0.0
+PRT-00069,5,0.0
+PRT-00001 - PCR - Porto (Av. França),5,0.0
+PRT-00105,5,0.0
+MOBI.E - PRT-00086,5,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),5,0.0
+PRT-00091,5,0.0
+PRT-00128,5,0.0
+PRT-00146,5,0.0
+PRT-00101,5,0.0
+PRT-00160,5,0.0
+PRT-00031,5,0.0
+PRT-00050,5,0.0
+PRT-00076,5,0.0
+PRT-00028,5,0.0
+Kinda Home - Porto,5,0.0
+PRT-00021,5,0.0
+NISSAN CAETANO POWER S.A. (Porto),5,0.0
+PRT-00145,5,0.0
+LoftAbroad Apartments,5,0.0
+PRT-00073,5,0.0
+CC Parque Nascente,5,0.0
+Renault Boavista,5,0.0
+PRT-00171,5,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,5,0.0
+Garagem Porto D'ouro 2 ,5,0.0
+PRT-00019,5,0.0
+GDM-00007,5,0.0
+PRT-00153,5,0.0
+PRT-00147,5,0.0
+IPP-00001/2 - Hospital de São João,5,0.0
+PRT-00001,5,0.0
+Hotel Crowne Plaza Porto,5,0.0
+Vila Foz Hotel Spa,5,0.0
+Garagem Porto D'ouro,5,0.0
+PRT-00015,5,0.0
+PRT-00142,5,0.0
+PRT-00037,5,0.0
+PRT-00141,5,0.0
+PRT-00051,5,0.0
+PRT-00022,5,0.0
+PRT-00180,5,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,5,0.0
+GARAGEM CAMOES,5,0.0
+MTS-00031,5,0.0
+MOBI-MTS-00001 -Ceiia,5,0.0
+PRT-00094,5,0.0
+PRT-00073,6,0.0
+NISSAN CAETANO POWER S.A. (Porto),6,0.0
+PRT-00017/18,6,0.0
+PRT-00094,6,0.0
+TESTE WDAO- PRODDD,6,0.0
+Hotel Vincci Porto,6,0.0
+Renault Boavista,6,0.0
+PRT-00028,6,0.0
+MTS-00031,6,0.0
+PRT-00127,6,0.0
+PRT-00015,6,0.0
+PRT-00146,6,0.0
+LoftAbroad Apartments,6,0.0
+Nissan Porto ZI,6,0.0
+PRT-00013,6,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),6,0.0
+PRT-00060,6,0.0
+FEUP-00001,6,0.0
+PRT-00144,6,0.0
+I-CHARGING TEST,6,0.0
+PRT-00145,6,0.0
+PRT-00021,6,0.0
+PRT-00187,6,0.0
+Garagem Porto D'ouro,6,0.0
+PRT-00155,6,0.0
+Garagem Porto D'ouro 2 ,6,0.0
+PRT-00147,6,0.0
+Charge point GreenFlux,6,0.0
+MOBI.E - PRT-00085,6,0.0
+PRT-00001,6,0.0
+PRT-00013 - PCR - Porto (Av. da França),6,0.0
+Via Catarina Porto,6,0.0
+Vila Foz Hotel Spa,6,0.0
+Porto Deluxe - GuestHouse,6,0.0
+MTS-00046,6,0.0
+PRT-00153,6,0.0
+PRT-00170,6,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,6,0.0
+MOBI-MTS-00001 -Ceiia,6,0.0
+PRT-00141,6,0.0
+PRT-00019,6,0.0
+PRT-00101,6,0.0
+PRT-00139,6,0.0
+GDM-00007,6,0.0
+PRT-00022,6,0.0
+PRT-00068,6,0.0
+PRT-00014,6,0.0
+PRT-00050,6,0.0
+PRT-00051,6,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,6,0.0
+PRT-00180,6,0.0
+PRT-00030,6,0.0
+VORTEX Gingabike - Motocidade.,6,0.0
+FEUP-00002,6,0.0
+PRT-00032/33 - Hotel Vile Gale,6,0.0
+PRT-00091 - PCR - Areosa (LIDL),6,0.0
+Maison Albar Hotels Le Monumental Palace,6,0.0
+PRT-00091,6,0.0
+PRT-00049,6,0.0
+Centro Porsche Porto,6,0.0
+PRT-00143,6,0.0
+Hotel da Música,6,0.0
+MOBI.E - PRT-00086,6,0.0
+PRT-00076,6,0.0
+PRT-00034,6,0.0
+PRT-00134,6,0.0
+PRT-00020,6,0.0
+PRT-00070,6,0.0
+PRT-00159,6,0.0
+Bessa Hotel Boavista,6,0.0
+PRT-00156,6,0.0
+PRT-00132,6,0.0
+PRT-00096,6,0.0
+PRT-00071,6,0.0
+CC Parque Nascente,6,0.0
+Hotel Crowne Plaza Porto,6,0.0
+MOBI.E - PRT-00103,6,0.0
+PRT-00037,6,0.0
+PRT-00046,6,0.0
+PRT-00128,6,0.0
+Bessa Hotel Baixa,6,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),6,0.0
+IPP-00001/2 - Hospital de São João,6,0.0
+PRT-00105,6,0.0
+PRT-00052,6,0.0
+GARAGEM CAMOES,6,0.0
+Hotel Teatro - Tesla Destination Charger,6,0.0
+PRT-00020 - PCR - Q8 Circunvalação,6,0.0
+PRT-00154,6,0.0
+PRT-00036,6,0.0
+Riera Alta,6,0.0
+PRT-00031,6,0.0
+PRT-00129,6,0.0
+PRT-00160,6,0.0
+Kinda Home - Porto,6,0.0
+PRT-00016,6,0.0
+PRT-00142,6,0.0
+PRT-00171,6,0.0
+PRT-00097,6,0.0
+PRT-00062,6,0.0
+PRT-00069,6,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,6,0.0
+PRT-00101 - PCR - Porto,6,0.0
+PRT-00001 - PCR - Porto (Av. França),6,0.0
+comum,6,0.0
+PRT-00173,6,0.0
+PRT-00134,7,0.0
+GARAGEM CAMOES,7,0.0
+PRT-00036,7,0.0
+PRT-00017/18,7,0.0
+PRT-00171,7,0.0
+PRT-00145,7,0.0
+IPP-00001/2 - Hospital de São João,7,0.0
+PRT-00101,7,0.0
+Vila Foz Hotel Spa,7,0.0
+Garagem Porto D'ouro,7,0.0
+PRT-00180,7,0.0
+PRT-00094,7,0.0
+PRT-00032/33 - Hotel Vile Gale,7,0.0
+PRT-00155,7,0.0
+Porto Deluxe - GuestHouse,7,0.0
+PRT-00187,7,0.0
+PRT-00028,7,0.0
+PRT-00019,7,0.0
+PRT-00030,7,0.0
+MTS-00031,7,0.0
+Via Catarina Porto,7,0.0
+PRT-00132,7,0.0
+PRT-00070,7,0.0
+PRT-00071,7,0.0
+PRT-00153,7,0.0
+PRT-00001 - PCR - Porto (Av. França),7,0.0
+PRT-00020 - PCR - Q8 Circunvalação,7,0.0
+FEUP-00001,7,0.0
+PRT-00052,7,0.0
+PRT-00160,7,0.0
+Hotel Teatro - Tesla Destination Charger,7,0.0
+PRT-00034,7,0.0
+PRT-00159,7,0.0
+PRT-00037,7,0.0
+NISSAN CAETANO POWER S.A. (Porto),7,0.0
+MTS-00046,7,0.0
+PRT-00091,7,0.0
+MOBI.E - PRT-00085,7,0.0
+PRT-00076,7,0.0
+MOBI.E - PRT-00086,7,0.0
+PRT-00046,7,0.0
+Bessa Hotel Baixa,7,0.0
+PRT-00105,7,0.0
+MOBI.E - PRT-00103,7,0.0
+PRT-00016,7,0.0
+VORTEX Gingabike - Motocidade.,7,0.0
+Nissan Porto ZI,7,0.0
+PRT-00015,7,0.0
+PRT-00141,7,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,7,0.0
+PRT-00031,7,0.0
+PRT-00013,7,0.0
+PRT-00069,7,0.0
+PRT-00139,7,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),7,0.0
+PRT-00128,7,0.0
+comum,7,0.0
+I-CHARGING TEST,7,0.0
+PRT-00021,7,0.0
+PRT-00144,7,0.0
+FEUP-00002,7,0.0
+PRT-00001,7,0.0
+PRT-00142,7,0.0
+PRT-00147,7,0.0
+Hotel Vincci Porto,7,0.0
+PRT-00091 - PCR - Areosa (LIDL),7,0.0
+Riera Alta,7,0.0
+PRT-00143,7,0.0
+Charge point GreenFlux,7,0.0
+PRT-00129,7,0.0
+PRT-00156,7,0.0
+PRT-00020,7,0.0
+Kinda Home - Porto,7,0.0
+PRT-00146,7,0.0
+PRT-00101 - PCR - Porto,7,0.0
+TESTE WDAO- PRODDD,7,0.0
+PRT-00050,7,0.0
+Maison Albar Hotels Le Monumental Palace,7,0.0
+PRT-00097,7,0.0
+Hotel Crowne Plaza Porto,7,0.0
+PRT-00062,7,0.0
+CC Parque Nascente,7,0.0
+PRT-00049,7,0.0
+PRT-00022,7,0.0
+PRT-00170,7,0.0
+PRT-00051,7,0.0
+PRT-00173,7,0.0
+Garagem Porto D'ouro 2 ,7,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,7,0.0
+PRT-00013 - PCR - Porto (Av. da França),7,0.0
+PRT-00073,7,0.0
+PRT-00014,7,0.0
+LoftAbroad Apartments,7,0.0
+GDM-00007,7,0.0
+MOBI-MTS-00001 -Ceiia,7,0.0
+PRT-00096,7,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),7,0.0
+PRT-00060,7,0.0
+PRT-00068,7,0.0
+Centro Porsche Porto,7,0.0
+PRT-00127,7,0.0
+Renault Boavista,7,0.0
+Bessa Hotel Boavista,7,0.0
+PRT-00154,7,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,7,0.0
+Hotel da Música,7,0.0
+PRT-00032/33 - Hotel Vile Gale,8,0.0
+Hotel Crowne Plaza Porto,8,0.0
+Riera Alta,8,0.0
+PRT-00127,8,0.0
+PRT-00146,8,0.0
+PRT-00052,8,0.0
+Garagem Porto D'ouro 2 ,8,0.0
+PRT-00141,8,0.0
+PRT-00049,8,0.0
+PRT-00046,8,0.0
+PRT-00019,8,0.0
+PRT-00101,8,0.0
+PRT-00155,8,0.0
+Vila Foz Hotel Spa,8,0.0
+PRT-00068,8,0.0
+PRT-00071,8,0.0
+Bessa Hotel Boavista,8,0.0
+PRT-00062,8,0.0
+Hotel Teatro - Tesla Destination Charger,8,0.0
+PRT-00036,8,0.0
+MOBI.E - PRT-00103,8,0.0
+PRT-00037,8,0.0
+PRT-00170,8,0.0
+FEUP-00002,8,0.0
+Kinda Home - Porto,8,0.0
+PRT-00097,8,0.0
+PRT-00001,8,0.0
+FEUP-00001,8,0.0
+comum,8,0.0
+PRT-00076,8,0.0
+LoftAbroad Apartments,8,0.0
+PRT-00129,8,0.0
+PRT-00144,8,0.0
+PRT-00171,8,0.0
+Maison Albar Hotels Le Monumental Palace,8,0.0
+PRT-00154,8,0.0
+PRT-00014,8,0.0
+PRT-00173,8,0.0
+PRT-00017/18,8,0.0
+I-CHARGING TEST,8,0.0
+PRT-00139,8,0.0
+GARAGEM CAMOES,8,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),8,0.0
+MOBI.E - PRT-00085,8,0.0
+PRT-00028,8,0.0
+PRT-00021,8,0.0
+NISSAN CAETANO POWER S.A. (Porto),8,0.0
+Via Catarina Porto,8,0.0
+Renault Boavista,8,0.0
+PRT-00015,8,0.0
+PRT-00022,8,0.0
+VORTEX Gingabike - Motocidade.,8,0.0
+PRT-00156,8,0.0
+PRT-00153,8,0.0
+PRT-00034,8,0.0
+MOBI-MTS-00001 -Ceiia,8,0.0
+Bessa Hotel Baixa,8,0.0
+PRT-00143,8,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),8,0.0
+Porto Deluxe - GuestHouse,8,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,8,0.0
+PRT-00160,8,0.0
+PRT-00031,8,0.0
+MOBI.E - PRT-00086,8,0.0
+PRT-00132,8,0.0
+PRT-00180,8,0.0
+PRT-00073,8,0.0
+Garagem Porto D'ouro,8,0.0
+PRT-00145,8,0.0
+Centro Porsche Porto,8,0.0
+PRT-00013,8,0.0
+MTS-00031,8,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,8,0.0
+PRT-00101 - PCR - Porto,8,0.0
+Nissan Porto ZI,8,0.0
+Charge point GreenFlux,8,0.0
+PRT-00013 - PCR - Porto (Av. da França),8,0.0
+PRT-00001 - PCR - Porto (Av. França),8,0.0
+PRT-00159,8,0.0
+PRT-00091 - PCR - Areosa (LIDL),8,0.0
+PRT-00142,8,0.0
+PRT-00096,8,0.0
+IPP-00001/2 - Hospital de São João,8,0.0
+GDM-00007,8,0.0
+PRT-00134,8,0.0
+CC Parque Nascente,8,0.0
+Hotel Vincci Porto,8,0.0
+PRT-00094,8,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,8,0.0
+PRT-00147,8,0.0
+PRT-00060,8,0.0
+PRT-00020 - PCR - Q8 Circunvalação,8,0.0
+PRT-00051,8,0.0
+PRT-00050,8,0.0
+MTS-00046,8,0.0
+TESTE WDAO- PRODDD,8,0.0
+PRT-00091,8,0.0
+PRT-00016,8,0.0
+PRT-00069,8,0.0
+PRT-00020,8,0.0
+PRT-00070,8,0.0
+PRT-00128,8,0.0
+PRT-00105,8,0.0
+PRT-00030,8,0.0
+Hotel da Música,8,0.0
+PRT-00187,8,0.0
+PRT-00101 - PCR - Porto,9,0.0
+PRT-00159,9,0.0
+Porto Deluxe - GuestHouse,9,0.0
+PRT-00073,9,0.0
+PRT-00091 - PCR - Areosa (LIDL),9,0.0
+PRT-00160,9,0.0
+Via Catarina Porto,9,0.0
+PRT-00037,9,0.0
+PRT-00076,9,0.0
+PRT-00153,9,0.0
+PRT-00051,9,0.0
+PRT-00062,9,0.0
+PRT-00156,9,0.0
+MOBI.E - PRT-00085,9,0.0
+Kinda Home - Porto,9,0.0
+PRT-00091,9,0.0
+PRT-00142,9,0.0
+Hotel da Música,9,0.0
+PRT-00028,9,0.0
+PRT-00070,9,0.0
+GARAGEM CAMOES,9,0.0
+PRT-00013 - PCR - Porto (Av. da França),9,0.0
+PRT-00036,9,0.0
+PRT-00068,9,0.0
+Renault Boavista,9,0.0
+PRT-00001,9,0.0
+Vila Foz Hotel Spa,9,0.0
+PRT-00032/33 - Hotel Vile Gale,9,0.0
+PRT-00052,9,0.0
+PRT-00094,9,0.0
+MOBI-MTS-00001 -Ceiia,9,0.0
+PRT-00021,9,0.0
+MTS-00046,9,0.0
+PRT-00155,9,0.0
+GDM-00007,9,0.0
+PRT-00127,9,0.0
+PRT-00173,9,0.0
+PRT-00143,9,0.0
+PRT-00129,9,0.0
+comum,9,0.0
+PRT-00147,9,0.0
+PRT-00141,9,0.0
+PRT-00017/18,9,0.0
+PRT-00146,9,0.0
+MTS-00031,9,0.0
+PRT-00097,9,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,9,0.0
+Hotel Crowne Plaza Porto,9,0.0
+PRT-00187,9,0.0
+PRT-00015,9,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,9,0.0
+PRT-00046,9,0.0
+PRT-00132,9,0.0
+Bessa Hotel Baixa,9,0.0
+PRT-00180,9,0.0
+PRT-00030,9,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),9,0.0
+PRT-00001 - PCR - Porto (Av. França),9,0.0
+FEUP-00001,9,0.0
+PRT-00134,9,0.0
+I-CHARGING TEST,9,0.0
+PRT-00144,9,0.0
+PRT-00034,9,0.0
+LoftAbroad Apartments,9,0.0
+PRT-00170,9,0.0
+Garagem Porto D'ouro,9,0.0
+PRT-00020,9,0.0
+IPP-00001/2 - Hospital de São João,9,0.0
+NISSAN CAETANO POWER S.A. (Porto),9,0.0
+Hotel Teatro - Tesla Destination Charger,9,0.0
+CC Parque Nascente,9,0.0
+FEUP-00002,9,0.0
+PRT-00020 - PCR - Q8 Circunvalação,9,0.0
+PRT-00050,9,0.0
+PRT-00171,9,0.0
+PRT-00019,9,0.0
+Hotel Vincci Porto,9,0.0
+PRT-00101,9,0.0
+MOBI.E - PRT-00103,9,0.0
+PRT-00105,9,0.0
+Garagem Porto D'ouro 2 ,9,0.0
+TESTE WDAO- PRODDD,9,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,9,0.0
+PRT-00154,9,0.0
+PRT-00145,9,0.0
+VORTEX Gingabike - Motocidade.,9,0.0
+Nissan Porto ZI,9,0.0
+Maison Albar Hotels Le Monumental Palace,9,0.0
+PRT-00128,9,0.0
+PRT-00096,9,0.0
+PRT-00139,9,0.0
+Charge point GreenFlux,9,0.0
+PRT-00013,9,0.0
+MOBI.E - PRT-00086,9,0.0
+PRT-00031,9,0.0
+PRT-00014,9,0.0
+PRT-00071,9,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),9,0.0
+PRT-00060,9,0.0
+Bessa Hotel Boavista,9,0.0
+Centro Porsche Porto,9,0.0
+PRT-00069,9,0.0
+Riera Alta,9,0.0
+PRT-00016,9,0.0
+PRT-00022,9,0.0
+PRT-00049,9,0.0
+PRT-00020,10,0.0
+PRT-00127,10,0.0
+PRT-00091,10,0.0
+PRT-00017/18,10,0.0
+Charge point GreenFlux,10,0.0
+PRT-00028,10,0.0
+PRT-00019,10,0.0
+IPP-00001/2 - Hospital de São João,10,0.0
+Garagem Porto D'ouro,10,0.0
+PRT-00187,10,0.0
+Renault Boavista,10,0.0
+FEUP-00001,10,0.0
+PRT-00001,10,0.0
+MOBI.E - PRT-00103,10,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,10,0.0
+MTS-00031,10,0.0
+Maison Albar Hotels Le Monumental Palace,10,0.0
+PRT-00071,10,0.0
+PRT-00094,10,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,10,0.0
+PRT-00073,10,0.0
+PRT-00134,10,0.0
+PRT-00016,10,0.0
+Hotel Crowne Plaza Porto,10,0.0
+PRT-00170,10,0.0
+PRT-00146,10,0.0
+Bessa Hotel Boavista,10,0.0
+MOBI.E - PRT-00086,10,0.0
+PRT-00037,10,0.0
+PRT-00076,10,0.0
+PRT-00060,10,0.0
+Centro Porsche Porto,10,0.0
+PRT-00015,10,0.0
+I-CHARGING TEST,10,0.0
+PRT-00173,10,0.0
+PRT-00180,10,0.0
+PRT-00101,10,0.0
+PRT-00014,10,0.0
+PRT-00101 - PCR - Porto,10,0.0
+PRT-00050,10,0.0
+PRT-00096,10,0.0
+PRT-00036,10,0.0
+PRT-00132,10,0.0
+NISSAN CAETANO POWER S.A. (Porto),10,0.0
+PRT-00032/33 - Hotel Vile Gale,10,0.0
+Vila Foz Hotel Spa,10,0.0
+Via Catarina Porto,10,0.0
+GDM-00007,10,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,10,0.0
+GARAGEM CAMOES,10,0.0
+Riera Alta,10,0.0
+PRT-00139,10,0.0
+PRT-00031,10,0.0
+Bessa Hotel Baixa,10,0.0
+comum,10,0.0
+PRT-00013,10,0.0
+Porto Deluxe - GuestHouse,10,0.0
+TESTE WDAO- PRODDD,10,0.0
+PRT-00013 - PCR - Porto (Av. da França),10,0.0
+PRT-00153,10,0.0
+PRT-00034,10,0.0
+PRT-00091 - PCR - Areosa (LIDL),10,0.0
+Kinda Home - Porto,10,0.0
+PRT-00068,10,0.0
+PRT-00142,10,0.0
+FEUP-00002,10,0.0
+PRT-00030,10,0.0
+PRT-00051,10,0.0
+PRT-00069,10,0.0
+PRT-00020 - PCR - Q8 Circunvalação,10,0.0
+PRT-00097,10,0.0
+PRT-00046,10,0.0
+Nissan Porto ZI,10,0.0
+PRT-00171,10,0.0
+PRT-00156,10,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),10,0.0
+MTS-00046,10,0.0
+CC Parque Nascente,10,0.0
+PRT-00147,10,0.0
+Hotel Vincci Porto,10,0.0
+Hotel da Música,10,0.0
+PRT-00160,10,0.0
+PRT-00105,10,0.0
+PRT-00141,10,0.0
+PRT-00129,10,0.0
+MOBI.E - PRT-00085,10,0.0
+PRT-00159,10,0.0
+Hotel Teatro - Tesla Destination Charger,10,0.0
+PRT-00062,10,0.0
+LoftAbroad Apartments,10,0.0
+VORTEX Gingabike - Motocidade.,10,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),10,0.0
+PRT-00021,10,0.0
+PRT-00143,10,0.0
+PRT-00154,10,0.0
+PRT-00049,10,0.0
+PRT-00128,10,0.0
+PRT-00155,10,0.0
+Garagem Porto D'ouro 2 ,10,0.0
+PRT-00145,10,0.0
+PRT-00144,10,0.0
+PRT-00001 - PCR - Porto (Av. França),10,0.0
+MOBI-MTS-00001 -Ceiia,10,0.0
+PRT-00022,10,0.0
+PRT-00070,10,0.0
+PRT-00052,10,0.0
+PRT-00187,11,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,11,0.0
+PRT-00037,11,0.0
+PRT-00091,11,0.0
+PRT-00069,11,0.0
+PRT-00013 - PCR - Porto (Av. da França),11,0.0
+PRT-00046,11,0.0
+PRT-00019,11,0.0
+PRT-00049,11,0.0
+Garagem Porto D'ouro,11,0.0
+MOBI-MTS-00001 -Ceiia,11,0.0
+PRT-00031,11,0.0
+PRT-00129,11,0.0
+PRT-00001,11,0.0
+PRT-00070,11,0.0
+Kinda Home - Porto,11,0.0
+PRT-00016,11,0.0
+MTS-00046,11,0.0
+PRT-00101,11,0.0
+PRT-00060,11,0.0
+PRT-00073,11,0.0
+PRT-00030,11,0.0
+PRT-00141,11,0.0
+PRT-00015,11,0.0
+PRT-00014,11,0.0
+PRT-00068,11,0.0
+MOBI.E - PRT-00103,11,0.0
+Hotel Crowne Plaza Porto,11,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,11,0.0
+TESTE WDAO- PRODDD,11,0.0
+PRT-00156,11,0.0
+PRT-00021,11,0.0
+Nissan Porto ZI,11,0.0
+Maison Albar Hotels Le Monumental Palace,11,0.0
+PRT-00062,11,0.0
+comum,11,0.0
+PRT-00144,11,0.0
+PRT-00028,11,0.0
+Porto Deluxe - GuestHouse,11,0.0
+Centro Porsche Porto,11,0.0
+PRT-00146,11,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),11,0.0
+PRT-00139,11,0.0
+PRT-00091 - PCR - Areosa (LIDL),11,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),11,0.0
+PRT-00001 - PCR - Porto (Av. França),11,0.0
+Garagem Porto D'ouro 2 ,11,0.0
+I-CHARGING TEST,11,0.0
+PRT-00128,11,0.0
+PRT-00034,11,0.0
+PRT-00134,11,0.0
+Bessa Hotel Baixa,11,0.0
+PRT-00052,11,0.0
+MOBI.E - PRT-00086,11,0.0
+NISSAN CAETANO POWER S.A. (Porto),11,0.0
+Bessa Hotel Boavista,11,0.0
+Charge point GreenFlux,11,0.0
+PRT-00022,11,0.0
+Renault Boavista,11,0.0
+GDM-00007,11,0.0
+PRT-00105,11,0.0
+PRT-00050,11,0.0
+PRT-00154,11,0.0
+Hotel Teatro - Tesla Destination Charger,11,0.0
+PRT-00017/18,11,0.0
+PRT-00127,11,0.0
+PRT-00171,11,0.0
+FEUP-00002,11,0.0
+IPP-00001/2 - Hospital de São João,11,0.0
+Hotel Vincci Porto,11,0.0
+PRT-00032/33 - Hotel Vile Gale,11,0.0
+PRT-00076,11,0.0
+MOBI.E - PRT-00085,11,0.0
+PRT-00145,11,0.0
+PRT-00036,11,0.0
+MTS-00031,11,0.0
+PRT-00143,11,0.0
+PRT-00071,11,0.0
+PRT-00160,11,0.0
+PRT-00020 - PCR - Q8 Circunvalação,11,0.0
+PRT-00094,11,0.0
+PRT-00147,11,0.0
+PRT-00101 - PCR - Porto,11,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,11,0.0
+PRT-00132,11,0.0
+PRT-00159,11,0.0
+VORTEX Gingabike - Motocidade.,11,0.0
+PRT-00051,11,0.0
+PRT-00013,11,0.0
+Hotel da Música,11,0.0
+CC Parque Nascente,11,0.0
+GARAGEM CAMOES,11,0.0
+PRT-00097,11,0.0
+PRT-00155,11,0.0
+LoftAbroad Apartments,11,0.0
+PRT-00170,11,0.0
+PRT-00142,11,0.0
+PRT-00096,11,0.0
+FEUP-00001,11,0.0
+Via Catarina Porto,11,0.0
+PRT-00173,11,0.0
+Vila Foz Hotel Spa,11,0.0
+PRT-00153,11,0.0
+Riera Alta,11,0.0
+PRT-00020,11,0.0
+PRT-00180,11,0.0
+PRT-00141,12,0.0
+PRT-00159,12,0.0
+MOBI-MTS-00001 -Ceiia,12,0.0
+GDM-00007,12,0.0
+PRT-00076,12,0.0
+PRT-00096,12,0.0
+PRT-00068,12,0.0
+PRT-00001,12,0.0
+PRT-00187,12,0.0
+PRT-00132,12,0.0
+PRT-00069,12,0.0
+PRT-00097,12,0.0
+Porto Deluxe - GuestHouse,12,0.0
+PRT-00030,12,0.0
+Hotel Vincci Porto,12,0.0
+comum,12,0.0
+PRT-00143,12,0.0
+Bessa Hotel Baixa,12,0.0
+PRT-00052,12,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),12,0.0
+PRT-00013 - PCR - Porto (Av. da França),12,0.0
+PRT-00101 - PCR - Porto,12,0.0
+Garagem Porto D'ouro 2 ,12,0.0
+PRT-00171,12,0.0
+PRT-00034,12,0.0
+Hotel da Música,12,0.0
+CC Parque Nascente,12,0.0
+PRT-00144,12,0.0
+GARAGEM CAMOES,12,0.0
+PRT-00147,12,0.0
+FEUP-00001,12,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,12,0.0
+PRT-00180,12,0.0
+PRT-00071,12,0.0
+Bessa Hotel Boavista,12,0.0
+PRT-00051,12,0.0
+MTS-00031,12,0.0
+MOBI.E - PRT-00085,12,0.0
+Charge point GreenFlux,12,0.0
+MTS-00046,12,0.0
+PRT-00020 - PCR - Q8 Circunvalação,12,0.0
+PRT-00049,12,0.0
+PRT-00060,12,0.0
+PRT-00015,12,0.0
+PRT-00156,12,0.0
+PRT-00032/33 - Hotel Vile Gale,12,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,12,0.0
+PRT-00017/18,12,0.0
+PRT-00037,12,0.0
+PRT-00153,12,0.0
+PRT-00036,12,0.0
+PRT-00091,12,0.0
+PRT-00129,12,0.0
+Via Catarina Porto,12,0.0
+Kinda Home - Porto,12,0.0
+PRT-00160,12,0.0
+PRT-00070,12,0.0
+Centro Porsche Porto,12,0.0
+PRT-00016,12,0.0
+PRT-00101,12,0.0
+FEUP-00002,12,0.0
+PRT-00155,12,0.0
+PRT-00173,12,0.0
+MOBI.E - PRT-00103,12,0.0
+PRT-00021,12,0.0
+PRT-00073,12,0.0
+Garagem Porto D'ouro,12,0.0
+PRT-00127,12,0.0
+PRT-00128,12,0.0
+PRT-00028,12,0.0
+MOBI.E - PRT-00086,12,0.0
+PRT-00091 - PCR - Areosa (LIDL),12,0.0
+PRT-00014,12,0.0
+Hotel Crowne Plaza Porto,12,0.0
+PRT-00019,12,0.0
+PRT-00105,12,0.0
+Nissan Porto ZI,12,0.0
+PRT-00013,12,0.0
+Hotel Teatro - Tesla Destination Charger,12,0.0
+PRT-00062,12,0.0
+VORTEX Gingabike - Motocidade.,12,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),12,0.0
+Maison Albar Hotels Le Monumental Palace,12,0.0
+Riera Alta,12,0.0
+PRT-00094,12,0.0
+PRT-00142,12,0.0
+PRT-00022,12,0.0
+PRT-00046,12,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,12,0.0
+NISSAN CAETANO POWER S.A. (Porto),12,0.0
+PRT-00020,12,0.0
+PRT-00145,12,0.0
+Vila Foz Hotel Spa,12,0.0
+PRT-00001 - PCR - Porto (Av. França),12,0.0
+PRT-00031,12,0.0
+PRT-00146,12,0.0
+PRT-00134,12,0.0
+PRT-00170,12,0.0
+I-CHARGING TEST,12,0.0
+PRT-00050,12,0.0
+Renault Boavista,12,0.0
+TESTE WDAO- PRODDD,12,0.0
+PRT-00139,12,0.0
+IPP-00001/2 - Hospital de São João,12,0.0
+LoftAbroad Apartments,12,0.0
+PRT-00154,12,0.0
+Porto Deluxe - GuestHouse,13,0.0
+LoftAbroad Apartments,13,0.0
+PRT-00069,13,0.0
+IPP-00001/2 - Hospital de São João,13,0.0
+PRT-00091 - PCR - Areosa (LIDL),13,0.0
+PRT-00049,13,0.0
+PRT-00129,13,0.0
+PRT-00141,13,0.0
+PRT-00017/18,13,0.0
+PRT-00128,13,0.0
+PRT-00156,13,0.0
+PRT-00068,13,0.0
+PRT-00154,13,0.0
+Bessa Hotel Baixa,13,0.0
+PRT-00020 - PCR - Q8 Circunvalação,13,0.0
+Centro Porsche Porto,13,0.0
+PRT-00030,13,0.0
+PRT-00160,13,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,13,0.0
+FEUP-00001,13,0.0
+FEUP-00002,13,0.0
+PRT-00146,13,0.0
+TESTE WDAO- PRODDD,13,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),13,0.0
+PRT-00101 - PCR - Porto,13,0.0
+PRT-00173,13,0.0
+I-CHARGING TEST,13,0.0
+PRT-00037,13,0.0
+PRT-00031,13,0.0
+Via Catarina Porto,13,0.0
+PRT-00153,13,0.0
+MTS-00046,13,0.0
+Hotel Teatro - Tesla Destination Charger,13,0.0
+PRT-00001,13,0.0
+PRT-00094,13,0.0
+PRT-00076,13,0.0
+PRT-00060,13,0.0
+PRT-00132,13,0.0
+PRT-00013,13,0.0
+PRT-00147,13,0.0
+PRT-00020,13,0.0
+Maison Albar Hotels Le Monumental Palace,13,0.0
+NISSAN CAETANO POWER S.A. (Porto),13,0.0
+Nissan Porto ZI,13,0.0
+PRT-00036,13,0.0
+PRT-00097,13,0.0
+VORTEX Gingabike - Motocidade.,13,0.0
+PRT-00014,13,0.0
+PRT-00187,13,0.0
+MOBI.E - PRT-00103,13,0.0
+PRT-00105,13,0.0
+PRT-00071,13,0.0
+PRT-00001 - PCR - Porto (Av. França),13,0.0
+PRT-00013 - PCR - Porto (Av. da França),13,0.0
+PRT-00145,13,0.0
+PRT-00022,13,0.0
+PRT-00139,13,0.0
+PRT-00155,13,0.0
+GDM-00007,13,0.0
+Garagem Porto D'ouro,13,0.0
+PRT-00159,13,0.0
+CC Parque Nascente,13,0.0
+Hotel da Música,13,0.0
+PRT-00046,13,0.0
+Hotel Vincci Porto,13,0.0
+PRT-00096,13,0.0
+PRT-00019,13,0.0
+Charge point GreenFlux,13,0.0
+Bessa Hotel Boavista,13,0.0
+PRT-00034,13,0.0
+PRT-00143,13,0.0
+MOBI.E - PRT-00086,13,0.0
+Garagem Porto D'ouro 2 ,13,0.0
+PRT-00073,13,0.0
+PRT-00144,13,0.0
+PRT-00091,13,0.0
+PRT-00015,13,0.0
+PRT-00028,13,0.0
+PRT-00051,13,0.0
+PRT-00050,13,0.0
+GARAGEM CAMOES,13,0.0
+Kinda Home - Porto,13,0.0
+PRT-00134,13,0.0
+PRT-00052,13,0.0
+Riera Alta,13,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,13,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),13,0.0
+PRT-00170,13,0.0
+PRT-00021,13,0.0
+PRT-00070,13,0.0
+PRT-00032/33 - Hotel Vile Gale,13,0.0
+PRT-00180,13,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,13,0.0
+PRT-00171,13,0.0
+PRT-00101,13,0.0
+MOBI.E - PRT-00085,13,0.0
+PRT-00062,13,0.0
+Hotel Crowne Plaza Porto,13,0.0
+Renault Boavista,13,0.0
+MOBI-MTS-00001 -Ceiia,13,0.0
+comum,13,0.0
+Vila Foz Hotel Spa,13,0.0
+PRT-00016,13,0.0
+MTS-00031,13,0.0
+PRT-00142,13,0.0
+PRT-00127,13,0.0
+PRT-00071,14,0.0
+Garagem Porto D'ouro 2 ,14,0.0
+Nissan Porto ZI,14,0.0
+PRT-00030,14,0.0
+PRT-00170,14,0.0
+LoftAbroad Apartments,14,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),14,0.0
+PRT-00017/18,14,0.0
+PRT-00142,14,0.0
+PRT-00173,14,0.0
+PRT-00036,14,0.0
+PRT-00105,14,0.0
+Kinda Home - Porto,14,0.0
+PRT-00020,14,0.0
+PRT-00132,14,0.0
+PRT-00051,14,0.0
+Vila Foz Hotel Spa,14,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,14,0.0
+MOBI.E - PRT-00085,14,0.0
+PRT-00091 - PCR - Areosa (LIDL),14,0.0
+PRT-00022,14,0.0
+PRT-00171,14,0.0
+Riera Alta,14,0.0
+IPP-00001/2 - Hospital de São João,14,0.0
+PRT-00091,14,0.0
+Bessa Hotel Baixa,14,0.0
+PRT-00159,14,0.0
+PRT-00028,14,0.0
+PRT-00153,14,0.0
+TESTE WDAO- PRODDD,14,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,14,0.0
+PRT-00076,14,0.0
+PRT-00050,14,0.0
+PRT-00101,14,0.0
+PRT-00129,14,0.0
+FEUP-00002,14,0.0
+PRT-00128,14,0.0
+PRT-00068,14,0.0
+PRT-00013 - PCR - Porto (Av. da França),14,0.0
+PRT-00145,14,0.0
+PRT-00073,14,0.0
+PRT-00001 - PCR - Porto (Av. França),14,0.0
+I-CHARGING TEST,14,0.0
+PRT-00020 - PCR - Q8 Circunvalação,14,0.0
+PRT-00154,14,0.0
+PRT-00021,14,0.0
+PRT-00013,14,0.0
+PRT-00062,14,0.0
+PRT-00031,14,0.0
+PRT-00049,14,0.0
+CC Parque Nascente,14,0.0
+Hotel Teatro - Tesla Destination Charger,14,0.0
+PRT-00015,14,0.0
+MOBI.E - PRT-00086,14,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,14,0.0
+MOBI-MTS-00001 -Ceiia,14,0.0
+MOBI.E - PRT-00103,14,0.0
+PRT-00156,14,0.0
+Renault Boavista,14,0.0
+Charge point GreenFlux,14,0.0
+PRT-00139,14,0.0
+PRT-00096,14,0.0
+GARAGEM CAMOES,14,0.0
+PRT-00187,14,0.0
+comum,14,0.0
+PRT-00143,14,0.0
+PRT-00097,14,0.0
+PRT-00019,14,0.0
+Via Catarina Porto,14,0.0
+PRT-00046,14,0.0
+PRT-00037,14,0.0
+PRT-00094,14,0.0
+PRT-00014,14,0.0
+PRT-00101 - PCR - Porto,14,0.0
+PRT-00060,14,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),14,0.0
+PRT-00001,14,0.0
+PRT-00141,14,0.0
+GDM-00007,14,0.0
+Garagem Porto D'ouro,14,0.0
+NISSAN CAETANO POWER S.A. (Porto),14,0.0
+PRT-00144,14,0.0
+Hotel Vincci Porto,14,0.0
+MTS-00031,14,0.0
+PRT-00160,14,0.0
+PRT-00016,14,0.0
+MTS-00046,14,0.0
+PRT-00052,14,0.0
+Hotel da Música,14,0.0
+VORTEX Gingabike - Motocidade.,14,0.0
+PRT-00069,14,0.0
+PRT-00134,14,0.0
+PRT-00155,14,0.0
+PRT-00127,14,0.0
+Hotel Crowne Plaza Porto,14,0.0
+PRT-00034,14,0.0
+PRT-00180,14,0.0
+PRT-00147,14,0.0
+Bessa Hotel Boavista,14,0.0
+PRT-00146,14,0.0
+Maison Albar Hotels Le Monumental Palace,14,0.0
+Porto Deluxe - GuestHouse,14,0.0
+PRT-00070,14,0.0
+Centro Porsche Porto,14,0.0
+FEUP-00001,14,0.0
+PRT-00032/33 - Hotel Vile Gale,14,0.0
+PRT-00017/18,15,0.0
+MOBI-MTS-00001 -Ceiia,15,0.0
+Hotel Teatro - Tesla Destination Charger,15,0.0
+PRT-00050,15,0.0
+Renault Boavista,15,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),15,0.0
+comum,15,0.0
+PRT-00032/33 - Hotel Vile Gale,15,0.0
+PRT-00030,15,0.0
+PRT-00013,15,0.0
+MTS-00031,15,0.0
+FEUP-00002,15,0.0
+Hotel da Música,15,0.0
+PRT-00153,15,0.0
+Kinda Home - Porto,15,0.0
+PRT-00159,15,0.0
+PRT-00076,15,0.0
+Via Catarina Porto,15,0.0
+PRT-00070,15,0.0
+MOBI.E - PRT-00103,15,0.0
+PRT-00187,15,0.0
+Riera Alta,15,0.0
+PRT-00154,15,0.0
+TESTE WDAO- PRODDD,15,0.0
+MOBI.E - PRT-00085,15,0.0
+PRT-00128,15,0.0
+PRT-00097,15,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,15,0.0
+Hotel Crowne Plaza Porto,15,0.0
+PRT-00171,15,0.0
+PRT-00015,15,0.0
+PRT-00021,15,0.0
+PRT-00036,15,0.0
+PRT-00037,15,0.0
+PRT-00094,15,0.0
+PRT-00046,15,0.0
+PRT-00028,15,0.0
+PRT-00147,15,0.0
+PRT-00156,15,0.0
+Porto Deluxe - GuestHouse,15,0.0
+PRT-00062,15,0.0
+PRT-00101 - PCR - Porto,15,0.0
+PRT-00155,15,0.0
+PRT-00016,15,0.0
+Maison Albar Hotels Le Monumental Palace,15,0.0
+PRT-00019,15,0.0
+Nissan Porto ZI,15,0.0
+PRT-00127,15,0.0
+Vila Foz Hotel Spa,15,0.0
+IPP-00001/2 - Hospital de São João,15,0.0
+PRT-00031,15,0.0
+PRT-00180,15,0.0
+PRT-00173,15,0.0
+PRT-00146,15,0.0
+PRT-00068,15,0.0
+PRT-00052,15,0.0
+PRT-00142,15,0.0
+GDM-00007,15,0.0
+PRT-00001 - PCR - Porto (Av. França),15,0.0
+PRT-00051,15,0.0
+PRT-00020 - PCR - Q8 Circunvalação,15,0.0
+FEUP-00001,15,0.0
+PRT-00073,15,0.0
+PRT-00129,15,0.0
+PRT-00134,15,0.0
+LoftAbroad Apartments,15,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,15,0.0
+PRT-00001,15,0.0
+CC Parque Nascente,15,0.0
+PRT-00170,15,0.0
+MTS-00046,15,0.0
+PRT-00034,15,0.0
+Centro Porsche Porto,15,0.0
+PRT-00091,15,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),15,0.0
+PRT-00143,15,0.0
+PRT-00105,15,0.0
+Bessa Hotel Boavista,15,0.0
+PRT-00071,15,0.0
+PRT-00132,15,0.0
+Bessa Hotel Baixa,15,0.0
+PRT-00141,15,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,15,0.0
+PRT-00049,15,0.0
+PRT-00020,15,0.0
+PRT-00022,15,0.0
+Hotel Vincci Porto,15,0.0
+GARAGEM CAMOES,15,0.0
+PRT-00144,15,0.0
+PRT-00096,15,0.0
+PRT-00101,15,0.0
+NISSAN CAETANO POWER S.A. (Porto),15,0.0
+VORTEX Gingabike - Motocidade.,15,0.0
+PRT-00069,15,0.0
+Garagem Porto D'ouro,15,0.0
+Garagem Porto D'ouro 2 ,15,0.0
+MOBI.E - PRT-00086,15,0.0
+PRT-00013 - PCR - Porto (Av. da França),15,0.0
+PRT-00060,15,0.0
+PRT-00014,15,0.0
+PRT-00145,15,0.0
+PRT-00139,15,0.0
+Charge point GreenFlux,15,0.0
+I-CHARGING TEST,15,0.0
+PRT-00091 - PCR - Areosa (LIDL),15,0.0
+PRT-00160,15,0.0
+PRT-00001 - PCR - Porto (Av. França),16,0.0
+Via Catarina Porto,16,0.0
+VORTEX Gingabike - Motocidade.,16,0.0
+PRT-00019,16,0.0
+PRT-00154,16,0.0
+PRT-00101,16,0.0
+MOBI.E - PRT-00086,16,0.0
+I-CHARGING TEST,16,0.0
+PRT-00143,16,0.0
+Hotel da Música,16,0.0
+PRT-00134,16,0.0
+Porto Deluxe - GuestHouse,16,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,16,0.0
+MTS-00046,16,0.0
+LoftAbroad Apartments,16,0.0
+Riera Alta,16,0.0
+PRT-00144,16,0.0
+PRT-00068,16,0.0
+PRT-00128,16,0.0
+MOBI-MTS-00001 -Ceiia,16,0.0
+PRT-00069,16,0.0
+PRT-00155,16,0.0
+Hotel Teatro - Tesla Destination Charger,16,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),16,0.0
+Vila Foz Hotel Spa,16,0.0
+PRT-00180,16,0.0
+PRT-00052,16,0.0
+PRT-00160,16,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),16,0.0
+PRT-00015,16,0.0
+Bessa Hotel Boavista,16,0.0
+MTS-00031,16,0.0
+PRT-00060,16,0.0
+Hotel Crowne Plaza Porto,16,0.0
+PRT-00046,16,0.0
+PRT-00145,16,0.0
+PRT-00159,16,0.0
+PRT-00020 - PCR - Q8 Circunvalação,16,0.0
+PRT-00062,16,0.0
+PRT-00016,16,0.0
+PRT-00021,16,0.0
+Hotel Vincci Porto,16,0.0
+MOBI.E - PRT-00103,16,0.0
+Garagem Porto D'ouro,16,0.0
+CC Parque Nascente,16,0.0
+PRT-00030,16,0.0
+PRT-00013,16,0.0
+FEUP-00001,16,0.0
+PRT-00091,16,0.0
+MOBI.E - PRT-00085,16,0.0
+NISSAN CAETANO POWER S.A. (Porto),16,0.0
+PRT-00129,16,0.0
+PRT-00173,16,0.0
+comum,16,0.0
+PRT-00141,16,0.0
+PRT-00001,16,0.0
+PRT-00076,16,0.0
+PRT-00171,16,0.0
+GDM-00007,16,0.0
+PRT-00020,16,0.0
+Renault Boavista,16,0.0
+PRT-00031,16,0.0
+PRT-00097,16,0.0
+PRT-00034,16,0.0
+Centro Porsche Porto,16,0.0
+PRT-00153,16,0.0
+PRT-00091 - PCR - Areosa (LIDL),16,0.0
+PRT-00013 - PCR - Porto (Av. da França),16,0.0
+Garagem Porto D'ouro 2 ,16,0.0
+PRT-00022,16,0.0
+PRT-00170,16,0.0
+PRT-00028,16,0.0
+PRT-00051,16,0.0
+FEUP-00002,16,0.0
+PRT-00049,16,0.0
+PRT-00132,16,0.0
+IPP-00001/2 - Hospital de São João,16,0.0
+PRT-00127,16,0.0
+PRT-00071,16,0.0
+Bessa Hotel Baixa,16,0.0
+PRT-00070,16,0.0
+Nissan Porto ZI,16,0.0
+PRT-00073,16,0.0
+PRT-00096,16,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,16,0.0
+PRT-00105,16,0.0
+Charge point GreenFlux,16,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,16,0.0
+TESTE WDAO- PRODDD,16,0.0
+PRT-00050,16,0.0
+GARAGEM CAMOES,16,0.0
+PRT-00139,16,0.0
+Kinda Home - Porto,16,0.0
+PRT-00187,16,0.0
+Maison Albar Hotels Le Monumental Palace,16,0.0
+PRT-00036,16,0.0
+PRT-00142,16,0.0
+PRT-00037,16,0.0
+PRT-00156,16,0.0
+PRT-00146,16,0.0
+PRT-00014,16,0.0
+PRT-00032/33 - Hotel Vile Gale,16,0.0
+PRT-00101 - PCR - Porto,16,0.0
+PRT-00017/18,16,0.0
+PRT-00147,16,0.0
+PRT-00094,16,0.0
+CC Parque Nascente,17,0.0
+Garagem Porto D'ouro 2 ,17,0.0
+Renault Boavista,17,0.0
+Kinda Home - Porto,17,0.0
+PRT-00013 - PCR - Porto (Av. da França),17,0.0
+PRT-00145,17,0.0
+PRT-00154,17,0.0
+PRT-00141,17,0.0
+PRT-00015,17,0.0
+PRT-00069,17,0.0
+PRT-00071,17,0.0
+PRT-00031,17,0.0
+FEUP-00002,17,0.0
+PRT-00076,17,0.0
+PRT-00019,17,0.0
+PRT-00147,17,0.0
+TESTE WDAO- PRODDD,17,0.0
+PRT-00187,17,0.0
+PRT-00144,17,0.0
+PRT-00034,17,0.0
+PRT-00127,17,0.0
+GDM-00007,17,0.0
+PRT-00096,17,0.0
+MTS-00046,17,0.0
+PRT-00155,17,0.0
+Hotel Teatro - Tesla Destination Charger,17,0.0
+PRT-00173,17,0.0
+PRT-00070,17,0.0
+Hotel Crowne Plaza Porto,17,0.0
+PRT-00146,17,0.0
+I-CHARGING TEST,17,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,17,0.0
+Via Catarina Porto,17,0.0
+Charge point GreenFlux,17,0.0
+Bessa Hotel Baixa,17,0.0
+PRT-00105,17,0.0
+MOBI-MTS-00001 -Ceiia,17,0.0
+PRT-00132,17,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),17,0.0
+PRT-00159,17,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,17,0.0
+Hotel Vincci Porto,17,0.0
+PRT-00142,17,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,17,0.0
+PRT-00016,17,0.0
+PRT-00160,17,0.0
+PRT-00014,17,0.0
+PRT-00153,17,0.0
+Maison Albar Hotels Le Monumental Palace,17,0.0
+PRT-00052,17,0.0
+PRT-00128,17,0.0
+PRT-00097,17,0.0
+PRT-00013,17,0.0
+PRT-00049,17,0.0
+VORTEX Gingabike - Motocidade.,17,0.0
+PRT-00020,17,0.0
+Garagem Porto D'ouro,17,0.0
+GARAGEM CAMOES,17,0.0
+Riera Alta,17,0.0
+Hotel da Música,17,0.0
+PRT-00180,17,0.0
+PRT-00001 - PCR - Porto (Av. França),17,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),17,0.0
+PRT-00037,17,0.0
+PRT-00139,17,0.0
+PRT-00022,17,0.0
+PRT-00094,17,0.0
+MOBI.E - PRT-00085,17,0.0
+IPP-00001/2 - Hospital de São João,17,0.0
+MOBI.E - PRT-00103,17,0.0
+PRT-00134,17,0.0
+PRT-00068,17,0.0
+Vila Foz Hotel Spa,17,0.0
+PRT-00032/33 - Hotel Vile Gale,17,0.0
+LoftAbroad Apartments,17,0.0
+PRT-00028,17,0.0
+PRT-00046,17,0.0
+PRT-00101,17,0.0
+FEUP-00001,17,0.0
+PRT-00171,17,0.0
+PRT-00091 - PCR - Areosa (LIDL),17,0.0
+PRT-00001,17,0.0
+PRT-00170,17,0.0
+NISSAN CAETANO POWER S.A. (Porto),17,0.0
+comum,17,0.0
+PRT-00051,17,0.0
+PRT-00073,17,0.0
+PRT-00156,17,0.0
+PRT-00020 - PCR - Q8 Circunvalação,17,0.0
+PRT-00021,17,0.0
+MOBI.E - PRT-00086,17,0.0
+PRT-00036,17,0.0
+PRT-00060,17,0.0
+PRT-00091,17,0.0
+Porto Deluxe - GuestHouse,17,0.0
+PRT-00062,17,0.0
+Nissan Porto ZI,17,0.0
+Centro Porsche Porto,17,0.0
+PRT-00030,17,0.0
+PRT-00017/18,17,0.0
+PRT-00101 - PCR - Porto,17,0.0
+Bessa Hotel Boavista,17,0.0
+MTS-00031,17,0.0
+PRT-00050,17,0.0
+PRT-00129,17,0.0
+PRT-00143,17,0.0
+Maison Albar Hotels Le Monumental Palace,18,0.0
+PRT-00144,18,0.0
+PRT-00046,18,0.0
+PRT-00020 - PCR - Q8 Circunvalação,18,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,18,0.0
+VORTEX Gingabike - Motocidade.,18,0.0
+PRT-00101 - PCR - Porto,18,0.0
+PRT-00017/18,18,0.0
+PRT-00051,18,0.0
+IPP-00001/2 - Hospital de São João,18,0.0
+PRT-00156,18,0.0
+Nissan Porto ZI,18,0.0
+PRT-00022,18,0.0
+PRT-00050,18,0.0
+PRT-00141,18,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),18,0.0
+PRT-00030,18,0.0
+Hotel Vincci Porto,18,0.0
+PRT-00094,18,0.0
+PRT-00187,18,0.0
+PRT-00049,18,0.0
+MOBI.E - PRT-00103,18,0.0
+PRT-00155,18,0.0
+Garagem Porto D'ouro 2 ,18,0.0
+Charge point GreenFlux,18,0.0
+Hotel Crowne Plaza Porto,18,0.0
+PRT-00132,18,0.0
+FEUP-00002,18,0.0
+PRT-00173,18,0.0
+PRT-00147,18,0.0
+PRT-00034,18,0.0
+PRT-00001 - PCR - Porto (Av. França),18,0.0
+Hotel da Música,18,0.0
+PRT-00015,18,0.0
+NISSAN CAETANO POWER S.A. (Porto),18,0.0
+PRT-00060,18,0.0
+PRT-00154,18,0.0
+GARAGEM CAMOES,18,0.0
+I-CHARGING TEST,18,0.0
+PRT-00071,18,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,18,0.0
+Porto Deluxe - GuestHouse,18,0.0
+PRT-00032/33 - Hotel Vile Gale,18,0.0
+MOBI-MTS-00001 -Ceiia,18,0.0
+PRT-00105,18,0.0
+Via Catarina Porto,18,0.0
+comum,18,0.0
+PRT-00171,18,0.0
+PRT-00021,18,0.0
+Garagem Porto D'ouro,18,0.0
+LoftAbroad Apartments,18,0.0
+PRT-00052,18,0.0
+PRT-00036,18,0.0
+PRT-00013 - PCR - Porto (Av. da França),18,0.0
+PRT-00170,18,0.0
+Vila Foz Hotel Spa,18,0.0
+PRT-00129,18,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,18,0.0
+PRT-00096,18,0.0
+PRT-00014,18,0.0
+Riera Alta,18,0.0
+PRT-00146,18,0.0
+MOBI.E - PRT-00086,18,0.0
+Kinda Home - Porto,18,0.0
+PRT-00070,18,0.0
+PRT-00020,18,0.0
+PRT-00073,18,0.0
+GDM-00007,18,0.0
+PRT-00062,18,0.0
+Bessa Hotel Boavista,18,0.0
+PRT-00134,18,0.0
+PRT-00180,18,0.0
+CC Parque Nascente,18,0.0
+PRT-00031,18,0.0
+MTS-00031,18,0.0
+PRT-00145,18,0.0
+PRT-00013,18,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),18,0.0
+PRT-00143,18,0.0
+PRT-00091 - PCR - Areosa (LIDL),18,0.0
+PRT-00076,18,0.0
+PRT-00159,18,0.0
+PRT-00091,18,0.0
+PRT-00037,18,0.0
+MTS-00046,18,0.0
+PRT-00139,18,0.0
+PRT-00001,18,0.0
+PRT-00016,18,0.0
+Hotel Teatro - Tesla Destination Charger,18,0.0
+PRT-00127,18,0.0
+PRT-00142,18,0.0
+PRT-00128,18,0.0
+Centro Porsche Porto,18,0.0
+PRT-00069,18,0.0
+FEUP-00001,18,0.0
+PRT-00101,18,0.0
+PRT-00068,18,0.0
+MOBI.E - PRT-00085,18,0.0
+TESTE WDAO- PRODDD,18,0.0
+PRT-00097,18,0.0
+Bessa Hotel Baixa,18,0.0
+PRT-00153,18,0.0
+PRT-00028,18,0.0
+Renault Boavista,18,0.0
+PRT-00019,18,0.0
+PRT-00160,18,0.0
+PRT-00001,19,0.0
+Garagem Porto D'ouro,19,0.0
+PRT-00032/33 - Hotel Vile Gale,19,0.0
+PRT-00187,19,0.0
+comum,19,0.0
+Bessa Hotel Boavista,19,0.0
+PRT-00143,19,0.0
+PRT-00069,19,0.0
+Hotel da Música,19,0.0
+Hotel Teatro - Tesla Destination Charger,19,0.0
+Kinda Home - Porto,19,0.0
+PRT-00052,19,0.0
+CC Parque Nascente,19,0.0
+Nissan Porto ZI,19,0.0
+MOBI-MTS-00001 -Ceiia,19,0.0
+Riera Alta,19,0.0
+PRT-00068,19,0.0
+PRT-00171,19,0.0
+PRT-00132,19,0.0
+VORTEX Gingabike - Motocidade.,19,0.0
+Via Catarina Porto,19,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),19,0.0
+PRT-00062,19,0.0
+PRT-00037,19,0.0
+PRT-00030,19,0.0
+PRT-00094,19,0.0
+Porto Deluxe - GuestHouse,19,0.0
+FEUP-00001,19,0.0
+PRT-00028,19,0.0
+PRT-00013 - PCR - Porto (Av. da França),19,0.0
+PRT-00015,19,0.0
+PRT-00049,19,0.0
+PRT-00096,19,0.0
+PRT-00070,19,0.0
+PRT-00129,19,0.0
+Hotel Vincci Porto,19,0.0
+PRT-00105,19,0.0
+Vila Foz Hotel Spa,19,0.0
+PRT-00073,19,0.0
+PRT-00180,19,0.0
+PRT-00046,19,0.0
+IPP-00001/2 - Hospital de São João,19,0.0
+PRT-00060,19,0.0
+PRT-00127,19,0.0
+Maison Albar Hotels Le Monumental Palace,19,0.0
+NISSAN CAETANO POWER S.A. (Porto),19,0.0
+PRT-00141,19,0.0
+PRT-00034,19,0.0
+PRT-00170,19,0.0
+Bessa Hotel Baixa,19,0.0
+PRT-00071,19,0.0
+PRT-00145,19,0.0
+FEUP-00002,19,0.0
+MOBI.E - PRT-00086,19,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),19,0.0
+TESTE WDAO- PRODDD,19,0.0
+PRT-00144,19,0.0
+PRT-00016,19,0.0
+PRT-00128,19,0.0
+PRT-00022,19,0.0
+PRT-00076,19,0.0
+PRT-00051,19,0.0
+PRT-00091,19,0.0
+MTS-00031,19,0.0
+PRT-00013,19,0.0
+PRT-00134,19,0.0
+Charge point GreenFlux,19,0.0
+PRT-00155,19,0.0
+MTS-00046,19,0.0
+I-CHARGING TEST,19,0.0
+PRT-00147,19,0.0
+PRT-00014,19,0.0
+GARAGEM CAMOES,19,0.0
+PRT-00156,19,0.0
+PRT-00139,19,0.0
+PRT-00173,19,0.0
+PRT-00153,19,0.0
+PRT-00031,19,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,19,0.0
+PRT-00142,19,0.0
+MOBI.E - PRT-00085,19,0.0
+PRT-00017/18,19,0.0
+MOBI.E - PRT-00103,19,0.0
+PRT-00097,19,0.0
+Renault Boavista,19,0.0
+Hotel Crowne Plaza Porto,19,0.0
+GDM-00007,19,0.0
+PRT-00154,19,0.0
+PRT-00160,19,0.0
+PRT-00001 - PCR - Porto (Av. França),19,0.0
+PRT-00091 - PCR - Areosa (LIDL),19,0.0
+PRT-00101 - PCR - Porto,19,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,19,0.0
+PRT-00159,19,0.0
+PRT-00020 - PCR - Q8 Circunvalação,19,0.0
+Centro Porsche Porto,19,0.0
+Garagem Porto D'ouro 2 ,19,0.0
+PRT-00019,19,0.0
+LoftAbroad Apartments,19,0.0
+PRT-00050,19,0.0
+PRT-00021,19,0.0
+PRT-00036,19,0.0
+PRT-00020,19,0.0
+PRT-00146,19,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,19,0.0
+PRT-00101,19,0.0
+Garagem Porto D'ouro 2 ,20,0.0
+Nissan Porto ZI,20,0.0
+Via Catarina Porto,20,0.0
+PRT-00051,20,0.0
+PRT-00001,20,0.0
+Riera Alta,20,0.0
+PRT-00159,20,0.0
+Hotel da Música,20,0.0
+Kinda Home - Porto,20,0.0
+Hotel Teatro - Tesla Destination Charger,20,0.0
+PRT-00021,20,0.0
+PRT-00052,20,0.0
+PRT-00028,20,0.0
+Garagem Porto D'ouro,20,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),20,0.0
+PRT-00032/33 - Hotel Vile Gale,20,0.0
+PRT-00068,20,0.0
+PRT-00154,20,0.0
+Maison Albar Hotels Le Monumental Palace,20,0.0
+PRT-00070,20,0.0
+PRT-00146,20,0.0
+Renault Boavista,20,0.0
+PRT-00153,20,0.0
+PRT-00001 - PCR - Porto (Av. França),20,0.0
+Hotel Vincci Porto,20,0.0
+PRT-00141,20,0.0
+PRT-00145,20,0.0
+LoftAbroad Apartments,20,0.0
+PRT-00173,20,0.0
+PRT-00020,20,0.0
+PRT-00139,20,0.0
+PRT-00019,20,0.0
+GARAGEM CAMOES,20,0.0
+CC Parque Nascente,20,0.0
+PRT-00030,20,0.0
+PRT-00062,20,0.0
+PRT-00096,20,0.0
+PRT-00156,20,0.0
+PRT-00050,20,0.0
+PRT-00094,20,0.0
+PRT-00060,20,0.0
+PRT-00134,20,0.0
+PRT-00101,20,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,20,0.0
+PRT-00105,20,0.0
+PRT-00127,20,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),20,0.0
+IPP-00001/2 - Hospital de São João,20,0.0
+PRT-00073,20,0.0
+I-CHARGING TEST,20,0.0
+Centro Porsche Porto,20,0.0
+PRT-00101 - PCR - Porto,20,0.0
+Bessa Hotel Boavista,20,0.0
+PRT-00014,20,0.0
+PRT-00034,20,0.0
+PRT-00069,20,0.0
+PRT-00132,20,0.0
+PRT-00076,20,0.0
+PRT-00170,20,0.0
+PRT-00022,20,0.0
+NISSAN CAETANO POWER S.A. (Porto),20,0.0
+PRT-00155,20,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,20,0.0
+PRT-00097,20,0.0
+PRT-00128,20,0.0
+PRT-00036,20,0.0
+MOBI.E - PRT-00085,20,0.0
+Vila Foz Hotel Spa,20,0.0
+PRT-00091,20,0.0
+PRT-00037,20,0.0
+FEUP-00002,20,0.0
+PRT-00144,20,0.0
+PRT-00016,20,0.0
+PRT-00171,20,0.0
+PRT-00013 - PCR - Porto (Av. da França),20,0.0
+PRT-00147,20,0.0
+PRT-00129,20,0.0
+PRT-00013,20,0.0
+PRT-00015,20,0.0
+PRT-00020 - PCR - Q8 Circunvalação,20,0.0
+PRT-00017/18,20,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,20,0.0
+MOBI.E - PRT-00086,20,0.0
+PRT-00091 - PCR - Areosa (LIDL),20,0.0
+Hotel Crowne Plaza Porto,20,0.0
+MTS-00046,20,0.0
+PRT-00180,20,0.0
+MOBI-MTS-00001 -Ceiia,20,0.0
+MOBI.E - PRT-00103,20,0.0
+FEUP-00001,20,0.0
+PRT-00187,20,0.0
+Bessa Hotel Baixa,20,0.0
+MTS-00031,20,0.0
+PRT-00142,20,0.0
+VORTEX Gingabike - Motocidade.,20,0.0
+PRT-00143,20,0.0
+TESTE WDAO- PRODDD,20,0.0
+PRT-00031,20,0.0
+PRT-00049,20,0.0
+PRT-00160,20,0.0
+Porto Deluxe - GuestHouse,20,0.0
+PRT-00071,20,0.0
+GDM-00007,20,0.0
+Charge point GreenFlux,20,0.0
+comum,20,0.0
+PRT-00046,20,0.0
+PRT-00037,21,0.0
+PRT-00071,21,0.0
+PRT-00049,21,0.0
+Via Catarina Porto,21,0.0
+PRT-00030,21,0.0
+PRT-00062,21,0.0
+Bessa Hotel Boavista,21,0.0
+FEUP-00002,21,0.0
+PRT-00073,21,0.0
+PRT-00020 - PCR - Q8 Circunvalação,21,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,21,0.0
+PRT-00155,21,0.0
+PRT-00128,21,0.0
+Nissan Porto ZI,21,0.0
+Maison Albar Hotels Le Monumental Palace,21,0.0
+FEUP-00001,21,0.0
+Renault Boavista,21,0.0
+PRT-00145,21,0.0
+MOBI.E - PRT-00085,21,0.0
+PRT-00094,21,0.0
+PRT-00171,21,0.0
+MOBI.E - PRT-00086,21,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,21,0.0
+PRT-00022,21,0.0
+Bessa Hotel Baixa,21,0.0
+PRT-00134,21,0.0
+PRT-00154,21,0.0
+PRT-00147,21,0.0
+I-CHARGING TEST,21,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,21,0.0
+Vila Foz Hotel Spa,21,0.0
+LoftAbroad Apartments,21,0.0
+PRT-00068,21,0.0
+PRT-00019,21,0.0
+PRT-00016,21,0.0
+PRT-00143,21,0.0
+PRT-00021,21,0.0
+MTS-00046,21,0.0
+PRT-00144,21,0.0
+PRT-00052,21,0.0
+PRT-00091,21,0.0
+PRT-00097,21,0.0
+PRT-00159,21,0.0
+Charge point GreenFlux,21,0.0
+PRT-00050,21,0.0
+GDM-00007,21,0.0
+VORTEX Gingabike - Motocidade.,21,0.0
+PRT-00139,21,0.0
+PRT-00156,21,0.0
+PRT-00132,21,0.0
+MOBI.E - PRT-00103,21,0.0
+PRT-00173,21,0.0
+PRT-00032/33 - Hotel Vile Gale,21,0.0
+Hotel Teatro - Tesla Destination Charger,21,0.0
+PRT-00060,21,0.0
+PRT-00180,21,0.0
+PRT-00160,21,0.0
+Centro Porsche Porto,21,0.0
+Garagem Porto D'ouro,21,0.0
+PRT-00015,21,0.0
+TESTE WDAO- PRODDD,21,0.0
+PRT-00036,21,0.0
+Hotel Crowne Plaza Porto,21,0.0
+PRT-00146,21,0.0
+NISSAN CAETANO POWER S.A. (Porto),21,0.0
+Hotel Vincci Porto,21,0.0
+PRT-00076,21,0.0
+GARAGEM CAMOES,21,0.0
+PRT-00001 - PCR - Porto (Av. França),21,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),21,0.0
+PRT-00014,21,0.0
+PRT-00127,21,0.0
+MOBI-MTS-00001 -Ceiia,21,0.0
+PRT-00070,21,0.0
+IPP-00001/2 - Hospital de São João,21,0.0
+Garagem Porto D'ouro 2 ,21,0.0
+PRT-00141,21,0.0
+Porto Deluxe - GuestHouse,21,0.0
+MTS-00031,21,0.0
+PRT-00028,21,0.0
+Kinda Home - Porto,21,0.0
+PRT-00046,21,0.0
+Hotel da Música,21,0.0
+comum,21,0.0
+PRT-00187,21,0.0
+PRT-00101 - PCR - Porto,21,0.0
+PRT-00170,21,0.0
+PRT-00001,21,0.0
+PRT-00069,21,0.0
+PRT-00031,21,0.0
+PRT-00051,21,0.0
+PRT-00142,21,0.0
+PRT-00129,21,0.0
+PRT-00017/18,21,0.0
+PRT-00091 - PCR - Areosa (LIDL),21,0.0
+PRT-00105,21,0.0
+PRT-00153,21,0.0
+PRT-00013 - PCR - Porto (Av. da França),21,0.0
+PRT-00020,21,0.0
+Riera Alta,21,0.0
+PRT-00101,21,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),21,0.0
+CC Parque Nascente,21,0.0
+PRT-00034,21,0.0
+PRT-00096,21,0.0
+PRT-00013,21,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,22,0.0
+PRT-00019,22,0.0
+PRT-00076,22,0.0
+PRT-00142,22,0.0
+FEUP-00002,22,0.0
+VORTEX Gingabike - Motocidade.,22,0.0
+PRT-00127,22,0.0
+PRT-00051,22,0.0
+I-CHARGING TEST,22,0.0
+PRT-00021,22,0.0
+PRT-00020 - PCR - Q8 Circunvalação,22,0.0
+PRT-00034,22,0.0
+PRT-00073,22,0.0
+Bessa Hotel Baixa,22,0.0
+Garagem Porto D'ouro,22,0.0
+PRT-00145,22,0.0
+PRT-00143,22,0.0
+Hotel Teatro - Tesla Destination Charger,22,0.0
+Kinda Home - Porto,22,0.0
+PRT-00101 - PCR - Porto,22,0.0
+PRT-00028,22,0.0
+PRT-00001 - PCR - Porto (Av. França),22,0.0
+PRT-00050,22,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),22,0.0
+PRT-00129,22,0.0
+PRT-00160,22,0.0
+Hotel Vincci Porto,22,0.0
+PRT-00139,22,0.0
+PRT-00046,22,0.0
+PRT-00144,22,0.0
+PRT-00155,22,0.0
+Renault Boavista,22,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),22,0.0
+CC Parque Nascente,22,0.0
+PRT-00091 - PCR - Areosa (LIDL),22,0.0
+PRT-00022,22,0.0
+Charge point GreenFlux,22,0.0
+MTS-00046,22,0.0
+PRT-00134,22,0.0
+GDM-00007,22,0.0
+Bessa Hotel Boavista,22,0.0
+PRT-00071,22,0.0
+Centro Porsche Porto,22,0.0
+PRT-00016,22,0.0
+MOBI-MTS-00001 -Ceiia,22,0.0
+PRT-00180,22,0.0
+NISSAN CAETANO POWER S.A. (Porto),22,0.0
+PRT-00171,22,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,22,0.0
+PRT-00128,22,0.0
+PRT-00062,22,0.0
+PRT-00170,22,0.0
+PRT-00020,22,0.0
+MOBI.E - PRT-00086,22,0.0
+PRT-00015,22,0.0
+PRT-00049,22,0.0
+MOBI.E - PRT-00085,22,0.0
+Hotel da Música,22,0.0
+MOBI.E - PRT-00103,22,0.0
+Maison Albar Hotels Le Monumental Palace,22,0.0
+PRT-00101,22,0.0
+PRT-00146,22,0.0
+PRT-00013 - PCR - Porto (Av. da França),22,0.0
+PRT-00032/33 - Hotel Vile Gale,22,0.0
+PRT-00036,22,0.0
+TESTE WDAO- PRODDD,22,0.0
+PRT-00187,22,0.0
+PRT-00141,22,0.0
+PRT-00096,22,0.0
+Porto Deluxe - GuestHouse,22,0.0
+PRT-00060,22,0.0
+Hotel Crowne Plaza Porto,22,0.0
+PRT-00017/18,22,0.0
+PRT-00014,22,0.0
+Riera Alta,22,0.0
+Via Catarina Porto,22,0.0
+PRT-00132,22,0.0
+LoftAbroad Apartments,22,0.0
+PRT-00068,22,0.0
+Nissan Porto ZI,22,0.0
+PRT-00105,22,0.0
+PRT-00173,22,0.0
+PRT-00153,22,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,22,0.0
+comum,22,0.0
+PRT-00097,22,0.0
+Garagem Porto D'ouro 2 ,22,0.0
+PRT-00031,22,0.0
+PRT-00154,22,0.0
+PRT-00159,22,0.0
+FEUP-00001,22,0.0
+PRT-00147,22,0.0
+PRT-00013,22,0.0
+PRT-00156,22,0.0
+PRT-00069,22,0.0
+PRT-00052,22,0.0
+PRT-00070,22,0.0
+PRT-00091,22,0.0
+PRT-00001,22,0.0
+Vila Foz Hotel Spa,22,0.0
+PRT-00094,22,0.0
+PRT-00030,22,0.0
+GARAGEM CAMOES,22,0.0
+PRT-00037,22,0.0
+MTS-00031,22,0.0
+IPP-00001/2 - Hospital de São João,22,0.0
+FEUP-00002,23,0.0
+IPP-00001/2 - Hospital de São João,23,0.0
+PRT-00070,23,0.0
+Via Catarina Porto,23,0.0
+PRT-00069,23,0.0
+PRT-00051,23,0.0
+PRT-00101,23,0.0
+PRT-00013 - PCR - Porto (Av. da França),23,0.0
+PRT-00060,23,0.0
+PRT-00076,23,0.0
+CC Parque Nascente,23,0.0
+PRT-00187,23,0.0
+PRT-00159,23,0.0
+MOBI.E - PRT-00085,23,0.0
+PRT-00091 - PCR - Areosa (LIDL),23,0.0
+PRT-00019,23,0.0
+PRT-00147,23,0.0
+Maison Albar Hotels Le Monumental Palace,23,0.0
+PRT-00142,23,0.0
+PRT-00091,23,0.0
+PRT-00129,23,0.0
+PRT-00020 - PCR - Q8 Circunvalação,23,0.0
+PRT-00073,23,0.0
+MTS-00031,23,0.0
+PRT-00022,23,0.0
+PRT-00036,23,0.0
+Kinda Home - Porto,23,0.0
+MTS-00046,23,0.0
+Hotel Vincci Porto,23,0.0
+PRT-00052,23,0.0
+Bessa Hotel Boavista,23,0.0
+MOBI.E - PRT-00086,23,0.0
+Centro Porsche Porto,23,0.0
+PRT-00032/33 - Hotel Vile Gale,23,0.0
+PRT-00050,23,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,23,0.0
+PRT-00105,23,0.0
+PRT-00031,23,0.0
+PRT-00068,23,0.0
+PRT-00156,23,0.0
+PRT-00001 - PCR - Porto (Av. França),23,0.0
+PRT-00144,23,0.0
+PRT-00139,23,0.0
+PRT-00171,23,0.0
+PRT-00016,23,0.0
+PRT-00062,23,0.0
+Riera Alta,23,0.0
+Charge point GreenFlux,23,0.0
+PRT-00128,23,0.0
+PRT-00134,23,0.0
+PRT-00146,23,0.0
+LoftAbroad Apartments,23,0.0
+PRT-00017/18,23,0.0
+PRT-00071,23,0.0
+PRT-00141,23,0.0
+PRT-00030,23,0.0
+PRT-00021,23,0.0
+GARAGEM CAMOES,23,0.0
+GDM-00007,23,0.0
+Nissan Porto ZI,23,0.0
+PRT-00034,23,0.0
+PRT-00028,23,0.0
+PRT-00101 - PCR - Porto,23,0.0
+TESTE WDAO- PRODDD,23,0.0
+PRT-00094,23,0.0
+Vila Foz Hotel Spa,23,0.0
+PRT-00180,23,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,23,0.0
+PRT-00096,23,0.0
+NISSAN CAETANO POWER S.A. (Porto),23,0.0
+PRT-00049,23,0.0
+PRT-00015,23,0.0
+PRT-00153,23,0.0
+VORTEX Gingabike - Motocidade.,23,0.0
+Porto Deluxe - GuestHouse,23,0.0
+MOBI.E - PRT-00103,23,0.0
+PRT-00046,23,0.0
+PRT-00013,23,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),23,0.0
+Hotel Teatro - Tesla Destination Charger,23,0.0
+PRT-00145,23,0.0
+PRT-00037,23,0.0
+comum,23,0.0
+MOBI-MTS-00001 -Ceiia,23,0.0
+PRT-00097,23,0.0
+PRT-00155,23,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),23,0.0
+PRT-00014,23,0.0
+PRT-00170,23,0.0
+PRT-00001,23,0.0
+Bessa Hotel Baixa,23,0.0
+Garagem Porto D'ouro 2 ,23,0.0
+I-CHARGING TEST,23,0.0
+Hotel Crowne Plaza Porto,23,0.0
+Hotel da Música,23,0.0
+PRT-00020,23,0.0
+PRT-00173,23,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,23,0.0
+PRT-00154,23,0.0
+PRT-00160,23,0.0
+PRT-00132,23,0.0
+PRT-00143,23,0.0
+PRT-00127,23,0.0
+FEUP-00001,23,0.0
+Garagem Porto D'ouro,23,0.0
+Renault Boavista,23,0.0
+PRT-00127,24,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),24,0.0
+PRT-00017/18,24,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),24,0.0
+PRT-00037,24,0.0
+comum,24,0.0
+Riera Alta,24,0.0
+Via Catarina Porto,24,0.0
+PRT-00015,24,0.0
+VORTEX Gingabike - Motocidade.,24,0.0
+PRT-00016,24,0.0
+PRT-00156,24,0.0
+PRT-00032/33 - Hotel Vile Gale,24,0.0
+PRT-00034,24,0.0
+PRT-00021,24,0.0
+PRT-00134,24,0.0
+MOBI.E - PRT-00085,24,0.0
+PRT-00159,24,0.0
+PRT-00028,24,0.0
+PRT-00170,24,0.0
+PRT-00091 - PCR - Areosa (LIDL),24,0.0
+Hotel Teatro - Tesla Destination Charger,24,0.0
+FEUP-00002,24,0.0
+PRT-00060,24,0.0
+PRT-00030,24,0.0
+PRT-00153,24,0.0
+I-CHARGING TEST,24,0.0
+MTS-00031,24,0.0
+PRT-00097,24,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,24,0.0
+PRT-00020,24,0.0
+PRT-00019,24,0.0
+PRT-00132,24,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,24,0.0
+PRT-00128,24,0.0
+PRT-00031,24,0.0
+PRT-00187,24,0.0
+PRT-00052,24,0.0
+Maison Albar Hotels Le Monumental Palace,24,0.0
+Garagem Porto D'ouro 2 ,24,0.0
+PRT-00147,24,0.0
+PRT-00146,24,0.0
+Vila Foz Hotel Spa,24,0.0
+PRT-00139,24,0.0
+PRT-00001 - PCR - Porto (Av. França),24,0.0
+PRT-00141,24,0.0
+PRT-00013 - PCR - Porto (Av. da França),24,0.0
+Centro Porsche Porto,24,0.0
+Garagem Porto D'ouro,24,0.0
+PRT-00071,24,0.0
+Hotel Vincci Porto,24,0.0
+PRT-00046,24,0.0
+PRT-00142,24,0.0
+FEUP-00001,24,0.0
+MOBI.E - PRT-00086,24,0.0
+Renault Boavista,24,0.0
+MTS-00046,24,0.0
+PRT-00076,24,0.0
+PRT-00070,24,0.0
+PRT-00069,24,0.0
+LoftAbroad Apartments,24,0.0
+GDM-00007,24,0.0
+PRT-00160,24,0.0
+PRT-00101 - PCR - Porto,24,0.0
+PRT-00014,24,0.0
+PRT-00051,24,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,24,0.0
+CC Parque Nascente,24,0.0
+PRT-00020 - PCR - Q8 Circunvalação,24,0.0
+PRT-00155,24,0.0
+Kinda Home - Porto,24,0.0
+Porto Deluxe - GuestHouse,24,0.0
+PRT-00173,24,0.0
+PRT-00096,24,0.0
+PRT-00062,24,0.0
+Bessa Hotel Baixa,24,0.0
+PRT-00101,24,0.0
+PRT-00145,24,0.0
+PRT-00068,24,0.0
+Charge point GreenFlux,24,0.0
+PRT-00154,24,0.0
+IPP-00001/2 - Hospital de São João,24,0.0
+PRT-00144,24,0.0
+PRT-00094,24,0.0
+GARAGEM CAMOES,24,0.0
+Hotel da Música,24,0.0
+PRT-00036,24,0.0
+NISSAN CAETANO POWER S.A. (Porto),24,0.0
+PRT-00143,24,0.0
+PRT-00001,24,0.0
+MOBI-MTS-00001 -Ceiia,24,0.0
+PRT-00022,24,0.0
+PRT-00073,24,0.0
+PRT-00171,24,0.0
+Bessa Hotel Boavista,24,0.0
+TESTE WDAO- PRODDD,24,0.0
+PRT-00049,24,0.0
+PRT-00050,24,0.0
+PRT-00105,24,0.0
+PRT-00129,24,0.0
+MOBI.E - PRT-00103,24,0.0
+PRT-00091,24,0.0
+Hotel Crowne Plaza Porto,24,0.0
+PRT-00180,24,0.0
+PRT-00013,24,0.0
+Nissan Porto ZI,24,0.0
+PRT-00146,25,0.0
+PRT-00129,25,0.0
+LoftAbroad Apartments,25,0.0
+MOBI.E - PRT-00085,25,0.0
+Maison Albar Hotels Le Monumental Palace,25,0.0
+Hotel da Música,25,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),25,0.0
+PRT-00145,25,0.0
+PRT-00139,25,0.0
+PRT-00153,25,0.0
+NISSAN CAETANO POWER S.A. (Porto),25,0.0
+IPP-00001/2 - Hospital de São João,25,0.0
+Charge point GreenFlux,25,0.0
+PRT-00068,25,0.0
+Hotel Teatro - Tesla Destination Charger,25,0.0
+PRT-00020 - PCR - Q8 Circunvalação,25,0.0
+PRT-00144,25,0.0
+PRT-00147,25,0.0
+PRT-00017/18,25,0.0
+PRT-00051,25,0.0
+PRT-00091,25,0.0
+PRT-00128,25,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,25,0.0
+PRT-00062,25,0.0
+PRT-00030,25,0.0
+VORTEX Gingabike - Motocidade.,25,0.0
+PRT-00020,25,0.0
+TESTE WDAO- PRODDD,25,0.0
+MTS-00031,25,0.0
+PRT-00013 - PCR - Porto (Av. da França),25,0.0
+PRT-00134,25,0.0
+PRT-00073,25,0.0
+MOBI.E - PRT-00086,25,0.0
+MTS-00046,25,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,25,0.0
+PRT-00105,25,0.0
+PRT-00071,25,0.0
+PRT-00155,25,0.0
+PRT-00060,25,0.0
+PRT-00154,25,0.0
+PRT-00046,25,0.0
+PRT-00142,25,0.0
+PRT-00173,25,0.0
+PRT-00028,25,0.0
+Hotel Vincci Porto,25,0.0
+PRT-00143,25,0.0
+comum,25,0.0
+MOBI.E - PRT-00103,25,0.0
+PRT-00016,25,0.0
+PRT-00159,25,0.0
+Nissan Porto ZI,25,0.0
+PRT-00015,25,0.0
+PRT-00001,25,0.0
+PRT-00187,25,0.0
+PRT-00160,25,0.0
+PRT-00032/33 - Hotel Vile Gale,25,0.0
+PRT-00014,25,0.0
+PRT-00132,25,0.0
+PRT-00097,25,0.0
+PRT-00091 - PCR - Areosa (LIDL),25,0.0
+Bessa Hotel Boavista,25,0.0
+Porto Deluxe - GuestHouse,25,0.0
+Riera Alta,25,0.0
+I-CHARGING TEST,25,0.0
+PRT-00094,25,0.0
+Bessa Hotel Baixa,25,0.0
+PRT-00101 - PCR - Porto,25,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),25,0.0
+PRT-00127,25,0.0
+Hotel Crowne Plaza Porto,25,0.0
+PRT-00001 - PCR - Porto (Av. França),25,0.0
+PRT-00050,25,0.0
+PRT-00022,25,0.0
+PRT-00070,25,0.0
+PRT-00034,25,0.0
+PRT-00049,25,0.0
+Vila Foz Hotel Spa,25,0.0
+PRT-00171,25,0.0
+FEUP-00002,25,0.0
+Garagem Porto D'ouro 2 ,25,0.0
+Kinda Home - Porto,25,0.0
+MOBI-MTS-00001 -Ceiia,25,0.0
+PRT-00096,25,0.0
+PRT-00101,25,0.0
+GARAGEM CAMOES,25,0.0
+PRT-00013,25,0.0
+Renault Boavista,25,0.0
+PRT-00170,25,0.0
+Via Catarina Porto,25,0.0
+Garagem Porto D'ouro,25,0.0
+PRT-00036,25,0.0
+PRT-00141,25,0.0
+PRT-00037,25,0.0
+PRT-00052,25,0.0
+Centro Porsche Porto,25,0.0
+PRT-00156,25,0.0
+PRT-00031,25,0.0
+PRT-00076,25,0.0
+FEUP-00001,25,0.0
+PRT-00021,25,0.0
+GDM-00007,25,0.0
+PRT-00180,25,0.0
+CC Parque Nascente,25,0.0
+PRT-00069,25,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,25,0.0
+PRT-00019,25,0.0
+PRT-00062,26,0.0
+FEUP-00001,26,0.0
+MTS-00046,26,0.0
+PRT-00101 - PCR - Porto,26,0.0
+PRT-00014,26,0.0
+PRT-00139,26,0.0
+PRT-00049,26,0.0
+Centro Porsche Porto,26,0.0
+GDM-00007,26,0.0
+PRT-00101,26,0.0
+PRT-00076,26,0.0
+Renault Boavista,26,0.0
+PRT-00094,26,0.0
+PRT-00001,26,0.0
+PRT-00187,26,0.0
+PRT-00134,26,0.0
+PRT-00069,26,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),26,0.0
+PRT-00013 - PCR - Porto (Av. da França),26,0.0
+PRT-00144,26,0.0
+PRT-00020,26,0.0
+Kinda Home - Porto,26,0.0
+PRT-00129,26,0.0
+LoftAbroad Apartments,26,0.0
+Hotel Teatro - Tesla Destination Charger,26,0.0
+PRT-00145,26,0.0
+MOBI-MTS-00001 -Ceiia,26,0.0
+PRT-00032/33 - Hotel Vile Gale,26,0.0
+TESTE WDAO- PRODDD,26,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),26,0.0
+PRT-00096,26,0.0
+PRT-00060,26,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,26,0.0
+PRT-00171,26,0.0
+PRT-00036,26,0.0
+PRT-00097,26,0.0
+PRT-00159,26,0.0
+PRT-00037,26,0.0
+PRT-00156,26,0.0
+MOBI.E - PRT-00086,26,0.0
+PRT-00028,26,0.0
+MTS-00031,26,0.0
+I-CHARGING TEST,26,0.0
+Hotel Vincci Porto,26,0.0
+PRT-00013,26,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,26,0.0
+PRT-00050,26,0.0
+Vila Foz Hotel Spa,26,0.0
+PRT-00128,26,0.0
+PRT-00015,26,0.0
+PRT-00021,26,0.0
+PRT-00051,26,0.0
+PRT-00142,26,0.0
+MOBI.E - PRT-00085,26,0.0
+PRT-00170,26,0.0
+CC Parque Nascente,26,0.0
+PRT-00016,26,0.0
+Hotel Crowne Plaza Porto,26,0.0
+Riera Alta,26,0.0
+PRT-00147,26,0.0
+Nissan Porto ZI,26,0.0
+PRT-00017/18,26,0.0
+PRT-00046,26,0.0
+PRT-00091,26,0.0
+Maison Albar Hotels Le Monumental Palace,26,0.0
+PRT-00030,26,0.0
+Porto Deluxe - GuestHouse,26,0.0
+PRT-00105,26,0.0
+PRT-00073,26,0.0
+NISSAN CAETANO POWER S.A. (Porto),26,0.0
+PRT-00019,26,0.0
+Via Catarina Porto,26,0.0
+PRT-00070,26,0.0
+Garagem Porto D'ouro 2 ,26,0.0
+PRT-00071,26,0.0
+PRT-00154,26,0.0
+GARAGEM CAMOES,26,0.0
+MOBI.E - PRT-00103,26,0.0
+Charge point GreenFlux,26,0.0
+PRT-00001 - PCR - Porto (Av. França),26,0.0
+Bessa Hotel Boavista,26,0.0
+PRT-00173,26,0.0
+Garagem Porto D'ouro,26,0.0
+VORTEX Gingabike - Motocidade.,26,0.0
+Hotel da Música,26,0.0
+PRT-00143,26,0.0
+PRT-00068,26,0.0
+PRT-00031,26,0.0
+IPP-00001/2 - Hospital de São João,26,0.0
+PRT-00141,26,0.0
+comum,26,0.0
+PRT-00022,26,0.0
+PRT-00034,26,0.0
+PRT-00160,26,0.0
+FEUP-00002,26,0.0
+PRT-00020 - PCR - Q8 Circunvalação,26,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,26,0.0
+PRT-00127,26,0.0
+PRT-00155,26,0.0
+PRT-00146,26,0.0
+PRT-00180,26,0.0
+PRT-00132,26,0.0
+PRT-00052,26,0.0
+Bessa Hotel Baixa,26,0.0
+PRT-00091 - PCR - Areosa (LIDL),26,0.0
+PRT-00153,26,0.0
+PRT-00071,27,0.0
+PRT-00160,27,0.0
+PRT-00146,27,0.0
+PRT-00001,27,0.0
+PRT-00031,27,0.0
+Charge point GreenFlux,27,0.0
+PRT-00032/33 - Hotel Vile Gale,27,0.0
+comum,27,0.0
+VORTEX Gingabike - Motocidade.,27,0.0
+GARAGEM CAMOES,27,0.0
+PRT-00028,27,0.0
+PRT-00013 - PCR - Porto (Av. da França),27,0.0
+Maison Albar Hotels Le Monumental Palace,27,0.0
+PRT-00034,27,0.0
+PRT-00187,27,0.0
+I-CHARGING TEST,27,0.0
+LoftAbroad Apartments,27,0.0
+PRT-00101 - PCR - Porto,27,0.0
+PRT-00014,27,0.0
+PRT-00073,27,0.0
+PRT-00069,27,0.0
+PRT-00159,27,0.0
+PRT-00154,27,0.0
+PRT-00017/18,27,0.0
+Centro Porsche Porto,27,0.0
+PRT-00020,27,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),27,0.0
+TESTE WDAO- PRODDD,27,0.0
+PRT-00013,27,0.0
+Garagem Porto D'ouro 2 ,27,0.0
+PRT-00052,27,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),27,0.0
+PRT-00060,27,0.0
+Bessa Hotel Baixa,27,0.0
+PRT-00105,27,0.0
+PRT-00030,27,0.0
+PRT-00173,27,0.0
+Hotel Teatro - Tesla Destination Charger,27,0.0
+PRT-00091 - PCR - Areosa (LIDL),27,0.0
+MOBI.E - PRT-00103,27,0.0
+PRT-00156,27,0.0
+PRT-00141,27,0.0
+Vila Foz Hotel Spa,27,0.0
+Bessa Hotel Boavista,27,0.0
+PRT-00019,27,0.0
+PRT-00127,27,0.0
+PRT-00147,27,0.0
+IPP-00001/2 - Hospital de São João,27,0.0
+PRT-00062,27,0.0
+Garagem Porto D'ouro,27,0.0
+MOBI.E - PRT-00086,27,0.0
+PRT-00037,27,0.0
+PRT-00139,27,0.0
+PRT-00021,27,0.0
+MOBI-MTS-00001 -Ceiia,27,0.0
+PRT-00016,27,0.0
+Hotel Crowne Plaza Porto,27,0.0
+PRT-00128,27,0.0
+Via Catarina Porto,27,0.0
+PRT-00096,27,0.0
+PRT-00097,27,0.0
+PRT-00142,27,0.0
+PRT-00022,27,0.0
+PRT-00144,27,0.0
+PRT-00101,27,0.0
+Nissan Porto ZI,27,0.0
+PRT-00134,27,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,27,0.0
+PRT-00153,27,0.0
+Kinda Home - Porto,27,0.0
+PRT-00068,27,0.0
+PRT-00091,27,0.0
+Renault Boavista,27,0.0
+Riera Alta,27,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,27,0.0
+PRT-00180,27,0.0
+NISSAN CAETANO POWER S.A. (Porto),27,0.0
+PRT-00050,27,0.0
+CC Parque Nascente,27,0.0
+PRT-00049,27,0.0
+PRT-00145,27,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,27,0.0
+MOBI.E - PRT-00085,27,0.0
+PRT-00015,27,0.0
+PRT-00046,27,0.0
+PRT-00036,27,0.0
+MTS-00031,27,0.0
+PRT-00001 - PCR - Porto (Av. França),27,0.0
+PRT-00155,27,0.0
+PRT-00143,27,0.0
+PRT-00129,27,0.0
+PRT-00020 - PCR - Q8 Circunvalação,27,0.0
+FEUP-00002,27,0.0
+Hotel Vincci Porto,27,0.0
+Porto Deluxe - GuestHouse,27,0.0
+PRT-00094,27,0.0
+PRT-00051,27,0.0
+PRT-00171,27,0.0
+PRT-00076,27,0.0
+PRT-00132,27,0.0
+Hotel da Música,27,0.0
+MTS-00046,27,0.0
+PRT-00070,27,0.0
+GDM-00007,27,0.0
+FEUP-00001,27,0.0
+PRT-00170,27,0.0
+PRT-00094,28,0.0
+PRT-00134,28,0.0
+PRT-00016,28,0.0
+IPP-00001/2 - Hospital de São João,28,0.0
+NISSAN CAETANO POWER S.A. (Porto),28,0.0
+PRT-00032/33 - Hotel Vile Gale,28,0.0
+PRT-00101 - PCR - Porto,28,0.0
+PRT-00070,28,0.0
+PRT-00046,28,0.0
+PRT-00144,28,0.0
+PRT-00091,28,0.0
+PRT-00155,28,0.0
+PRT-00013,28,0.0
+Charge point GreenFlux,28,0.0
+PRT-00068,28,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),28,0.0
+Hotel Teatro - Tesla Destination Charger,28,0.0
+Hotel da Música,28,0.0
+Garagem Porto D'ouro 2 ,28,0.0
+Maison Albar Hotels Le Monumental Palace,28,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,28,0.0
+PRT-00031,28,0.0
+comum,28,0.0
+PRT-00159,28,0.0
+PRT-00153,28,0.0
+PRT-00141,28,0.0
+PRT-00022,28,0.0
+PRT-00062,28,0.0
+Renault Boavista,28,0.0
+Bessa Hotel Baixa,28,0.0
+PRT-00060,28,0.0
+PRT-00028,28,0.0
+Porto Deluxe - GuestHouse,28,0.0
+Hotel Vincci Porto,28,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,28,0.0
+PRT-00091 - PCR - Areosa (LIDL),28,0.0
+PRT-00034,28,0.0
+PRT-00073,28,0.0
+PRT-00105,28,0.0
+PRT-00014,28,0.0
+PRT-00143,28,0.0
+MTS-00046,28,0.0
+VORTEX Gingabike - Motocidade.,28,0.0
+PRT-00019,28,0.0
+PRT-00052,28,0.0
+FEUP-00002,28,0.0
+PRT-00076,28,0.0
+PRT-00021,28,0.0
+MOBI.E - PRT-00086,28,0.0
+PRT-00037,28,0.0
+PRT-00020,28,0.0
+PRT-00030,28,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,28,0.0
+PRT-00036,28,0.0
+LoftAbroad Apartments,28,0.0
+PRT-00170,28,0.0
+PRT-00132,28,0.0
+PRT-00127,28,0.0
+PRT-00171,28,0.0
+PRT-00154,28,0.0
+Kinda Home - Porto,28,0.0
+PRT-00001,28,0.0
+MTS-00031,28,0.0
+PRT-00180,28,0.0
+FEUP-00001,28,0.0
+GDM-00007,28,0.0
+Bessa Hotel Boavista,28,0.0
+PRT-00173,28,0.0
+PRT-00096,28,0.0
+PRT-00049,28,0.0
+I-CHARGING TEST,28,0.0
+PRT-00051,28,0.0
+MOBI.E - PRT-00103,28,0.0
+MOBI-MTS-00001 -Ceiia,28,0.0
+PRT-00013 - PCR - Porto (Av. da França),28,0.0
+Garagem Porto D'ouro,28,0.0
+PRT-00129,28,0.0
+PRT-00015,28,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),28,0.0
+PRT-00147,28,0.0
+PRT-00069,28,0.0
+PRT-00020 - PCR - Q8 Circunvalação,28,0.0
+Via Catarina Porto,28,0.0
+PRT-00050,28,0.0
+Vila Foz Hotel Spa,28,0.0
+PRT-00097,28,0.0
+PRT-00139,28,0.0
+Riera Alta,28,0.0
+PRT-00071,28,0.0
+PRT-00146,28,0.0
+PRT-00101,28,0.0
+PRT-00001 - PCR - Porto (Av. França),28,0.0
+Nissan Porto ZI,28,0.0
+PRT-00187,28,0.0
+PRT-00017/18,28,0.0
+PRT-00145,28,0.0
+MOBI.E - PRT-00085,28,0.0
+PRT-00128,28,0.0
+PRT-00142,28,0.0
+GARAGEM CAMOES,28,0.0
+PRT-00160,28,0.0
+PRT-00156,28,0.0
+Hotel Crowne Plaza Porto,28,0.0
+TESTE WDAO- PRODDD,28,0.0
+CC Parque Nascente,28,0.0
+Centro Porsche Porto,28,0.0
+Garagem Porto D'ouro 2 ,29,0.0
+MTS-00046,29,0.0
+PRT-00036,29,0.0
+PRT-00021,29,0.0
+PRT-00076,29,0.0
+Renault Boavista,29,0.0
+PRT-00050,29,0.0
+Charge point GreenFlux,29,0.0
+Centro Porsche Porto,29,0.0
+PRT-00062,29,0.0
+PRT-00160,29,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),29,0.0
+PRT-00146,29,0.0
+PRT-00097,29,0.0
+PRT-00129,29,0.0
+PRT-00101 - PCR - Porto,29,0.0
+PRT-00187,29,0.0
+PRT-00105,29,0.0
+PRT-00015,29,0.0
+Hotel Crowne Plaza Porto,29,0.0
+PRT-00020,29,0.0
+PRT-00016,29,0.0
+PRT-00031,29,0.0
+PRT-00134,29,0.0
+IPP-00001/2 - Hospital de São João,29,0.0
+PRT-00037,29,0.0
+PRT-00171,29,0.0
+FEUP-00001,29,0.0
+PRT-00132,29,0.0
+PRT-00013 - PCR - Porto (Av. da França),29,0.0
+PRT-00001 - PCR - Porto (Av. França),29,0.0
+Hotel Teatro - Tesla Destination Charger,29,0.0
+PRT-00170,29,0.0
+Kinda Home - Porto,29,0.0
+I-CHARGING TEST,29,0.0
+PRT-00017/18,29,0.0
+comum,29,0.0
+PRT-00173,29,0.0
+PRT-00091,29,0.0
+Porto Deluxe - GuestHouse,29,0.0
+PRT-00060,29,0.0
+PRT-00070,29,0.0
+PRT-00143,29,0.0
+Via Catarina Porto,29,0.0
+PRT-00019,29,0.0
+MOBI.E - PRT-00085,29,0.0
+PRT-00141,29,0.0
+PRT-00051,29,0.0
+CC Parque Nascente,29,0.0
+PRT-00013,29,0.0
+PRT-00127,29,0.0
+MOBI-MTS-00001 -Ceiia,29,0.0
+PRT-00154,29,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,29,0.0
+Riera Alta,29,0.0
+Hotel da Música,29,0.0
+Garagem Porto D'ouro,29,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,29,0.0
+PRT-00144,29,0.0
+PRT-00155,29,0.0
+PRT-00046,29,0.0
+PRT-00159,29,0.0
+Hotel Vincci Porto,29,0.0
+PRT-00001,29,0.0
+PRT-00020 - PCR - Q8 Circunvalação,29,0.0
+PRT-00052,29,0.0
+PRT-00068,29,0.0
+PRT-00091 - PCR - Areosa (LIDL),29,0.0
+FEUP-00002,29,0.0
+PRT-00073,29,0.0
+NISSAN CAETANO POWER S.A. (Porto),29,0.0
+GDM-00007,29,0.0
+GARAGEM CAMOES,29,0.0
+MOBI.E - PRT-00103,29,0.0
+PRT-00014,29,0.0
+Vila Foz Hotel Spa,29,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),29,0.0
+PRT-00094,29,0.0
+Bessa Hotel Baixa,29,0.0
+TESTE WDAO- PRODDD,29,0.0
+MOBI.E - PRT-00086,29,0.0
+PRT-00049,29,0.0
+VORTEX Gingabike - Motocidade.,29,0.0
+MTS-00031,29,0.0
+PRT-00101,29,0.0
+PRT-00032/33 - Hotel Vile Gale,29,0.0
+PRT-00147,29,0.0
+Bessa Hotel Boavista,29,0.0
+PRT-00030,29,0.0
+PRT-00069,29,0.0
+LoftAbroad Apartments,29,0.0
+Nissan Porto ZI,29,0.0
+PRT-00142,29,0.0
+PRT-00096,29,0.0
+PRT-00153,29,0.0
+PRT-00145,29,0.0
+Maison Albar Hotels Le Monumental Palace,29,0.0
+PRT-00034,29,0.0
+PRT-00071,29,0.0
+PRT-00128,29,0.0
+PRT-00139,29,0.0
+PRT-00022,29,0.0
+PRT-00028,29,0.0
+PRT-00180,29,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,29,0.0
+PRT-00156,29,0.0
+Via Catarina Porto,30,0.0
+I-CHARGING TEST,30,0.0
+PRT-00070,30,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),30,0.0
+PRT-00037,30,0.0
+PRT-00013 - PCR - Porto (Av. da França),30,0.0
+PRT-00028,30,0.0
+TESTE WDAO- PRODDD,30,0.0
+PRT-00173,30,0.0
+PRT-00022,30,0.0
+PRT-00019,30,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,30,0.0
+PRT-00170,30,0.0
+Hotel Crowne Plaza Porto,30,0.0
+PRT-00076,30,0.0
+Garagem Porto D'ouro 2 ,30,0.0
+VORTEX Gingabike - Motocidade.,30,0.0
+PRT-00014,30,0.0
+PRT-00001 - PCR - Porto (Av. França),30,0.0
+Maison Albar Hotels Le Monumental Palace,30,0.0
+PRT-00134,30,0.0
+PRT-00021,30,0.0
+PRT-00154,30,0.0
+Vila Foz Hotel Spa,30,0.0
+PRT-00071,30,0.0
+PRT-00036,30,0.0
+MOBI-MTS-00001 -Ceiia,30,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),30,0.0
+PRT-00060,30,0.0
+Hotel Teatro - Tesla Destination Charger,30,0.0
+PRT-00073,30,0.0
+PRT-00147,30,0.0
+PRT-00096,30,0.0
+MOBI.E - PRT-00086,30,0.0
+PRT-00034,30,0.0
+Riera Alta,30,0.0
+PRT-00062,30,0.0
+MTS-00046,30,0.0
+PRT-00171,30,0.0
+PRT-00156,30,0.0
+PRT-00052,30,0.0
+PRT-00020 - PCR - Q8 Circunvalação,30,0.0
+comum,30,0.0
+PRT-00101,30,0.0
+PRT-00180,30,0.0
+PRT-00001,30,0.0
+PRT-00160,30,0.0
+PRT-00127,30,0.0
+PRT-00132,30,0.0
+Hotel da Música,30,0.0
+FEUP-00002,30,0.0
+Hotel Vincci Porto,30,0.0
+IPP-00001/2 - Hospital de São João,30,0.0
+Renault Boavista,30,0.0
+PRT-00031,30,0.0
+Bessa Hotel Boavista,30,0.0
+PRT-00069,30,0.0
+PRT-00094,30,0.0
+PRT-00153,30,0.0
+PRT-00050,30,0.0
+LoftAbroad Apartments,30,0.0
+Nissan Porto ZI,30,0.0
+PRT-00097,30,0.0
+PRT-00032/33 - Hotel Vile Gale,30,0.0
+PRT-00145,30,0.0
+PRT-00101 - PCR - Porto,30,0.0
+PRT-00146,30,0.0
+PRT-00016,30,0.0
+PRT-00159,30,0.0
+PRT-00141,30,0.0
+Kinda Home - Porto,30,0.0
+Centro Porsche Porto,30,0.0
+Bessa Hotel Baixa,30,0.0
+PRT-00015,30,0.0
+PRT-00020,30,0.0
+MOBI.E - PRT-00085,30,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,30,0.0
+PRT-00091,30,0.0
+GARAGEM CAMOES,30,0.0
+Garagem Porto D'ouro,30,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,30,0.0
+PRT-00013,30,0.0
+PRT-00139,30,0.0
+MTS-00031,30,0.0
+PRT-00155,30,0.0
+Charge point GreenFlux,30,0.0
+NISSAN CAETANO POWER S.A. (Porto),30,0.0
+PRT-00068,30,0.0
+PRT-00049,30,0.0
+PRT-00143,30,0.0
+PRT-00105,30,0.0
+PRT-00144,30,0.0
+PRT-00017/18,30,0.0
+MOBI.E - PRT-00103,30,0.0
+PRT-00129,30,0.0
+PRT-00091 - PCR - Areosa (LIDL),30,0.0
+PRT-00051,30,0.0
+CC Parque Nascente,30,0.0
+PRT-00030,30,0.0
+PRT-00046,30,0.0
+GDM-00007,30,0.0
+PRT-00142,30,0.0
+PRT-00187,30,0.0
+PRT-00128,30,0.0
+FEUP-00001,30,0.0
+Porto Deluxe - GuestHouse,30,0.0
+PRT-00097,31,0.0
+PRT-00094,31,0.0
+PRT-00101 - PCR - Porto,31,0.0
+PRT-00076,31,0.0
+PRT-00021,31,0.0
+PRT-00154,31,0.0
+Maison Albar Hotels Le Monumental Palace,31,0.0
+GDM-00007,31,0.0
+NISSAN CAETANO POWER S.A. (Porto),31,0.0
+PRT-00180,31,0.0
+PRT-00173,31,0.0
+MOBI.E - PRT-00086,31,0.0
+Charge point GreenFlux,31,0.0
+PRT-00034,31,0.0
+Garagem Porto D'ouro,31,0.0
+PRT-00013 - PCR - Porto (Av. da França),31,0.0
+PRT-00062,31,0.0
+PRT-00156,31,0.0
+PRT-00069,31,0.0
+PRT-00017/18,31,0.0
+PRT-00101,31,0.0
+Kinda Home - Porto,31,0.0
+PRT-00091 - PCR - Areosa (LIDL),31,0.0
+PRT-00051,31,0.0
+PRT-00037,31,0.0
+PRT-00068,31,0.0
+GARAGEM CAMOES,31,0.0
+PRT-00159,31,0.0
+PRT-00016,31,0.0
+PRT-00031,31,0.0
+PRT-00022,31,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,31,0.0
+PRT-00153,31,0.0
+PRT-00013,31,0.0
+MTS-00046,31,0.0
+PRT-00127,31,0.0
+MOBI-MTS-00001 -Ceiia,31,0.0
+PRT-00187,31,0.0
+PRT-00128,31,0.0
+Hotel da Música,31,0.0
+Renault Boavista,31,0.0
+FEUP-00001,31,0.0
+PRT-00050,31,0.0
+MTS-00031,31,0.0
+PRT-00091,31,0.0
+TESTE WDAO- PRODDD,31,0.0
+PRT-00139,31,0.0
+PRT-00001,31,0.0
+I-CHARGING TEST,31,0.0
+PRT-00170,31,0.0
+PRT-00073,31,0.0
+Via Catarina Porto,31,0.0
+comum,31,0.0
+PRT-00146,31,0.0
+Bessa Hotel Boavista,31,0.0
+PRT-00129,31,0.0
+Nissan Porto ZI,31,0.0
+PRT-00143,31,0.0
+VORTEX Gingabike - Motocidade.,31,0.0
+Porto Deluxe - GuestHouse,31,0.0
+Riera Alta,31,0.0
+PRT-00020,31,0.0
+PRT-00142,31,0.0
+PRT-00134,31,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),31,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),31,0.0
+Vila Foz Hotel Spa,31,0.0
+PRT-00052,31,0.0
+PRT-00032/33 - Hotel Vile Gale,31,0.0
+PRT-00036,31,0.0
+IPP-00001/2 - Hospital de São João,31,0.0
+MOBI.E - PRT-00103,31,0.0
+PRT-00070,31,0.0
+PRT-00147,31,0.0
+PRT-00155,31,0.0
+PRT-00028,31,0.0
+PRT-00141,31,0.0
+LoftAbroad Apartments,31,0.0
+Centro Porsche Porto,31,0.0
+Garagem Porto D'ouro 2 ,31,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,31,0.0
+PRT-00105,31,0.0
+MOBI.E - PRT-00085,31,0.0
+PRT-00001 - PCR - Porto (Av. França),31,0.0
+PRT-00071,31,0.0
+Hotel Crowne Plaza Porto,31,0.0
+PRT-00132,31,0.0
+PRT-00145,31,0.0
+FEUP-00002,31,0.0
+PRT-00019,31,0.0
+PRT-00046,31,0.0
+PRT-00049,31,0.0
+PRT-00015,31,0.0
+Hotel Vincci Porto,31,0.0
+Bessa Hotel Baixa,31,0.0
+PRT-00096,31,0.0
+PRT-00171,31,0.0
+PRT-00060,31,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,31,0.0
+PRT-00030,31,0.0
+Hotel Teatro - Tesla Destination Charger,31,0.0
+PRT-00020 - PCR - Q8 Circunvalação,31,0.0
+PRT-00160,31,0.0
+PRT-00014,31,0.0
+PRT-00144,31,0.0
+CC Parque Nascente,31,0.0
+PRT-00070,32,0.0
+PRT-00050,32,0.0
+Bessa Hotel Boavista,32,0.0
+PRT-00013 - PCR - Porto (Av. da França),32,0.0
+PRT-00062,32,0.0
+FEUP-00002,32,0.0
+PRT-00013,32,0.0
+PRT-00173,32,0.0
+PRT-00020 - PCR - Q8 Circunvalação,32,0.0
+PRT-00154,32,0.0
+PRT-00147,32,0.0
+MOBI.E - PRT-00085,32,0.0
+Renault Boavista,32,0.0
+PRT-00180,32,0.0
+MTS-00046,32,0.0
+PRT-00019,32,0.0
+Hotel Teatro - Tesla Destination Charger,32,0.0
+PRT-00160,32,0.0
+MOBI.E - PRT-00103,32,0.0
+PRT-00021,32,0.0
+PRT-00128,32,0.0
+PRT-00094,32,0.0
+PRT-00101 - PCR - Porto,32,0.0
+PRT-00146,32,0.0
+PRT-00016,32,0.0
+PRT-00091,32,0.0
+MTS-00031,32,0.0
+PRT-00170,32,0.0
+PRT-00101,32,0.0
+Centro Porsche Porto,32,0.0
+NISSAN CAETANO POWER S.A. (Porto),32,0.0
+PRT-00145,32,0.0
+CC Parque Nascente,32,0.0
+PRT-00022,32,0.0
+PRT-00037,32,0.0
+Nissan Porto ZI,32,0.0
+PRT-00068,32,0.0
+Vila Foz Hotel Spa,32,0.0
+Hotel da Música,32,0.0
+I-CHARGING TEST,32,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,32,0.0
+PRT-00144,32,0.0
+PRT-00156,32,0.0
+Bessa Hotel Baixa,32,0.0
+PRT-00017/18,32,0.0
+MOBI-MTS-00001 -Ceiia,32,0.0
+PRT-00069,32,0.0
+PRT-00036,32,0.0
+Via Catarina Porto,32,0.0
+Kinda Home - Porto,32,0.0
+PRT-00032/33 - Hotel Vile Gale,32,0.0
+PRT-00142,32,0.0
+PRT-00141,32,0.0
+Porto Deluxe - GuestHouse,32,0.0
+Hotel Crowne Plaza Porto,32,0.0
+PRT-00051,32,0.0
+PRT-00091 - PCR - Areosa (LIDL),32,0.0
+PRT-00171,32,0.0
+PRT-00132,32,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,32,0.0
+PRT-00134,32,0.0
+PRT-00139,32,0.0
+PRT-00143,32,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),32,0.0
+PRT-00030,32,0.0
+PRT-00159,32,0.0
+PRT-00097,32,0.0
+FEUP-00001,32,0.0
+PRT-00001 - PCR - Porto (Av. França),32,0.0
+PRT-00028,32,0.0
+MOBI.E - PRT-00086,32,0.0
+Garagem Porto D'ouro 2 ,32,0.0
+PRT-00073,32,0.0
+PRT-00060,32,0.0
+PRT-00001,32,0.0
+PRT-00031,32,0.0
+PRT-00105,32,0.0
+PRT-00049,32,0.0
+PRT-00127,32,0.0
+PRT-00015,32,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),32,0.0
+PRT-00020,32,0.0
+PRT-00153,32,0.0
+Riera Alta,32,0.0
+GDM-00007,32,0.0
+PRT-00046,32,0.0
+PRT-00014,32,0.0
+PRT-00155,32,0.0
+PRT-00034,32,0.0
+GARAGEM CAMOES,32,0.0
+Garagem Porto D'ouro,32,0.0
+PRT-00187,32,0.0
+PRT-00076,32,0.0
+IPP-00001/2 - Hospital de São João,32,0.0
+Charge point GreenFlux,32,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,32,0.0
+Hotel Vincci Porto,32,0.0
+Maison Albar Hotels Le Monumental Palace,32,0.0
+PRT-00096,32,0.0
+PRT-00052,32,0.0
+VORTEX Gingabike - Motocidade.,32,0.0
+PRT-00129,32,0.0
+LoftAbroad Apartments,32,0.0
+PRT-00071,32,0.0
+comum,32,0.0
+TESTE WDAO- PRODDD,32,0.0
+Via Catarina Porto,33,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,33,0.0
+PRT-00159,33,0.0
+PRT-00141,33,0.0
+PRT-00155,33,0.0
+PRT-00071,33,0.0
+PRT-00049,33,0.0
+PRT-00062,33,0.0
+PRT-00017/18,33,0.0
+PRT-00129,33,0.0
+PRT-00094,33,0.0
+PRT-00160,33,0.0
+PRT-00139,33,0.0
+PRT-00171,33,0.0
+PRT-00013 - PCR - Porto (Av. da França),33,0.0
+Hotel Crowne Plaza Porto,33,0.0
+PRT-00073,33,0.0
+Garagem Porto D'ouro,33,0.0
+PRT-00097,33,0.0
+FEUP-00002,33,0.0
+PRT-00096,33,0.0
+IPP-00001/2 - Hospital de São João,33,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,33,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),33,0.0
+PRT-00001,33,0.0
+PRT-00170,33,0.0
+PRT-00101 - PCR - Porto,33,0.0
+PRT-00046,33,0.0
+PRT-00028,33,0.0
+PRT-00132,33,0.0
+PRT-00145,33,0.0
+PRT-00022,33,0.0
+TESTE WDAO- PRODDD,33,0.0
+PRT-00021,33,0.0
+Charge point GreenFlux,33,0.0
+PRT-00013,33,0.0
+PRT-00068,33,0.0
+PRT-00076,33,0.0
+PRT-00015,33,0.0
+PRT-00030,33,0.0
+MOBI.E - PRT-00103,33,0.0
+FEUP-00001,33,0.0
+PRT-00001 - PCR - Porto (Av. França),33,0.0
+Hotel Vincci Porto,33,0.0
+PRT-00019,33,0.0
+PRT-00060,33,0.0
+LoftAbroad Apartments,33,0.0
+MOBI-MTS-00001 -Ceiia,33,0.0
+Kinda Home - Porto,33,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),33,0.0
+PRT-00134,33,0.0
+PRT-00154,33,0.0
+GARAGEM CAMOES,33,0.0
+PRT-00020,33,0.0
+MOBI.E - PRT-00086,33,0.0
+PRT-00014,33,0.0
+CC Parque Nascente,33,0.0
+comum,33,0.0
+VORTEX Gingabike - Motocidade.,33,0.0
+Hotel Teatro - Tesla Destination Charger,33,0.0
+MOBI.E - PRT-00085,33,0.0
+GDM-00007,33,0.0
+PRT-00032/33 - Hotel Vile Gale,33,0.0
+PRT-00144,33,0.0
+Nissan Porto ZI,33,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,33,0.0
+PRT-00036,33,0.0
+PRT-00156,33,0.0
+Renault Boavista,33,0.0
+Vila Foz Hotel Spa,33,0.0
+PRT-00051,33,0.0
+PRT-00127,33,0.0
+Hotel da Música,33,0.0
+PRT-00187,33,0.0
+Porto Deluxe - GuestHouse,33,0.0
+PRT-00101,33,0.0
+PRT-00037,33,0.0
+Garagem Porto D'ouro 2 ,33,0.0
+PRT-00070,33,0.0
+PRT-00034,33,0.0
+PRT-00016,33,0.0
+PRT-00128,33,0.0
+PRT-00069,33,0.0
+PRT-00050,33,0.0
+PRT-00173,33,0.0
+PRT-00180,33,0.0
+PRT-00091,33,0.0
+PRT-00146,33,0.0
+PRT-00142,33,0.0
+MTS-00046,33,0.0
+PRT-00020 - PCR - Q8 Circunvalação,33,0.0
+Maison Albar Hotels Le Monumental Palace,33,0.0
+PRT-00052,33,0.0
+PRT-00147,33,0.0
+PRT-00153,33,0.0
+Bessa Hotel Boavista,33,0.0
+MTS-00031,33,0.0
+Bessa Hotel Baixa,33,0.0
+Riera Alta,33,0.0
+PRT-00143,33,0.0
+PRT-00031,33,0.0
+PRT-00091 - PCR - Areosa (LIDL),33,0.0
+PRT-00105,33,0.0
+I-CHARGING TEST,33,0.0
+Centro Porsche Porto,33,0.0
+NISSAN CAETANO POWER S.A. (Porto),33,0.0
+PRT-00015,34,0.0
+Garagem Porto D'ouro 2 ,34,0.0
+LoftAbroad Apartments,34,0.0
+PRT-00155,34,0.0
+PRT-00142,34,0.0
+Nissan Porto ZI,34,0.0
+PRT-00020,34,0.0
+CC Parque Nascente,34,0.0
+PRT-00141,34,0.0
+PRT-00097,34,0.0
+PRT-00139,34,0.0
+PRT-00091,34,0.0
+PRT-00101 - PCR - Porto,34,0.0
+PRT-00144,34,0.0
+FEUP-00002,34,0.0
+IPP-00001/2 - Hospital de São João,34,0.0
+PRT-00156,34,0.0
+Hotel Vincci Porto,34,0.0
+PRT-00021,34,0.0
+MTS-00031,34,0.0
+Kinda Home - Porto,34,0.0
+MOBI.E - PRT-00103,34,0.0
+PRT-00060,34,0.0
+Bessa Hotel Baixa,34,0.0
+PRT-00052,34,0.0
+PRT-00160,34,0.0
+PRT-00180,34,0.0
+Hotel Teatro - Tesla Destination Charger,34,0.0
+PRT-00001,34,0.0
+PRT-00091 - PCR - Areosa (LIDL),34,0.0
+PRT-00070,34,0.0
+PRT-00013,34,0.0
+PRT-00034,34,0.0
+NISSAN CAETANO POWER S.A. (Porto),34,0.0
+PRT-00153,34,0.0
+PRT-00076,34,0.0
+TESTE WDAO- PRODDD,34,0.0
+PRT-00096,34,0.0
+PRT-00016,34,0.0
+MTS-00046,34,0.0
+PRT-00129,34,0.0
+MOBI.E - PRT-00085,34,0.0
+Hotel da Música,34,0.0
+PRT-00030,34,0.0
+PRT-00105,34,0.0
+PRT-00068,34,0.0
+PRT-00071,34,0.0
+Maison Albar Hotels Le Monumental Palace,34,0.0
+PRT-00132,34,0.0
+MOBI.E - PRT-00086,34,0.0
+MOBI-MTS-00001 -Ceiia,34,0.0
+Renault Boavista,34,0.0
+PRT-00159,34,0.0
+PRT-00094,34,0.0
+PRT-00154,34,0.0
+PRT-00173,34,0.0
+PRT-00031,34,0.0
+PRT-00171,34,0.0
+PRT-00051,34,0.0
+PRT-00028,34,0.0
+comum,34,0.0
+PRT-00062,34,0.0
+PRT-00014,34,0.0
+PRT-00069,34,0.0
+PRT-00073,34,0.0
+PRT-00128,34,0.0
+Charge point GreenFlux,34,0.0
+PRT-00050,34,0.0
+PRT-00134,34,0.0
+PRT-00017/18,34,0.0
+Porto Deluxe - GuestHouse,34,0.0
+I-CHARGING TEST,34,0.0
+VORTEX Gingabike - Motocidade.,34,0.0
+Bessa Hotel Boavista,34,0.0
+Via Catarina Porto,34,0.0
+FEUP-00001,34,0.0
+PRT-00032/33 - Hotel Vile Gale,34,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,34,0.0
+Vila Foz Hotel Spa,34,0.0
+GDM-00007,34,0.0
+Riera Alta,34,0.0
+PRT-00170,34,0.0
+PRT-00143,34,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,34,0.0
+PRT-00001 - PCR - Porto (Av. França),34,0.0
+PRT-00020 - PCR - Q8 Circunvalação,34,0.0
+Centro Porsche Porto,34,0.0
+PRT-00037,34,0.0
+PRT-00022,34,0.0
+Garagem Porto D'ouro,34,0.0
+PRT-00036,34,0.0
+PRT-00049,34,0.0
+Hotel Crowne Plaza Porto,34,0.0
+PRT-00046,34,0.0
+PRT-00187,34,0.0
+PRT-00013 - PCR - Porto (Av. da França),34,0.0
+PRT-00145,34,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),34,0.0
+PRT-00101,34,0.0
+PRT-00147,34,0.0
+PRT-00127,34,0.0
+PRT-00146,34,0.0
+GARAGEM CAMOES,34,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,34,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),34,0.0
+PRT-00019,34,0.0
+Bessa Hotel Baixa,35,0.0
+PRT-00091 - PCR - Areosa (LIDL),35,0.0
+PRT-00159,35,0.0
+PRT-00020 - PCR - Q8 Circunvalação,35,0.0
+Nissan Porto ZI,35,0.0
+PRT-00022,35,0.0
+PRT-00076,35,0.0
+PRT-00144,35,0.0
+Hotel Vincci Porto,35,0.0
+FEUP-00001,35,0.0
+PRT-00020,35,0.0
+PRT-00036,35,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,35,0.0
+PRT-00170,35,0.0
+Hotel Crowne Plaza Porto,35,0.0
+PRT-00147,35,0.0
+PRT-00097,35,0.0
+PRT-00060,35,0.0
+Riera Alta,35,0.0
+PRT-00094,35,0.0
+I-CHARGING TEST,35,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,35,0.0
+PRT-00171,35,0.0
+PRT-00105,35,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),35,0.0
+PRT-00153,35,0.0
+PRT-00187,35,0.0
+Hotel Teatro - Tesla Destination Charger,35,0.0
+FEUP-00002,35,0.0
+comum,35,0.0
+PRT-00071,35,0.0
+PRT-00001 - PCR - Porto (Av. França),35,0.0
+Garagem Porto D'ouro 2 ,35,0.0
+PRT-00143,35,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,35,0.0
+PRT-00101,35,0.0
+MOBI.E - PRT-00086,35,0.0
+PRT-00014,35,0.0
+PRT-00052,35,0.0
+PRT-00051,35,0.0
+PRT-00141,35,0.0
+PRT-00073,35,0.0
+Garagem Porto D'ouro,35,0.0
+PRT-00101 - PCR - Porto,35,0.0
+PRT-00154,35,0.0
+MTS-00046,35,0.0
+PRT-00013 - PCR - Porto (Av. da França),35,0.0
+PRT-00155,35,0.0
+PRT-00180,35,0.0
+Porto Deluxe - GuestHouse,35,0.0
+Kinda Home - Porto,35,0.0
+Via Catarina Porto,35,0.0
+PRT-00015,35,0.0
+PRT-00096,35,0.0
+LoftAbroad Apartments,35,0.0
+NISSAN CAETANO POWER S.A. (Porto),35,0.0
+Hotel da Música,35,0.0
+PRT-00142,35,0.0
+PRT-00160,35,0.0
+PRT-00069,35,0.0
+PRT-00028,35,0.0
+PRT-00070,35,0.0
+PRT-00139,35,0.0
+PRT-00046,35,0.0
+PRT-00128,35,0.0
+PRT-00091,35,0.0
+MOBI.E - PRT-00085,35,0.0
+PRT-00037,35,0.0
+Bessa Hotel Boavista,35,0.0
+Renault Boavista,35,0.0
+PRT-00032/33 - Hotel Vile Gale,35,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),35,0.0
+PRT-00001,35,0.0
+PRT-00030,35,0.0
+PRT-00129,35,0.0
+GDM-00007,35,0.0
+Maison Albar Hotels Le Monumental Palace,35,0.0
+PRT-00049,35,0.0
+CC Parque Nascente,35,0.0
+MTS-00031,35,0.0
+PRT-00050,35,0.0
+PRT-00013,35,0.0
+MOBI-MTS-00001 -Ceiia,35,0.0
+MOBI.E - PRT-00103,35,0.0
+PRT-00034,35,0.0
+PRT-00127,35,0.0
+PRT-00017/18,35,0.0
+TESTE WDAO- PRODDD,35,0.0
+Charge point GreenFlux,35,0.0
+IPP-00001/2 - Hospital de São João,35,0.0
+PRT-00132,35,0.0
+Centro Porsche Porto,35,0.0
+PRT-00156,35,0.0
+PRT-00068,35,0.0
+PRT-00173,35,0.0
+PRT-00031,35,0.0
+PRT-00145,35,0.0
+Vila Foz Hotel Spa,35,0.0
+PRT-00062,35,0.0
+PRT-00019,35,0.0
+PRT-00021,35,0.0
+GARAGEM CAMOES,35,0.0
+PRT-00146,35,0.0
+VORTEX Gingabike - Motocidade.,35,0.0
+PRT-00134,35,0.0
+PRT-00016,35,0.0
+PRT-00101,36,0.0
+PRT-00097,36,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,36,0.0
+Garagem Porto D'ouro 2 ,36,0.0
+Riera Alta,36,0.0
+PRT-00094,36,0.0
+PRT-00021,36,0.0
+PRT-00076,36,0.0
+PRT-00017/18,36,0.0
+VORTEX Gingabike - Motocidade.,36,0.0
+MOBI.E - PRT-00085,36,0.0
+PRT-00013 - PCR - Porto (Av. da França),36,0.0
+GDM-00007,36,0.0
+Kinda Home - Porto,36,0.0
+FEUP-00001,36,0.0
+PRT-00171,36,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),36,0.0
+PRT-00139,36,0.0
+Bessa Hotel Boavista,36,0.0
+PRT-00020,36,0.0
+PRT-00173,36,0.0
+Bessa Hotel Baixa,36,0.0
+PRT-00019,36,0.0
+PRT-00101 - PCR - Porto,36,0.0
+PRT-00160,36,0.0
+Hotel Crowne Plaza Porto,36,0.0
+NISSAN CAETANO POWER S.A. (Porto),36,0.0
+PRT-00144,36,0.0
+PRT-00143,36,0.0
+Vila Foz Hotel Spa,36,0.0
+PRT-00071,36,0.0
+Nissan Porto ZI,36,0.0
+PRT-00091 - PCR - Areosa (LIDL),36,0.0
+PRT-00049,36,0.0
+LoftAbroad Apartments,36,0.0
+MOBI-MTS-00001 -Ceiia,36,0.0
+Maison Albar Hotels Le Monumental Palace,36,0.0
+PRT-00091,36,0.0
+PRT-00105,36,0.0
+PRT-00051,36,0.0
+PRT-00020 - PCR - Q8 Circunvalação,36,0.0
+PRT-00155,36,0.0
+PRT-00060,36,0.0
+PRT-00046,36,0.0
+PRT-00147,36,0.0
+PRT-00068,36,0.0
+PRT-00073,36,0.0
+Garagem Porto D'ouro,36,0.0
+PRT-00013,36,0.0
+PRT-00037,36,0.0
+PRT-00142,36,0.0
+Renault Boavista,36,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),36,0.0
+PRT-00062,36,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,36,0.0
+MTS-00046,36,0.0
+PRT-00032/33 - Hotel Vile Gale,36,0.0
+PRT-00180,36,0.0
+PRT-00187,36,0.0
+PRT-00031,36,0.0
+PRT-00146,36,0.0
+PRT-00129,36,0.0
+Hotel da Música,36,0.0
+MTS-00031,36,0.0
+PRT-00022,36,0.0
+PRT-00014,36,0.0
+PRT-00141,36,0.0
+MOBI.E - PRT-00103,36,0.0
+PRT-00134,36,0.0
+Via Catarina Porto,36,0.0
+PRT-00154,36,0.0
+PRT-00015,36,0.0
+PRT-00050,36,0.0
+FEUP-00002,36,0.0
+I-CHARGING TEST,36,0.0
+PRT-00016,36,0.0
+PRT-00159,36,0.0
+Hotel Teatro - Tesla Destination Charger,36,0.0
+MOBI.E - PRT-00086,36,0.0
+PRT-00001 - PCR - Porto (Av. França),36,0.0
+PRT-00001,36,0.0
+PRT-00156,36,0.0
+PRT-00030,36,0.0
+PRT-00145,36,0.0
+PRT-00132,36,0.0
+TESTE WDAO- PRODDD,36,0.0
+PRT-00034,36,0.0
+PRT-00153,36,0.0
+IPP-00001/2 - Hospital de São João,36,0.0
+Charge point GreenFlux,36,0.0
+PRT-00069,36,0.0
+Centro Porsche Porto,36,0.0
+PRT-00096,36,0.0
+PRT-00070,36,0.0
+CC Parque Nascente,36,0.0
+PRT-00170,36,0.0
+PRT-00028,36,0.0
+Porto Deluxe - GuestHouse,36,0.0
+PRT-00052,36,0.0
+GARAGEM CAMOES,36,0.0
+Hotel Vincci Porto,36,0.0
+comum,36,0.0
+PRT-00127,36,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,36,0.0
+PRT-00036,36,0.0
+PRT-00128,36,0.0
+PRT-00105,37,0.0
+Kinda Home - Porto,37,0.0
+PRT-00001,37,0.0
+Centro Porsche Porto,37,0.0
+PRT-00147,37,0.0
+PRT-00097,37,0.0
+PRT-00028,37,0.0
+PRT-00036,37,0.0
+TESTE WDAO- PRODDD,37,0.0
+IPP-00001/2 - Hospital de São João,37,0.0
+PRT-00052,37,0.0
+MOBI-MTS-00001 -Ceiia,37,0.0
+PRT-00030,37,0.0
+PRT-00142,37,0.0
+PRT-00046,37,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,37,0.0
+Hotel Vincci Porto,37,0.0
+PRT-00049,37,0.0
+Hotel Teatro - Tesla Destination Charger,37,0.0
+PRT-00034,37,0.0
+PRT-00013,37,0.0
+PRT-00155,37,0.0
+MOBI.E - PRT-00086,37,0.0
+GARAGEM CAMOES,37,0.0
+Garagem Porto D'ouro,37,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,37,0.0
+Nissan Porto ZI,37,0.0
+Maison Albar Hotels Le Monumental Palace,37,0.0
+PRT-00091,37,0.0
+PRT-00171,37,0.0
+VORTEX Gingabike - Motocidade.,37,0.0
+PRT-00173,37,0.0
+LoftAbroad Apartments,37,0.0
+MTS-00031,37,0.0
+PRT-00013 - PCR - Porto (Av. da França),37,0.0
+PRT-00141,37,0.0
+PRT-00187,37,0.0
+FEUP-00001,37,0.0
+PRT-00016,37,0.0
+PRT-00037,37,0.0
+PRT-00062,37,0.0
+PRT-00146,37,0.0
+PRT-00031,37,0.0
+PRT-00073,37,0.0
+PRT-00094,37,0.0
+comum,37,0.0
+Renault Boavista,37,0.0
+PRT-00050,37,0.0
+PRT-00071,37,0.0
+MOBI.E - PRT-00085,37,0.0
+PRT-00139,37,0.0
+PRT-00134,37,0.0
+PRT-00170,37,0.0
+PRT-00051,37,0.0
+PRT-00153,37,0.0
+PRT-00180,37,0.0
+PRT-00076,37,0.0
+Vila Foz Hotel Spa,37,0.0
+FEUP-00002,37,0.0
+PRT-00014,37,0.0
+PRT-00101,37,0.0
+Hotel da Música,37,0.0
+CC Parque Nascente,37,0.0
+PRT-00091 - PCR - Areosa (LIDL),37,0.0
+Charge point GreenFlux,37,0.0
+PRT-00101 - PCR - Porto,37,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,37,0.0
+Garagem Porto D'ouro 2 ,37,0.0
+Porto Deluxe - GuestHouse,37,0.0
+MTS-00046,37,0.0
+PRT-00096,37,0.0
+PRT-00070,37,0.0
+PRT-00132,37,0.0
+PRT-00021,37,0.0
+PRT-00144,37,0.0
+Via Catarina Porto,37,0.0
+PRT-00156,37,0.0
+Riera Alta,37,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),37,0.0
+Bessa Hotel Baixa,37,0.0
+PRT-00060,37,0.0
+PRT-00143,37,0.0
+PRT-00154,37,0.0
+PRT-00069,37,0.0
+PRT-00022,37,0.0
+I-CHARGING TEST,37,0.0
+NISSAN CAETANO POWER S.A. (Porto),37,0.0
+PRT-00068,37,0.0
+MOBI.E - PRT-00103,37,0.0
+PRT-00020 - PCR - Q8 Circunvalação,37,0.0
+PRT-00145,37,0.0
+PRT-00128,37,0.0
+PRT-00032/33 - Hotel Vile Gale,37,0.0
+PRT-00015,37,0.0
+GDM-00007,37,0.0
+PRT-00127,37,0.0
+PRT-00001 - PCR - Porto (Av. França),37,0.0
+PRT-00020,37,0.0
+Bessa Hotel Boavista,37,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),37,0.0
+Hotel Crowne Plaza Porto,37,0.0
+PRT-00017/18,37,0.0
+PRT-00160,37,0.0
+PRT-00159,37,0.0
+PRT-00019,37,0.0
+PRT-00129,37,0.0
+Hotel da Música,38,0.0
+comum,38,0.0
+MOBI.E - PRT-00103,38,0.0
+PRT-00096,38,0.0
+PRT-00036,38,0.0
+PRT-00052,38,0.0
+PRT-00105,38,0.0
+PRT-00031,38,0.0
+Garagem Porto D'ouro 2 ,38,0.0
+PRT-00001 - PCR - Porto (Av. França),38,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),38,0.0
+Bessa Hotel Boavista,38,0.0
+PRT-00129,38,0.0
+Renault Boavista,38,0.0
+PRT-00159,38,0.0
+PRT-00143,38,0.0
+GARAGEM CAMOES,38,0.0
+TESTE WDAO- PRODDD,38,0.0
+PRT-00069,38,0.0
+Porto Deluxe - GuestHouse,38,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,38,0.0
+PRT-00071,38,0.0
+PRT-00132,38,0.0
+PRT-00037,38,0.0
+PRT-00101 - PCR - Porto,38,0.0
+PRT-00015,38,0.0
+PRT-00156,38,0.0
+PRT-00173,38,0.0
+PRT-00144,38,0.0
+PRT-00180,38,0.0
+Kinda Home - Porto,38,0.0
+PRT-00016,38,0.0
+I-CHARGING TEST,38,0.0
+GDM-00007,38,0.0
+FEUP-00002,38,0.0
+PRT-00062,38,0.0
+PRT-00020,38,0.0
+PRT-00091 - PCR - Areosa (LIDL),38,0.0
+Via Catarina Porto,38,0.0
+MOBI.E - PRT-00085,38,0.0
+PRT-00028,38,0.0
+PRT-00076,38,0.0
+PRT-00091,38,0.0
+Garagem Porto D'ouro,38,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,38,0.0
+VORTEX Gingabike - Motocidade.,38,0.0
+PRT-00068,38,0.0
+Hotel Teatro - Tesla Destination Charger,38,0.0
+PRT-00022,38,0.0
+PRT-00013 - PCR - Porto (Av. da França),38,0.0
+PRT-00153,38,0.0
+PRT-00001,38,0.0
+Hotel Crowne Plaza Porto,38,0.0
+LoftAbroad Apartments,38,0.0
+PRT-00101,38,0.0
+PRT-00032/33 - Hotel Vile Gale,38,0.0
+Bessa Hotel Baixa,38,0.0
+PRT-00021,38,0.0
+Nissan Porto ZI,38,0.0
+PRT-00019,38,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),38,0.0
+PRT-00160,38,0.0
+PRT-00070,38,0.0
+PRT-00017/18,38,0.0
+PRT-00034,38,0.0
+PRT-00060,38,0.0
+MOBI.E - PRT-00086,38,0.0
+PRT-00097,38,0.0
+PRT-00051,38,0.0
+PRT-00142,38,0.0
+PRT-00049,38,0.0
+PRT-00147,38,0.0
+PRT-00030,38,0.0
+PRT-00155,38,0.0
+PRT-00046,38,0.0
+PRT-00073,38,0.0
+PRT-00134,38,0.0
+PRT-00141,38,0.0
+Vila Foz Hotel Spa,38,0.0
+NISSAN CAETANO POWER S.A. (Porto),38,0.0
+PRT-00128,38,0.0
+MOBI-MTS-00001 -Ceiia,38,0.0
+MTS-00046,38,0.0
+PRT-00127,38,0.0
+PRT-00145,38,0.0
+Maison Albar Hotels Le Monumental Palace,38,0.0
+PRT-00139,38,0.0
+PRT-00050,38,0.0
+Charge point GreenFlux,38,0.0
+MTS-00031,38,0.0
+PRT-00014,38,0.0
+PRT-00154,38,0.0
+PRT-00020 - PCR - Q8 Circunvalação,38,0.0
+PRT-00094,38,0.0
+PRT-00146,38,0.0
+Centro Porsche Porto,38,0.0
+PRT-00013,38,0.0
+CC Parque Nascente,38,0.0
+Riera Alta,38,0.0
+PRT-00170,38,0.0
+Hotel Vincci Porto,38,0.0
+IPP-00001/2 - Hospital de São João,38,0.0
+FEUP-00001,38,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,38,0.0
+PRT-00187,38,0.0
+PRT-00171,38,0.0
+MOBI.E - PRT-00103,39,0.0
+PRT-00128,39,0.0
+Bessa Hotel Boavista,39,0.0
+IPP-00001/2 - Hospital de São João,39,0.0
+PRT-00062,39,0.0
+PRT-00139,39,0.0
+GDM-00007,39,0.0
+I-CHARGING TEST,39,0.0
+PRT-00097,39,0.0
+Porto Deluxe - GuestHouse,39,0.0
+MOBI-MTS-00001 -Ceiia,39,0.0
+comum,39,0.0
+Nissan Porto ZI,39,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,39,0.0
+PRT-00051,39,0.0
+PRT-00069,39,0.0
+PRT-00050,39,0.0
+PRT-00070,39,0.0
+PRT-00032/33 - Hotel Vile Gale,39,0.0
+PRT-00001,39,0.0
+PRT-00036,39,0.0
+PRT-00020,39,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,39,0.0
+PRT-00156,39,0.0
+PRT-00160,39,0.0
+PRT-00076,39,0.0
+Kinda Home - Porto,39,0.0
+PRT-00019,39,0.0
+PRT-00155,39,0.0
+PRT-00091,39,0.0
+PRT-00171,39,0.0
+LoftAbroad Apartments,39,0.0
+MTS-00046,39,0.0
+PRT-00052,39,0.0
+PRT-00068,39,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),39,0.0
+PRT-00001 - PCR - Porto (Av. França),39,0.0
+PRT-00094,39,0.0
+PRT-00037,39,0.0
+PRT-00034,39,0.0
+PRT-00073,39,0.0
+PRT-00105,39,0.0
+Hotel Crowne Plaza Porto,39,0.0
+PRT-00127,39,0.0
+Centro Porsche Porto,39,0.0
+TESTE WDAO- PRODDD,39,0.0
+Hotel da Música,39,0.0
+PRT-00015,39,0.0
+PRT-00016,39,0.0
+PRT-00145,39,0.0
+PRT-00049,39,0.0
+PRT-00096,39,0.0
+Bessa Hotel Baixa,39,0.0
+PRT-00020 - PCR - Q8 Circunvalação,39,0.0
+MTS-00031,39,0.0
+Via Catarina Porto,39,0.0
+PRT-00132,39,0.0
+PRT-00060,39,0.0
+Hotel Teatro - Tesla Destination Charger,39,0.0
+PRT-00134,39,0.0
+PRT-00013,39,0.0
+MOBI.E - PRT-00086,39,0.0
+FEUP-00001,39,0.0
+PRT-00030,39,0.0
+PRT-00046,39,0.0
+VORTEX Gingabike - Motocidade.,39,0.0
+PRT-00153,39,0.0
+PRT-00154,39,0.0
+GARAGEM CAMOES,39,0.0
+PRT-00022,39,0.0
+PRT-00173,39,0.0
+PRT-00014,39,0.0
+Garagem Porto D'ouro 2 ,39,0.0
+PRT-00017/18,39,0.0
+PRT-00180,39,0.0
+PRT-00146,39,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),39,0.0
+PRT-00101,39,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,39,0.0
+PRT-00129,39,0.0
+PRT-00142,39,0.0
+PRT-00101 - PCR - Porto,39,0.0
+PRT-00144,39,0.0
+PRT-00159,39,0.0
+Riera Alta,39,0.0
+Garagem Porto D'ouro,39,0.0
+Maison Albar Hotels Le Monumental Palace,39,0.0
+PRT-00021,39,0.0
+PRT-00013 - PCR - Porto (Av. da França),39,0.0
+NISSAN CAETANO POWER S.A. (Porto),39,0.0
+PRT-00141,39,0.0
+CC Parque Nascente,39,0.0
+Hotel Vincci Porto,39,0.0
+PRT-00091 - PCR - Areosa (LIDL),39,0.0
+PRT-00187,39,0.0
+Vila Foz Hotel Spa,39,0.0
+Renault Boavista,39,0.0
+PRT-00170,39,0.0
+FEUP-00002,39,0.0
+MOBI.E - PRT-00085,39,0.0
+PRT-00071,39,0.0
+PRT-00028,39,0.0
+Charge point GreenFlux,39,0.0
+PRT-00031,39,0.0
+PRT-00143,39,0.0
+PRT-00147,39,0.0
+PRT-00139,40,0.0
+PRT-00016,40,0.0
+PRT-00013,40,0.0
+PRT-00069,40,0.0
+PRT-00060,40,0.0
+MTS-00046,40,0.0
+PRT-00062,40,0.0
+PRT-00127,40,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),40,0.0
+Kinda Home - Porto,40,0.0
+TESTE WDAO- PRODDD,40,0.0
+PRT-00143,40,0.0
+PRT-00173,40,0.0
+PRT-00154,40,0.0
+PRT-00145,40,0.0
+IPP-00001/2 - Hospital de São João,40,0.0
+PRT-00132,40,0.0
+PRT-00096,40,0.0
+PRT-00017/18,40,0.0
+PRT-00153,40,0.0
+MOBI.E - PRT-00086,40,0.0
+comum,40,0.0
+PRT-00020,40,0.0
+PRT-00013 - PCR - Porto (Av. da França),40,0.0
+Garagem Porto D'ouro,40,0.0
+PRT-00159,40,0.0
+PRT-00094,40,0.0
+PRT-00028,40,0.0
+Via Catarina Porto,40,0.0
+PRT-00076,40,0.0
+Garagem Porto D'ouro 2 ,40,0.0
+Charge point GreenFlux,40,0.0
+PRT-00101,40,0.0
+Renault Boavista,40,0.0
+Hotel Teatro - Tesla Destination Charger,40,0.0
+PRT-00187,40,0.0
+PRT-00049,40,0.0
+MTS-00031,40,0.0
+PRT-00030,40,0.0
+PRT-00129,40,0.0
+Riera Alta,40,0.0
+PRT-00091 - PCR - Areosa (LIDL),40,0.0
+PRT-00160,40,0.0
+Porto Deluxe - GuestHouse,40,0.0
+Hotel Crowne Plaza Porto,40,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,40,0.0
+Maison Albar Hotels Le Monumental Palace,40,0.0
+PRT-00142,40,0.0
+PRT-00147,40,0.0
+PRT-00097,40,0.0
+FEUP-00002,40,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,40,0.0
+FEUP-00001,40,0.0
+PRT-00036,40,0.0
+Vila Foz Hotel Spa,40,0.0
+PRT-00180,40,0.0
+PRT-00073,40,0.0
+PRT-00105,40,0.0
+PRT-00052,40,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,40,0.0
+PRT-00134,40,0.0
+PRT-00128,40,0.0
+VORTEX Gingabike - Motocidade.,40,0.0
+Hotel da Música,40,0.0
+CC Parque Nascente,40,0.0
+MOBI.E - PRT-00085,40,0.0
+PRT-00046,40,0.0
+PRT-00170,40,0.0
+PRT-00171,40,0.0
+GDM-00007,40,0.0
+PRT-00141,40,0.0
+PRT-00071,40,0.0
+LoftAbroad Apartments,40,0.0
+PRT-00001,40,0.0
+I-CHARGING TEST,40,0.0
+MOBI-MTS-00001 -Ceiia,40,0.0
+MOBI.E - PRT-00103,40,0.0
+NISSAN CAETANO POWER S.A. (Porto),40,0.0
+PRT-00070,40,0.0
+PRT-00021,40,0.0
+PRT-00156,40,0.0
+PRT-00144,40,0.0
+PRT-00019,40,0.0
+PRT-00068,40,0.0
+PRT-00014,40,0.0
+PRT-00050,40,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),40,0.0
+PRT-00015,40,0.0
+Bessa Hotel Baixa,40,0.0
+PRT-00051,40,0.0
+Nissan Porto ZI,40,0.0
+PRT-00037,40,0.0
+PRT-00091,40,0.0
+PRT-00031,40,0.0
+Centro Porsche Porto,40,0.0
+PRT-00022,40,0.0
+PRT-00020 - PCR - Q8 Circunvalação,40,0.0
+Hotel Vincci Porto,40,0.0
+PRT-00032/33 - Hotel Vile Gale,40,0.0
+PRT-00001 - PCR - Porto (Av. França),40,0.0
+GARAGEM CAMOES,40,0.0
+PRT-00155,40,0.0
+PRT-00146,40,0.0
+PRT-00034,40,0.0
+PRT-00101 - PCR - Porto,40,0.0
+Bessa Hotel Boavista,40,0.0
+PRT-00147,41,0.0
+Hotel da Música,41,0.0
+PRT-00062,41,0.0
+PRT-00096,41,0.0
+PRT-00028,41,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),41,0.0
+Hotel Vincci Porto,41,0.0
+PRT-00068,41,0.0
+Garagem Porto D'ouro,41,0.0
+PRT-00020,41,0.0
+MTS-00031,41,0.0
+PRT-00001,41,0.0
+PRT-00019,41,0.0
+Renault Boavista,41,0.0
+PRT-00170,41,0.0
+PRT-00101,41,0.0
+PRT-00013,41,0.0
+PRT-00145,41,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),41,0.0
+PRT-00127,41,0.0
+NISSAN CAETANO POWER S.A. (Porto),41,0.0
+FEUP-00002,41,0.0
+LoftAbroad Apartments,41,0.0
+PRT-00132,41,0.0
+PRT-00134,41,0.0
+PRT-00046,41,0.0
+PRT-00160,41,0.0
+MOBI.E - PRT-00103,41,0.0
+PRT-00069,41,0.0
+PRT-00001 - PCR - Porto (Av. França),41,0.0
+PRT-00171,41,0.0
+PRT-00155,41,0.0
+PRT-00017/18,41,0.0
+PRT-00159,41,0.0
+PRT-00187,41,0.0
+PRT-00094,41,0.0
+PRT-00051,41,0.0
+Porto Deluxe - GuestHouse,41,0.0
+PRT-00105,41,0.0
+PRT-00016,41,0.0
+PRT-00071,41,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,41,0.0
+PRT-00052,41,0.0
+GDM-00007,41,0.0
+Maison Albar Hotels Le Monumental Palace,41,0.0
+IPP-00001/2 - Hospital de São João,41,0.0
+PRT-00050,41,0.0
+PRT-00129,41,0.0
+PRT-00139,41,0.0
+PRT-00049,41,0.0
+Bessa Hotel Boavista,41,0.0
+PRT-00101 - PCR - Porto,41,0.0
+PRT-00073,41,0.0
+MOBI-MTS-00001 -Ceiia,41,0.0
+CC Parque Nascente,41,0.0
+PRT-00020 - PCR - Q8 Circunvalação,41,0.0
+Via Catarina Porto,41,0.0
+PRT-00091 - PCR - Areosa (LIDL),41,0.0
+PRT-00091,41,0.0
+PRT-00022,41,0.0
+Riera Alta,41,0.0
+comum,41,0.0
+PRT-00030,41,0.0
+TESTE WDAO- PRODDD,41,0.0
+PRT-00076,41,0.0
+Nissan Porto ZI,41,0.0
+PRT-00037,41,0.0
+PRT-00031,41,0.0
+PRT-00021,41,0.0
+PRT-00173,41,0.0
+Hotel Crowne Plaza Porto,41,0.0
+GARAGEM CAMOES,41,0.0
+FEUP-00001,41,0.0
+MTS-00046,41,0.0
+PRT-00060,41,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,41,0.0
+VORTEX Gingabike - Motocidade.,41,0.0
+PRT-00156,41,0.0
+PRT-00097,41,0.0
+PRT-00142,41,0.0
+PRT-00180,41,0.0
+PRT-00154,41,0.0
+Centro Porsche Porto,41,0.0
+PRT-00013 - PCR - Porto (Av. da França),41,0.0
+Charge point GreenFlux,41,0.0
+PRT-00144,41,0.0
+PRT-00153,41,0.0
+Hotel Teatro - Tesla Destination Charger,41,0.0
+PRT-00015,41,0.0
+PRT-00128,41,0.0
+Garagem Porto D'ouro 2 ,41,0.0
+Vila Foz Hotel Spa,41,0.0
+Kinda Home - Porto,41,0.0
+PRT-00146,41,0.0
+PRT-00014,41,0.0
+PRT-00070,41,0.0
+MOBI.E - PRT-00085,41,0.0
+PRT-00143,41,0.0
+I-CHARGING TEST,41,0.0
+PRT-00032/33 - Hotel Vile Gale,41,0.0
+MOBI.E - PRT-00086,41,0.0
+Bessa Hotel Baixa,41,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,41,0.0
+PRT-00036,41,0.0
+PRT-00034,41,0.0
+PRT-00141,41,0.0
+PRT-00014,42,0.0
+Hotel Teatro - Tesla Destination Charger,42,0.0
+PRT-00146,42,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),42,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),42,0.0
+PRT-00001,42,0.0
+MOBI.E - PRT-00086,42,0.0
+PRT-00050,42,0.0
+PRT-00156,42,0.0
+PRT-00139,42,0.0
+I-CHARGING TEST,42,0.0
+Renault Boavista,42,0.0
+PRT-00046,42,0.0
+Garagem Porto D'ouro 2 ,42,0.0
+PRT-00037,42,0.0
+LoftAbroad Apartments,42,0.0
+MOBI.E - PRT-00085,42,0.0
+Riera Alta,42,0.0
+PRT-00015,42,0.0
+Kinda Home - Porto,42,0.0
+MTS-00046,42,0.0
+PRT-00153,42,0.0
+PRT-00019,42,0.0
+PRT-00031,42,0.0
+PRT-00036,42,0.0
+PRT-00160,42,0.0
+PRT-00020 - PCR - Q8 Circunvalação,42,0.0
+PRT-00094,42,0.0
+MOBI-MTS-00001 -Ceiia,42,0.0
+PRT-00016,42,0.0
+PRT-00159,42,0.0
+MTS-00031,42,0.0
+Nissan Porto ZI,42,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,42,0.0
+NISSAN CAETANO POWER S.A. (Porto),42,0.0
+Vila Foz Hotel Spa,42,0.0
+PRT-00013 - PCR - Porto (Av. da França),42,0.0
+Bessa Hotel Baixa,42,0.0
+PRT-00142,42,0.0
+Hotel da Música,42,0.0
+comum,42,0.0
+PRT-00105,42,0.0
+PRT-00032/33 - Hotel Vile Gale,42,0.0
+PRT-00147,42,0.0
+PRT-00076,42,0.0
+PRT-00028,42,0.0
+Garagem Porto D'ouro,42,0.0
+PRT-00173,42,0.0
+Centro Porsche Porto,42,0.0
+PRT-00097,42,0.0
+PRT-00069,42,0.0
+PRT-00068,42,0.0
+Bessa Hotel Boavista,42,0.0
+GARAGEM CAMOES,42,0.0
+PRT-00060,42,0.0
+PRT-00143,42,0.0
+PRT-00129,42,0.0
+MOBI.E - PRT-00103,42,0.0
+PRT-00132,42,0.0
+FEUP-00002,42,0.0
+PRT-00144,42,0.0
+PRT-00155,42,0.0
+PRT-00020,42,0.0
+PRT-00187,42,0.0
+PRT-00128,42,0.0
+PRT-00170,42,0.0
+Hotel Crowne Plaza Porto,42,0.0
+PRT-00017/18,42,0.0
+PRT-00071,42,0.0
+PRT-00034,42,0.0
+Hotel Vincci Porto,42,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,42,0.0
+PRT-00091,42,0.0
+VORTEX Gingabike - Motocidade.,42,0.0
+CC Parque Nascente,42,0.0
+TESTE WDAO- PRODDD,42,0.0
+PRT-00062,42,0.0
+PRT-00141,42,0.0
+PRT-00127,42,0.0
+PRT-00073,42,0.0
+Porto Deluxe - GuestHouse,42,0.0
+PRT-00070,42,0.0
+FEUP-00001,42,0.0
+Via Catarina Porto,42,0.0
+PRT-00051,42,0.0
+PRT-00154,42,0.0
+PRT-00091 - PCR - Areosa (LIDL),42,0.0
+PRT-00052,42,0.0
+PRT-00134,42,0.0
+Maison Albar Hotels Le Monumental Palace,42,0.0
+PRT-00013,42,0.0
+PRT-00021,42,0.0
+PRT-00096,42,0.0
+PRT-00180,42,0.0
+PRT-00022,42,0.0
+PRT-00171,42,0.0
+IPP-00001/2 - Hospital de São João,42,0.0
+PRT-00101,42,0.0
+PRT-00001 - PCR - Porto (Av. França),42,0.0
+PRT-00049,42,0.0
+PRT-00145,42,0.0
+PRT-00101 - PCR - Porto,42,0.0
+PRT-00030,42,0.0
+GDM-00007,42,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,42,0.0
+Charge point GreenFlux,42,0.0
+PRT-00141,43,0.0
+PRT-00094,43,0.0
+FEUP-00002,43,0.0
+PRT-00096,43,0.0
+PRT-00013 - PCR - Porto (Av. da França),43,0.0
+Bessa Hotel Baixa,43,0.0
+PRT-00033/34 - Vila Galé Porto Ribeira,43,0.0
+GDM-00007/8 - Pestana Palácio do Freixo,43,0.0
+Porto Deluxe - GuestHouse,43,0.0
+PRT-00105,43,0.0
+PRT-00022,43,0.0
+PRT-00146,43,0.0
+PRT-00170,43,0.0
+PRT-00014,43,0.0
+PRT-00187,43,0.0
+Vila Foz Hotel Spa,43,0.0
+PRT-00154,43,0.0
+PRT-00155,43,0.0
+PRT-00101,43,0.0
+PRT-00127,43,0.0
+PRT-00049,43,0.0
+Hotel Crowne Plaza Porto,43,0.0
+PRT-00034,43,0.0
+MOBI.E - PRT-00085,43,0.0
+PRT-00144,43,0.0
+PRT-00030,43,0.0
+NISSAN CAETANO POWER S.A. (Porto),43,0.0
+PRT-00060,43,0.0
+GDM-00007,43,0.0
+PRT-00070,43,0.0
+PRT-00028,43,0.0
+PRT-00076,43,0.0
+PRT-00017/18,43,0.0
+PRT-00052,43,0.0
+IPP-00001/2 - Hospital de São João,43,0.0
+PRT-00091 - PCR - Areosa (LIDL),43,0.0
+PRT-00001,43,0.0
+PRT-00016,43,0.0
+CC Parque Nascente,43,0.0
+PRT-00062,43,0.0
+Via Catarina Porto,43,0.0
+Charge point GreenFlux,43,0.0
+TESTE WDAO- PRODDD,43,0.0
+VORTEX Gingabike - Motocidade.,43,0.0
+Maison Albar Hotels Le Monumental Palace,43,0.0
+Hotel Teatro - Tesla Destination Charger,43,0.0
+MOBI.E - PRT-00021 (C.C. Cristal Park),43,0.0
+PRT-00097,43,0.0
+PRT-00145,43,0.0
+MOBI-MTS-00001 -Ceiia,43,0.0
+I-CHARGING TEST,43,0.0
+MOBI.E - PRT-00086,43,0.0
+MTS-00031,43,0.0
+PRT-00028/29 - Pestana Palácio do Freixo,43,0.0
+PRT-00036,43,0.0
+PRT-00134,43,0.0
+Bessa Hotel Boavista,43,0.0
+PRT-00071,43,0.0
+PRT-00129,43,0.0
+PRT-00180,43,0.0
+Garagem Porto D'ouro 2 ,43,0.0
+PRT-00019,43,0.0
+PRT-00032/33 - Hotel Vile Gale,43,0.0
+Hotel da Música,43,0.0
+Kinda Home - Porto,43,0.0
+PRT-00037,43,0.0
+PRT-00001 - PCR - Porto (Av. França),43,0.0
+PRT-00142,43,0.0
+Nissan Porto ZI,43,0.0
+MTS-00046,43,0.0
+PRT-00091,43,0.0
+PRT-00101 - PCR - Porto,43,0.0
+PRT-00171,43,0.0
+PRT-00015,43,0.0
+LoftAbroad Apartments,43,0.0
+PRT-00050,43,0.0
+PRT-00159,43,0.0
+Riera Alta,43,0.0
+PRT-00069,43,0.0
+PRT-00021,43,0.0
+PRT-00173,43,0.0
+PRT-00132,43,0.0
+PRT-00160,43,0.0
+PRT-00156,43,0.0
+PRT-00139,43,0.0
+PRT-00128,43,0.0
+PRT-00096 - PCR - Porto (LIDL J. Bastos),43,0.0
+PRT-00046,43,0.0
+FEUP-00001,43,0.0
+PRT-00143,43,0.0
+GARAGEM CAMOES,43,0.0
+PRT-00073,43,0.0
+PRT-00147,43,0.0
+PRT-00051,43,0.0
+PRT-00068,43,0.0
+MOBI.E - PRT-00103,43,0.0
+Renault Boavista,43,0.0
+PRT-00031,43,0.0
+Centro Porsche Porto,43,0.0
+PRT-00013,43,0.0
+PRT-00153,43,0.0
+Garagem Porto D'ouro,43,0.0
+Hotel Vincci Porto,43,0.0
+PRT-00020,43,0.0
+PRT-00020 - PCR - Q8 Circunvalação,43,0.0
+comum,43,0.0

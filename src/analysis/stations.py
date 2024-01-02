@@ -76,7 +76,7 @@ def plot_usage_2(stations_usage):
     plt.ylabel('Average Usage')
     plt.title('Average Usage of Charging Stations')
     plt.ylim(0, 1)
-    plt.xticks(rotation=45)
+    plt.xticks(rotation=85)
     plt.tight_layout()
     plt.savefig(Constants.Graphs.STATIONS_USAGE_GRAPH2_FILE_PATH)
 
@@ -96,7 +96,7 @@ def plot_total_usage(total_usage):
 def save_per_station(stations_usage):
     """Save the records to the file."""
     # Write stations usage to file
-    with open(Constants.Logs.OUPUT_STATIONS_FILE_PATH, "w") as file:
+    with open(Constants.Logs.PROCESSED_OUPUT_STATIONS_FILE_PATH, "w") as file:
         file.write("charging_station_name,usage\n")
 
         for station_id in stations_usage:
@@ -106,11 +106,11 @@ def save_per_station(stations_usage):
 def save_total(total_usage):
     """Save the records to the file."""
     # Delete the file if it exists
-    if os.path.exists(Constants.Logs.OUPUT_TOTAL_STATIONS_FILE_PATH):
-        os.remove(Constants.Logs.OUPUT_TOTAL_STATIONS_FILE_PATH)
+    if os.path.exists(Constants.Logs.PROCESSED_OUPUT_TOTAL_STATIONS_FILE_PATH):
+        os.remove(Constants.Logs.PROCESSED_OUPUT_TOTAL_STATIONS_FILE_PATH)
     
     # Write stations usage to file
-    with open(Constants.Logs.OUPUT_TOTAL_STATIONS_FILE_PATH, "w") as file:
+    with open(Constants.Logs.PROCESSED_OUPUT_TOTAL_STATIONS_FILE_PATH, "w") as file:
         file.write("timestamp,usage\n")
 
         for timestamp in total_usage:
@@ -119,7 +119,7 @@ def save_total(total_usage):
 
 
 def main():
-    stations_file_path = Constants.Logs.OUPUT_STATIONS_FILE_PATH
+    stations_file_path = Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH
 
     # Read stations file
     stations_data = Files.read_csv_file(stations_file_path)

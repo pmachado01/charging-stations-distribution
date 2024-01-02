@@ -24,26 +24,27 @@ def agent_portrayal(agent):
         else:
             portrayal["color"] = "green"
     elif isinstance(agent, CentroidAgent):
-        portrayal = {"color": "Blue"}
+        portrayal = {"color": "Blue",
+                     "Filled": "false"}
     else:
         portrayal = {"color": "gray"}
 
     return portrayal
 
 # Reset the output files
-if os.path.exists(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH):
-    os.remove(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH)
-with open(Constants.Logs.OUPUT_CHARGING_RECORDS_FILE_PATH, "w") as file:
+if os.path.exists(Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH):
+    os.remove(Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH)
+with open(Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH, "w") as file:
     file.write("car_id,car_centroid,charging_station_name,charging_station_centroid,travelled_distance,time_spent_travelling,arrival_time,initial_battery_level,final_battery_level,start_time,end_time\n")
 
-if os.path.exists(Constants.Logs.OUPUT_STATIONS_FILE_PATH):
-    os.remove(Constants.Logs.OUPUT_STATIONS_FILE_PATH)
-with open(Constants.Logs.OUPUT_STATIONS_FILE_PATH, "w") as file:
+if os.path.exists(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH):
+    os.remove(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH)
+with open(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH, "w") as file:
     file.write("charging_station_name,timestamp,usage\n")
 
-if os.path.exists(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH):
-    os.remove(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH)
-with open(Constants.Logs.OUPUT_DEAD_CARS_FILE_PATH, "w") as file:
+if os.path.exists(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH):
+    os.remove(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH)
+with open(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH, "w") as file:
     file.write("car_id,timestamp,battery_level\n")
 
 
