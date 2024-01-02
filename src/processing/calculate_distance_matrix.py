@@ -4,7 +4,7 @@ import pandas as pd
 import geopy.distance
 import os
 
-ID_COLUMN_NAME = 'BGRI2021'
+ID_COLUMN_NAME = 'OBJECTID'
 LON_COLUMN_NAME = 'lon'
 LAT_COLUMN_NAME = 'lat'
 
