@@ -42,8 +42,8 @@ class Constants:
         NON_RETILINEA_PATH_FACTOR   = 1.25 # Factor to multiply the distance between two centroids to get the distance between them
         INITIAL_BATTERY_LEVEL_MIN   = 0.50 # In percentage
         INITIAL_BATTERY_LEVEL_MAX   = 1.00 # In percentage
-        FULL_BATTERY_RANGE_MIN      = 250  # In km
-        FULL_BATTERY_RANGE_MAX      = 500  # In km
+        FULL_BATTERY_RANGE_MIN      = 150  # In km
+        FULL_BATTERY_RANGE_MAX      = 400  # In km
         TARGET_BATTERY_LEVEL_MIN    = 0.85 # In percentage
         TARGET_BATTERY_LEVEL_MAX    = 1.00 # In percentage
         ALERT_BATTERY_LEVEL_MIN     = 0.15 # In percentage
