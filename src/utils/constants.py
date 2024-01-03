@@ -48,7 +48,7 @@ class Constants:
         TARGET_BATTERY_LEVEL_MAX    = 1.00 # In percentage
         ALERT_BATTERY_LEVEL_MIN     = 0.15 # In percentage
         ALERT_BATTERY_LEVEL_MAX     = 0.30 # In percentage
-        STATION_CHARGING_POWER      = 250  # In km/h
+        STATION_CHARGING_POWER      = 320  # In km/h
         CAR_MOVING_PROBABILITY      = 0.40 # Probability of the car moving in each step of the simulation
         CAR_MOVING_SPEED_MIN        = 25   # In km/h
         CAR_MOVING_SPEED_MAX        = 120  # In km/h
