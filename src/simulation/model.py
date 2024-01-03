@@ -36,7 +36,7 @@ class ChargingStationModel(mesa.Model):
             # Create geometry circle with small radius
             geometry = shapely.geometry.Point(row["longitude"], row["latitude"]).buffer(0.0003)
             centroid = self.centroid_agents[row["nearest_centroid"]]
-            number_of_charging_ports = 3
+            number_of_charging_ports = 2
             charging_station = ChargingStationAgent(row["name"], self, geometry, "epsg:4326", centroid, number_of_charging_ports)
             
             centroid.add_station(charging_station)
