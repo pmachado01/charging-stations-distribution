@@ -10,7 +10,7 @@ class ChargeRecord:
         self.car = car
         self.initial_battery_level = car.current_battery_level
         self.final_battery_level = None
-        self.charging_station = charging_station  # TODO: Check if is necessary
+        self.charging_station = charging_station
         self.travelled_distance = travelled_distance
         self.arrival_time = arrival_time
         self.start_time = None
@@ -53,8 +53,6 @@ class ChargingStationAgent(mg.GeoAgent):
         self.charging_cars = []  # [ChargeRecord]
         self.waiting_cars = []  # [ChargeRecord]
 
-        self.usage_history = []
-
     def new_car_arrived(self, car, travelled_distance):
         """A new car has arrived at the charging station."""
         car.is_on_charging_station = True
@@ -69,7 +67,6 @@ class ChargingStationAgent(mg.GeoAgent):
     def add_car_to_charging(self, chargeRecord, start_time):
         """Add a car to the charging station."""
         chargeRecord.start_charging(start_time)
-
         self.charging_cars.append(chargeRecord)
 
     def add_car_to_queue(self, chargeRecord):
@@ -81,7 +78,7 @@ class ChargingStationAgent(mg.GeoAgent):
 
         while number_of_free_charging_ports > 0 and len(self.waiting_cars) > 0:
             chargeRecord = self.waiting_cars.pop(0)
-            print("Car {} is now charging.".format(chargeRecord.car.unique_id))
+            #print("Car {} is now charging.".format(chargeRecord.car.unique_id))
             
             chargeRecord.start_charging(self.model.schedule.time)
             self.charging_cars.append(chargeRecord)
@@ -109,7 +106,7 @@ class ChargingStationAgent(mg.GeoAgent):
         for chargeRecord in self.charging_cars:
             # Check if the car is done charging    
             if chargeRecord.car.current_battery_level >= chargeRecord.car.target_battery_level:
-                print("Car {} is done charging.".format(chargeRecord.car.unique_id))
+                #print("Car {} is done charging.".format(chargeRecord.car.unique_id))
 
                 chargeRecord.end_charging(self.model.schedule.time)
                 self.remove_from_charging(chargeRecord)
@@ -121,11 +118,16 @@ class ChargingStationAgent(mg.GeoAgent):
         
         self.move_waiting_to_charging(number_of_free_charging_ports)
 
-        # Update the usage history
-        self.usage_history.append(len(self.charging_cars)/self.number_of_charging_ports)
+        # Log the usage history
         self.log_usage_history(len(self.charging_cars)/self.number_of_charging_ports, self.model.schedule.time)
+        self.log_waiting_cars()
 
     def log_usage_history(self, usage, timestamp):
         """Log the usage history of the charging station."""
-        with open(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH, "a") as file:
+        with open(Constants.Logs.RAW_OUPUT_STATIONS_USAGE_FILE_PATH, "a") as file:
             file.write("{},{},{}\n".format(self.unique_id, timestamp, usage))
+    
+    def log_waiting_cars(self):
+        """Log the waiting cars of the charging station."""
+        with open(Constants.Logs.RAW_OUPUT_STATIONS_WAITING_CARS_FILE_PATH, "a") as file:
+            file.write("{},{},{}\n".format(self.unique_id, self.model.schedule.time, len(self.waiting_cars)))

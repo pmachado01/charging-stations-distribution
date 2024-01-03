@@ -27,7 +27,7 @@ class ChargingStationModel(mesa.Model):
         for index, row in centroids_data.iterrows():
             geometry = wkt.loads(row["WKT"])
             centroid = ac.create_agent(geometry=geometry, unique_id=row["OBJECTID"])
-            self.space.add_agents(centroid)
+            #self.space.add_agents(centroid)
             self.schedule.add(centroid)
             self.centroid_agents[row["OBJECTID"]] = centroid
         
@@ -40,7 +40,7 @@ class ChargingStationModel(mesa.Model):
             charging_station = ChargingStationAgent(row["name"], self, geometry, "epsg:4326", centroid, number_of_charging_ports)
             
             centroid.add_station(charging_station)
-            self.space.add_agents(charging_station)
+            #self.space.add_agents(charging_station)
             self.schedule.add(charging_station)
         
         # Create car agents based on the centroids data
@@ -57,6 +57,13 @@ class ChargingStationModel(mesa.Model):
                 car = CarAgent(f'car_{row["OBJECTID"]}_{i}', self, centroid, initial_battery_level, full_battery_range, target_battery_level, alert_battery_level, desireable_distance)
                 self.schedule.add(car)
 
+        #TODO: Remove this
+        print("Number of centroid agents: {}".format(len(self.centroid_agents)))
+        print("Number of charging station agents: {}".format(len(self.schedule.agents_by_type[ChargingStationAgent])))
+        print("Number of car agents: {}".format(len(self.schedule.agents_by_type[CarAgent])))
+        total_population = 234438
+        print("Number of stations/100k people: {}".format(len(self.schedule.agents_by_type[ChargingStationAgent]) / (total_population / 100000)))
+              
 
     def step(self):
         """Advance the model by one step."""
@@ -98,7 +105,7 @@ class ChargingStationModel(mesa.Model):
         # If it didn't find a free charging station with a distance less than the desireable distance, return the nearest station
         for centroid, distance in distances.items():
             centroid_agent = self.centroid_agents[int(centroid)]
-            charging_station = centroid_agent.get_available_charging_station()
+            charging_station = centroid_agent.get_charging_station()
 
             if charging_station is not None:
                 return charging_station, distance

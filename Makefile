@@ -36,7 +36,8 @@ simulation: data/processed/centroids.csv data/processed/stations.csv
 
 # Output data analysis
 analysis: data/processed/centroids.csv data/processed/stations.csv
-	python3 -m src.analysis.stations
+	python3 -m src.analysis.stations_usage
+	python3 -m src.analysis.stations_waiting_line
 	python3 -m src.analysis.cars
 
 # Clean generated files

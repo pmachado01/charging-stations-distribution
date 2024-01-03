@@ -26,7 +26,7 @@ class CarAgent(mesa.Agent):
         
     def calculate_current_range(self):
         """Calculate the current range of the car."""
-        return self.current_battery_level / 100 * self.full_battery_range 
+        return self.current_battery_level * self.full_battery_range 
     
     def calculate_required_charging_time(self, charging_station):
         """Calculate the required charging time (in minutes) for the car at the given charging station."""
@@ -53,9 +53,6 @@ class CarAgent(mesa.Agent):
 
     def move(self):
         """Move the car."""
-        # Since each tick represents a minute, assuming a travel speed between 30km/h and 120km/h
-        # each car should move between 0.5 and 2 km
-        
         travel_distance = random.randrange(Constants.Simulation.CAR_MOVING_SPEED_MIN, Constants.Simulation.CAR_MOVING_SPEED_MAX) / 60  # In km/min
         self.travel(travel_distance)
 
@@ -114,11 +111,11 @@ class CarAgent(mesa.Agent):
 
         # Needs to find a charging station to charge
         if self.current_battery_level < self.alert_battery_level and self.destination_charging_station is None:
-            print("Car {} needs to be charged.".format(self.unique_id))
-            print("Current battery level: {}".format(self.current_battery_level))
+            #print("Car {} needs to be charged.".format(self.unique_id))
+            #print("Current battery level: {}".format(self.current_battery_level))
             self.find_charging_station()
 
     def log_dead(self):
         """Log the car as dead."""
         with open(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH, "a") as file:
-            file.write("{},{},{}\n".format(self.unique_id, self.model.schedule.time, self.current_battery_level))
+            file.write("{},{},{}\n".format(self.unique_id, self.model.schedule.time, self.alert_battery_level))

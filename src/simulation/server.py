@@ -8,7 +8,6 @@ from .agents.centroid import CentroidAgent
 from .model import ChargingStationModel
 import os
 
-#TODO: Improve agent colors
 def agent_portrayal(agent):
     if isinstance(agent, ChargingStationAgent):
         portrayal = {"filled": "true"}
@@ -33,17 +32,22 @@ def agent_portrayal(agent):
 if os.path.exists(Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH):
     os.remove(Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH)
 with open(Constants.Logs.RAW_OUPUT_CHARGING_RECORDS_FILE_PATH, "w") as file:
-    file.write("car_id,car_centroid,charging_station_name,charging_station_centroid,travelled_distance,time_spent_travelling,arrival_time,initial_battery_level,final_battery_level,start_time,end_time\n")
+    file.write("car_id,car_centroid,charging_station_name,charging_station_centroid,travelled_distance,arrival_time,initial_battery_level,final_battery_level,start_time,end_time\n")
 
-if os.path.exists(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH):
-    os.remove(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH)
-with open(Constants.Logs.RAW_OUPUT_STATIONS_FILE_PATH, "w") as file:
+if os.path.exists(Constants.Logs.RAW_OUPUT_STATIONS_USAGE_FILE_PATH):
+    os.remove(Constants.Logs.RAW_OUPUT_STATIONS_USAGE_FILE_PATH)
+with open(Constants.Logs.RAW_OUPUT_STATIONS_USAGE_FILE_PATH, "w") as file:
     file.write("charging_station_name,timestamp,usage\n")
+
+if os.path.exists(Constants.Logs.RAW_OUPUT_STATIONS_WAITING_CARS_FILE_PATH):
+    os.remove(Constants.Logs.RAW_OUPUT_STATIONS_WAITING_CARS_FILE_PATH)
+with open(Constants.Logs.RAW_OUPUT_STATIONS_WAITING_CARS_FILE_PATH, "w") as file:
+    file.write("charging_station_name,timestamp,waiting_cars\n")
 
 if os.path.exists(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH):
     os.remove(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH)
 with open(Constants.Logs.RAW_OUPUT_DEAD_CARS_FILE_PATH, "w") as file:
-    file.write("car_id,timestamp,battery_level\n")
+    file.write("car_id,timestamp,alert_battery_level\n")
 
 
 stations_file_path = Constants.Data.PROCESSED_STATIONS_FILE_PATH
@@ -52,9 +56,10 @@ stations_data = Files.read_csv_file(stations_file_path)
 centroids_file_path = Constants.Data.PROCESSED_CENTROIDS_FILE_PATH
 centroids_data = Files.read_csv_file(centroids_file_path)
 
-#TODO: Add non retilinea path factor
 distance_matrix_file_path = Constants.Data.DISTANCE_MATRIX_FILE_PATH
 distance_matrix_data = Files.read_csv_file(distance_matrix_file_path)
+# Add non retilinea path factor
+distance_matrix_data = distance_matrix_data.apply(lambda x: x * Constants.Simulation.NON_RETILINEA_PATH_FACTOR)
 
 map_element = mg.visualization.MapModule(agent_portrayal, [41.17, -8.61], 12, 800, 500)
 

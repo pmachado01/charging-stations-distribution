@@ -51,7 +51,6 @@ def calculate_single_metrics(charging_records_dict):
     
     for car_id, charging_records in charging_records_dict.items():
         total_travelled_distance = 0
-        total_time_spent_travelling = 0
         total_time_spent_waiting = 0
 
         for charging_record in charging_records:
@@ -144,8 +143,8 @@ def save_charging_records(charging_records_dict, average_travelled_distance, ave
     with open(Constants.Logs.PROCESSED_OUPUT_CHARGING_RECORDS_FILE_PATH, "w") as file:
         file.write("car_id,average_travelled_distance,average_time_spent_waiting\n")
         for car_id, charging_records in charging_records_dict.items():
-            file.write("{},{},{},{}\n".format(car_id, average_travelled_distance[car_id], average_time_spent_waiting[car_id]))
-        file.write("total,{},{},{}\n".format(total_average_travelled_distance, total_average_time_spent_waiting))
+            file.write("{},{},{}\n".format(car_id, average_travelled_distance[car_id], average_time_spent_waiting[car_id]))
+        file.write("total,{},{}\n".format(total_average_travelled_distance, total_average_time_spent_waiting))
 
 
 def extract_data_dead_cars(dead_cars_data):
@@ -154,35 +153,35 @@ def extract_data_dead_cars(dead_cars_data):
     for index, row in dead_cars_data.iterrows():
         car_id = row["car_id"]
         timestamp = row["timestamp"]
-        battery_level = row["battery_level"]
+        alert_battery_level = row["alert_battery_level"]
 
         if car_id not in dead_cars_dict:
-            dead_cars_dict[car_id] = [(timestamp, battery_level)]
+            dead_cars_dict[car_id] = [(timestamp, alert_battery_level)]
         else:
-            dead_cars_dict[car_id].append((timestamp, battery_level))
+            dead_cars_dict[car_id].append((timestamp, alert_battery_level))
 
     return dead_cars_dict
 
 
-def calculate_average_battery_level(dead_cars_dict):
+def calculate_average_alert_battery_level(dead_cars_dict):
     # Calculate average battery level for each car
-    average_battery_level = {} # {car_id: average_battery_level}
+    average_alert_battery_level = {} # {car_id: average_alert_battery_level}
     for car_id, values in dead_cars_dict.items():
         battery_level_sum = 0
         for value in values:
             battery_level_sum += value[1]
-        average_battery_level[car_id] = battery_level_sum / len(values)
+        average_alert_battery_level[car_id] = battery_level_sum / len(values)
     
-    return average_battery_level
+    return average_alert_battery_level
 
 
-def plot_average_battery_level(average_battery_level):
+def plot_average_alert_battery_level(average_alert_battery_level):
     # Plotting
     plt.figure(figsize=(10, 6))
     
     # Extract car IDs and average battery level
-    car_ids = list(average_battery_level.keys())
-    battery_levels = list(average_battery_level.values())
+    car_ids = list(average_alert_battery_level.keys())
+    battery_levels = list(average_alert_battery_level.values())
     
     # Use bar plot with car IDs on x-axis
     plt.bar(range(len(car_ids)), battery_levels)
@@ -195,7 +194,7 @@ def plot_average_battery_level(average_battery_level):
     plt.xticks(range(len(car_ids)), car_ids, rotation=45)
     
     plt.tight_layout()
-    plt.savefig(Constants.Graphs.AVERAGE_BATTERY_LEVEL_GRAPH_FILE_PATH)
+    plt.savefig(Constants.Graphs.AVERAGE_ALERT_BATTERY_LEVEL_GRAPH_FILE_PATH)
 
 
 def plot_average_timestamp_to_die(dead_cars_dict):
@@ -221,15 +220,15 @@ def plot_average_timestamp_to_die(dead_cars_dict):
 
 
 
-def save_dead_cars(average_battery_level):
+def save_dead_cars(average_alert_battery_level):
     # Delete the file if it already exists
     if os.path.exists(Constants.Logs.PROCESSED_OUPUT_DEAD_CARS_FILE_PATH):
         os.remove(Constants.Logs.PROCESSED_OUPUT_DEAD_CARS_FILE_PATH)
 
     # Save results to file
     with open(Constants.Logs.PROCESSED_OUPUT_DEAD_CARS_FILE_PATH, "w") as file:
-        file.write("car_id,average_battery_level\n")
-        for car_id, battery_level in average_battery_level.items():
+        file.write("car_id,average_alert_battery_level\n")
+        for car_id, battery_level in average_alert_battery_level.items():
             file.write("{},{}\n".format(car_id, battery_level))
 
 
@@ -269,17 +268,20 @@ def main():
     dead_cars_dict = extract_data_dead_cars(dead_cars_data)
 
     # Calculate average battery level for each car
-    average_battery_level = calculate_average_battery_level(dead_cars_dict)
+    average_alert_battery_level = calculate_average_alert_battery_level(dead_cars_dict)
 
     # Draw a bar chart of the average battery level for each car
-    plot_average_battery_level(average_battery_level)
+    plot_average_alert_battery_level(average_alert_battery_level)
 
     # Draw a bar chart of the average timetamp for each car to die
     plot_average_timestamp_to_die(dead_cars_dict)
 
     # Save results to file
-    save_dead_cars(average_battery_level)
+    save_dead_cars(average_alert_battery_level)
 
+    print("Average travel distance to charging station: ", total_average_travelled_distance)
+    print("Average time spent waiting for a charging port: ", total_average_time_spent_waiting)
+    print("Number of dead cars: ", len(dead_cars_dict))
 
 if __name__ == "__main__":
     main()
