@@ -97,6 +97,7 @@ def plot_total_usage(total_usage):
     plt.ylabel('Average Usage')
     plt.title('Average Usage of Charging Stations')
     plt.ylim(0, 1)
+    plt.xlim(0, 3600)
     plt.tight_layout()
     plt.savefig(Constants.Graphs.STATIONS_TOTAL_USAGE_GRAPH_FILE_PATH)
 

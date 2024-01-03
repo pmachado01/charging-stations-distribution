@@ -92,16 +92,16 @@ def plot_average_travelled_distance(average_travelled_distance):
     # Extract car IDs and distances
     car_ids = list(temp_average_travelled_distance.keys())
     distances = list(temp_average_travelled_distance.values())
+
+    # Sort distances
+    distances.sort(reverse=True)
     
     # Use bar plot with car IDs on x-axis
     plt.bar(range(len(car_ids)), distances)
     
-    plt.xlabel('Car ID')
+    plt.xlabel('Cars (sorted by average travelled distance)')
     plt.ylabel('Average Travelled Distance (km)')
     plt.title('Average Travelled Distance to Charging Station')
-    
-    # Set x-axis ticks to be car IDs
-    plt.xticks(range(len(car_ids)), car_ids, rotation=45)
     
     plt.tight_layout()
     plt.savefig(Constants.Graphs.AVERAGE_TRAVELLED_DISTANCE_GRAPH_FILE_PATH)
@@ -119,16 +119,16 @@ def plot_average_time_spent_waiting(average_time_spent_waiting):
     # Extract car IDs and time spent waiting
     car_ids = list(temp_average_time_spent_waiting.keys())
     time_spent_waiting = list(temp_average_time_spent_waiting.values())
+
+    # Sort time spent waiting
+    time_spent_waiting.sort(reverse=True)
     
     # Use bar plot with car IDs on x-axis
     plt.bar(range(len(car_ids)), time_spent_waiting)
     
-    plt.xlabel('Car ID')
+    plt.xlabel('Car ID (sorted by average time spent waiting)')
     plt.ylabel('Average Time Spent Waiting (minutes)')
     plt.title('Average Time Spent Waiting for a Charging Port')
-    
-    # Set x-axis ticks to be car IDs
-    plt.xticks(range(len(car_ids)), car_ids, rotation=45)
     
     plt.tight_layout()
     plt.savefig(Constants.Graphs.AVERAGE_TIME_SPENT_WAITING_GRAPH_FILE_PATH)
