@@ -43,12 +43,12 @@ class Constants:
         INITIAL_BATTERY_LEVEL_MIN   = 0.50 # In percentage
         INITIAL_BATTERY_LEVEL_MAX   = 1.00 # In percentage
         FULL_BATTERY_RANGE_MIN      = 150  # In km
-        FULL_BATTERY_RANGE_MAX      = 400  # In km
+        FULL_BATTERY_RANGE_MAX      = 300  # In km
         TARGET_BATTERY_LEVEL_MIN    = 0.85 # In percentage
         TARGET_BATTERY_LEVEL_MAX    = 1.00 # In percentage
         ALERT_BATTERY_LEVEL_MIN     = 0.15 # In percentage
         ALERT_BATTERY_LEVEL_MAX     = 0.30 # In percentage
-        STATION_CHARGING_POWER      = 350  # In km/h
+        STATION_CHARGING_POWER      = 250  # In km/h
         CAR_MOVING_PROBABILITY      = 0.40 # Probability of the car moving in each step of the simulation
         CAR_MOVING_SPEED_MIN        = 25   # In km/h
         CAR_MOVING_SPEED_MAX        = 120  # In km/h

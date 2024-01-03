@@ -24,7 +24,7 @@ def estimate_number_of_evs(price_per_sqm, population, average_ev_price, total_po
     
     total_evs_in_portugal = 51774 # (https://www.ine.pt)
 
-    average_ev_price_portugal = 30000 # reduce to 30000 in scenario B
+    average_ev_price_portugal = 35000 # reduce to 30000 in scenario B
     number_of_evs_in_portugal = total_evs_in_portugal * (average_ev_price / average_ev_price_portugal)
 
     population_in_porto = 234438 # (https://www.pordata.pt/Municipios/Popula%C3%A7%C3%A3o+residente+segundo+os+Censos+total+e+por+grandes+grupos+et%C3%A1rios-390)
