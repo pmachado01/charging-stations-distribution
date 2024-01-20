@@ -1,7 +1,8 @@
 # Charging stations distribution for e-mobility
-[Brief Description]
+[Paper Abstract]
+[Paper Link]
 
-[Some images]
+https://github.com/pmachado01/charging-stations-distribution/assets/57841600/c5122a77-8590-43c0-b54c-96ea08b54dce
 
 | Name | Email |
 | ---- | ----- |
@@ -23,6 +24,7 @@
 ### Prerequisites
 - [Python 3.8](https://www.python.org/downloads/release/python-380/)
 - [pip](https://pip.pypa.io/en/stable/installing/)
+- [Make](https://www.gnu.org/software/make/)
 
 ### Setup
 1. Clone the repository
@@ -35,11 +37,27 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To start the MESA server, run the following command:
+The simulation is hosted at `http://localhost:8521/`.
+
+### Pipeline
+To run the entire pipeline of the project, execute the following command in the root directory:
 ```bash
-mesa runserver simulation
+make CALCULATE_DISTANCE_MATRIX=true
 ```
-Then, open your browser and go to `http://localhost:8521/`.
+To avoid calculating the distance matrix, in case it was previously calculated, you can set the above flag to `false`.
+
+### Individual Components
+To run individual components of the pipeline, you can specify the make label corresponding to that component:
+```bash
+make {COMPONENT}
+```
+where `{COMPONENT}` can be one of the following: `data_processing`, `simulation`, or `analysis`.
+
+### Clean
+To erase the processed data and logs, you can execute the command:
+```bash
+make clean
+```
 
 ## Project Structure
 ```python
