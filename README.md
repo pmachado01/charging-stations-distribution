@@ -1,6 +1,7 @@
 # Charging stations distribution for e-mobility
-[Paper Abstract]
-[Paper Link]
+This study addresses the critical need for sustainable urban development by focusing on the strategic distribution of charging stations for electric vehicles (EVs). Leveraging modeling and simulation, the paper extracts and examines behavioral information to guide effective decision-making for problem-solving. The challenge lies in bridging the modeling to reality, considering the scarcity of available data, the distinctive charging dynamics of EVs, and market uncertainties. The current study effectively analyzes the distribution of charging stations in Porto, evaluating factors that influence the electric vehicle charging system through the simulation of various scenarios. These scenarios include unexpected increases in the quantity of EVs and reductions in EVs' range, providing valuable insights for optimizing infrastructure in alignment with urban dynamics.
+
+[Paper](./docs/Charging_stations_distribution_for_e_mobility.pdf)
 
 https://github.com/pmachado01/charging-stations-distribution/assets/57841600/c5122a77-8590-43c0-b54c-96ea08b54dce
 
