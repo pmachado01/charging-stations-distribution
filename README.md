@@ -14,10 +14,7 @@ https://github.com/pmachado01/charging-stations-distribution/assets/57841600/c51
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Documentation](#documentation)
-- [Future Work](#future-work)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Installation
 
@@ -63,25 +60,22 @@ make clean
 ```python
 charging-stations-distribution/
 ├── data/  # Data used in the project
-│   ├── electromaps/  # Data from electromaps
-│   ├── ine/  # Data from INE
-├── docs/  # Documentation
-├── simulation/  # Simulation folder
-│   ├── agents/  # Agents used in the simulation
-│   ├── model.py  # Model used in the simulation
-│   ├── server.py  # Server configurations
-│   ├── run.py  # File to run the simulation
+│   ├── processed/  # Generated data after the data processing step
+│   └── raw/  # Raw data from INE, Electromaps, and Idealista
+├── docs/  # Documentation files (report and presentation)
+├── logs/  # Generated log files from data analysis
+├── src/  # Simulation folder
+│   ├── analysis/  # Scripts used for data analysis
+│   ├── processing/  # Scripts used for data processing
+│   ├── simulation/  # Folder containing simulation modules
+│   │   ├── agents/  # Agents used in the simulation
+│   │   ├── model.py  # Model used in the simulation
+│   │   ├── server.py  # Server configurations
+│   │   └── run.py  # File to run the simulation
+│   └── simulation/  # Folder containing utility code (Project constants and file loading)
+├── Makefile  # Makefile used to execute the project pipeline
 └── requirements.txt  # Project dependencies
 ```
 
-## Documentation
-[Documentation]
-
-## Future Work
-[Future Work]
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-[Acknowledgments]
